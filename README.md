@@ -16,12 +16,15 @@ The Arena 12-18 allows to build panels around the fly in a 2/3 cylinder with a d
 
 ## Interconnect PCB
 
-The interconnect is a 2 layer PCB.
+The interconnect is a 2 layer PCB. It servers as an adapter between a VHDCI receptacle and a 40-pin header which is connected to the Arena via a ribbon cable. Recent tests have shown, that these ribbon cables introduce noise and should be kept as short as possible.
+
+# Files
 
 ```
-├── Production              - Gerber and drill files
-│   ├── Arena_12-18         - Arena board (2019)
-│   └── Interconnect        - Interconnect board 
+├── Production              - Gerber, drill, BOM
+│   ├── 2017_Arena_12-18    - Arena board (old)
+│   ├── 2019_Arena_12-18    - Arena board (current)
+│   └── Interconnect        - Interconnect board
 ├── Schematic
 │   └── Arena_bottom.pdf    - generated 2017-06-09
 └── README.md
