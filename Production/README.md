@@ -12,20 +12,8 @@ The *Bottom PCB* is the basis on which the panels are mounted and where the powe
 
 ## Arena 12-18
 
-The Arena 12-18 allows to build panels around the fly in a 2/3 cylinder with a diameter of 250mm. The name originates from a the full cylinder virtually consisting of 18 columns of which 12 are actually part of the PCB. The current design interation developed in 2019 uses 7 layers.
+The Arena 12-18 allows to build panels around the fly in a 2/3 cylinder with a diameter of 250mm. The name originates from a the full cylinder virtually consisting of 18 columns of which 12 are actually part of the PCB. The current design interation developed in 2019 uses 7 layers. If in doubt, use the files in `Production/2019_Arena_12-19`.
 
 ## Interconnect PCB
 
 The interconnect is a 2 layer PCB. It servers as an adapter between a VHDCI receptacle and a 40-pin header which is connected to the Arena via a ribbon cable. Recent tests have shown, that these ribbon cables introduce noise and should be kept as short as possible.
-
-# Files
-
-```
-├── Production              - Gerber, drill, BOM
-│   ├── 2017_Arena_12-18    - Arena board (old)
-│   ├── 2019_Arena_12-18    - Arena board (current)
-│   └── Interconnect        - Interconnect board
-├── Schematic
-│   └── Arena_bottom.pdf    - generated 2017-06-09
-└── README.md
-```

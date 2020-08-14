@@ -1,0 +1,18 @@
+
+# G4 Arena Hardware
+
+This repository is part of <https://reiserlab.github.io/Modular-LED-Display/>. It contains production files the hardware of G4 Arena.
+
+Files were collected from several email conversations. These exact files have not been used in production, yet.
+
+# Files
+
+```
+├── Production              - Gerber, drill, BOM
+│   ├── 2017_Arena_12-18    - Arena board (old)
+│   ├── 2019_Arena_12-18    - Arena board (current)
+│   └── Interconnect        - Interconnect board
+├── Schematic
+│   └── Arena_bottom.pdf    - generated 2017-06-09
+└── README.md
+```

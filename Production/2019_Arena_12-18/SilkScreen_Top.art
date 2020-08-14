@@ -1,9 +1,9 @@
 G04 ================== begin FILE IDENTIFICATION RECORD ==================*
-G04 Layout Name:  I:/Project-LED_Arena/Arena Bottom V1, 6-6-2019.brd*
+G04 Layout Name:  Arena Bottom V1, 6-6-2019.brd*
 G04 Film Name:    SilkScreen_Top*
 G04 File Format:  Gerber RS274X*
 G04 File Origin:  Cadence Allegro 17.2-P019*
-G04 Origin Date:  Tue Jun 04 22:43:36 2019*
+G04 Origin Date:  Thu Aug 13 19:24:22 2020*
 G04 *
 G04 Layer:  USER PART NUMBER/SILKSCREEN_TOP*
 G04 Layer:  TOLERANCE/SILKSCREEN_TOP*
@@ -20,7 +20,7 @@ G04 Rotation:  0*
 G04 FullContactRelief:  No*
 G04 UndefLineWidth:     0.1000*
 G04 ================== end FILE IDENTIFICATION RECORD ====================*
-%FSLAX35Y35*MOMM*%
+%FSLAX55Y55*MOMM*%
 %IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
 %ADD10C,.1*%
 %ADD11C,.5*%
