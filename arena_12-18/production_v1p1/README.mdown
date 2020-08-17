@@ -25,6 +25,12 @@ The `Assembly.art` file contains the constraints for production.  For example, t
 
 # Changelog
 
+## 8/20/2020
+
+* reorganize files similar to other repositories
+* better integration into <https://reiserlab.github.io/Modular-LED-Display/>
+* define interconnect v1.0, arena v1.1, and arena v2.0
+
 ## 8/13/2020
 
 * add descriptions (README)
