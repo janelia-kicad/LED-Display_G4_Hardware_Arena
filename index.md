@@ -34,7 +34,7 @@ Recent tests have shown, that these ribbon cables introduce noise and should be 
 ├── index.md                - documentation for https://reiserlab.github.io/Modular-LED-Display/
 └── README.mdown            - project readme for https://github.com/floesche/Arena-G4-Hardware
 ```
-
+ 
 Files were collected from several email conversations. These exact files have not been used in production, yet.
 
 # Changelog
