@@ -28,7 +28,8 @@ Recent tests have shown, that these ribbon cables introduce noise and should be 
 │   ├── Arena_bottom.pdf    - schematic
 │   └── Arena_bottom_V1.brd - OrCAD EDA PCB design
 ├── interconnect            - interconnect board VHDI → ribbon cable
-│   ├── production_v1p0     - gerber, drill
+│   ├── production_v1p0     - gerber, drill v1.0 (2 layer, no power connector)
+│   ├── production_v2p0     - gerber, drill v2.0 (4 layer, power connector)
 │   ├── Interconnect.brd    - OrCAD EDA PCB design
 │   └── Interconnect.pdf    - schematic (different version, with power)
 ├── index.md                - documentation for https://reiserlab.github.io/Modular-LED-Display/
