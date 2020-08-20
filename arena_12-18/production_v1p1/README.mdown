@@ -4,9 +4,10 @@ The `.art` files are GERBER RS274X files.
 
 The `Assembly.art` file contains the constraints for production.  For example, the copper layers are as follows: `TOP`, `Layer_1`, `LAYER_2`, `LAYER_3`, `Layer_4`, `Layer_5`, `BOTTOM`.
 
-* `Arena_L1-7.drl` - Excellon Drill file between Layer 1 and Layer 7. No Auto tool select, using repeat codes.
+* `arena_12-18_v1p1.zip` - all the files below zipped, ready for manufacturer
+* `Arena_Bottom.drl` - Excellon Drill file between Layer 1 and Layer 7. Metric 3:3, auto-tool select, LZ, no repeat codes.
 * `Assembly.art` - Gerber file with mechanical outline and assembly instructions. If there is a difference between the description in this Readme file and `Assembly.art` trust the latter.
-* `Body_Center.txt` - placement file, using the body center of components
+* `Body_Center.txt` - placement file, using the body center of components (If manufacturer doesn't specify which placment file, they most likely want this one.)
 * `BOM_Arena_Bottom.xlsx` - BOM for the bottom arena board
 * `BOM_Arena_Top.xlsx` - BOM for the top arena board
 * `BOTTOM.art` - Bottom Cu layer
@@ -16,7 +17,7 @@ The `Assembly.art` file contains the constraints for production.  For example, t
 * `Layer_4.art` - 4th inner Cu layer
 * `Layer_5.art` - 5th inner Cu layer
 * `Pin1.txt` - placment file, using Pin 1 on components as a reference
-* `place_txt.txt` - placement file, optimized for element pickup (in most cases the same as `Body_Center.txt`, for larger elements like MOSFET or FPGA a better position is chosen. If manufacturer doesn't specify which placment file, they most likely want this one.)
+* `place_txt.txt` - placement file, optimized for element pickup (symbol center, for small components the same as `Body_Center.txt`)
 * `README.mdown` - this description file
 * `SilkScreen_Top.art` - Sikscreen on TOP
 * `SolderMask_Bottom.art` - Paste on BOTTOM
@@ -26,6 +27,11 @@ The `Assembly.art` file contains the constraints for production.  For example, t
 # Changelog
 
 ## 8/20/2020
+
+* new drill file.
+* recommending `Body_Center` for placement, not `place_txt`
+
+## 8/17/2020
 
 * reorganize files similar to other repositories
 * better integration into <https://reiserlab.github.io/Modular-LED-Display/>
