@@ -16,19 +16,28 @@ The Arena 12-18 allows to build panels around the fly in a 2/3 cylinder with a d
 
 ## Interconnect PCB
 
-Recent tests have shown, that these ribbon cables introduce noise and should be kept as short as possible.
+Recent tests have shown, that these ribbon cables introduce noise and should be kept as short as possible. The current 
 
 
 # Files
 
 ```
-├── arena_12-18             - 12-18 Arena (schematic)
+├── arena_12-18             - 12-18 Arena
 │   ├── production_v1p1     - production files v1.1 (current)
 │   ├── production_v2p0     - production files v2.0 (not yet ready)
-│   └── Arena_bottom.pdf
+│   ├── Arena_bottom.pdf    - schematic
+│   └── Arena_bottom_V1.brd - OrCAD EDA PCB design
 ├── interconnect            - interconnect board VHDI → ribbon cable
-│   └── production_v1p0     - gerber, drill
-└── README.mdown            - this file
+│   ├── production_v1p0     - gerber, drill
+│   ├── Interconnect.brd    - OrCAD EDA PCB design
+│   └── Interconnect.pdf    - schematic (different version, with power)
+├── index.md                - documentation for https://reiserlab.github.io/Modular-LED-Display/
+└── README.mdown            - project readme for https://github.com/floesche/Arena-G4-Hardware
 ```
 
 Files were collected from several email conversations. These exact files have not been used in production, yet.
+
+# Changelog
+
+- 2020-08-19: added OrCAD design files
+- 2020-08-17: reorder files
