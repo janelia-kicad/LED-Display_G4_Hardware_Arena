@@ -16,7 +16,7 @@ The Arena 12-18 allows to build panels around the fly in a 2/3 cylinder with a d
 
 ## Interconnect PCB
 
-Recent tests have shown, that these ribbon cables introduce noise and should be kept as short as possible.
+Recent tests have shown, that these ribbon cables introduce noise and should be kept as short as possible. Version 1 is a simple 2-layer PCB. Version 2 is a 4-layer PCB which also has a power connector and an additional header to directly connect a panel. Version 2 is currently untested, we recommend version 1.
 
 
 # Files
@@ -28,8 +28,8 @@ Recent tests have shown, that these ribbon cables introduce noise and should be 
 │   ├── Arena_bottom.pdf    - schematic
 │   └── Arena_bottom_V1.brd - OrCAD EDA PCB design
 ├── interconnect            - interconnect board VHDI → ribbon cable
-│   ├── production_v1p0     - gerber, drill v1.0 (2 layer, no power connector)
-│   ├── production_v2p0     - gerber, drill v2.0 (4 layer, power connector)
+│   ├── production_v1       - gerber, drill v1.1 (2 layer, no power connector)
+│   ├── production_v2       - gerber, drill v2.0 (4 layer, power connector)
 │   ├── Interconnect_V1.pdf - schematic (no power, no extra panel header)
 │   ├── Interconnect_V2.brd - OrCAD EDA PCB design (4 layer, power connector)
 │   └── Interconnect_v2.pdf - schematic (power connector)
@@ -41,6 +41,7 @@ Files were collected from several email conversations. These exact files have no
 
 # Changelog
 
+- 2020-08-26: generated v1.1
 - 2020-08-20: Add V1 schematic
 - 2020-08-19: added OrCAD design files
 - 2020-08-17: reorder files
