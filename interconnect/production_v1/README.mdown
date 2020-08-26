@@ -16,5 +16,6 @@
 
 ## Changelog
 
-- 2020-08-26: fix problem in TOP layer and drl file, generated v1.1 from `../Interconnect_V1.brd`
+- 2020-08-26: BOM content didn't make sense, new BOM. v1.2
+- 2020-08-25: fix problem in TOP layer and drl file, generated v1.1 from `../Interconnect_V1.brd`
 - 2020-07: received gerber files for version v1.0

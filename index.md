@@ -41,7 +41,7 @@ Files were collected from several email conversations. These exact files have no
 
 # Changelog
 
-- 2020-08-26: generated v1.1
+- 2020-08-26: update to v1.2
 - 2020-08-20: Add V1 schematic
 - 2020-08-19: added OrCAD design files
 - 2020-08-17: reorder files
