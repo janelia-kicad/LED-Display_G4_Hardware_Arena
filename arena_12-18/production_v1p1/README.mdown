@@ -7,7 +7,7 @@ The `Assembly.art` file contains the constraints for production.  For example, t
 * `arena_12-18_v1p1.zip` - all the files below zipped, ready for manufacturer
 * `Arena_Bottom.drl` - Excellon Drill file between Layer 1 and Layer 7. Metric 3:3, auto-tool select, LZ, no repeat codes.
 * `Assembly.art` - Gerber file with mechanical outline and assembly instructions. If there is a difference between the description in this Readme file and `Assembly.art` trust the latter.
-* `Body_Center.txt` - placement file, using the body center of components (If manufacturer doesn't specify which placment file, they most likely want this one.)
+* `Body_Center.txt` - placement file, using the body center of components (If manufacturer doesn't specify which placement file, they most likely want this one.)
 * `BOM_Arena_Bottom.xlsx` - BOM for the bottom arena board
 * `BOM_Arena_Top.xlsx` - BOM for the top arena board
 * `BOTTOM.art` - Bottom Cu layer
@@ -16,10 +16,10 @@ The `Assembly.art` file contains the constraints for production.  For example, t
 * `LAYER_3.art` - 3rd inner Cu layer
 * `Layer_4.art` - 4th inner Cu layer
 * `Layer_5.art` - 5th inner Cu layer
-* `Pin1.txt` - placment file, using Pin 1 on components as a reference
+* `Pin1.txt` - placement file, using Pin 1 on components as a reference
 * `place_txt.txt` - placement file, optimized for element pickup (symbol center, for small components the same as `Body_Center.txt`)
 * `README.mdown` - this description file
-* `SilkScreen_Top.art` - Sikscreen on TOP
+* `SilkScreen_Top.art` - Silkscreen on TOP
 * `SolderMask_Bottom.art` - Paste on BOTTOM
 * `SolderMask_Top.art` - Paste on TOP
 * `TOP.art` - TOP Cu layer
