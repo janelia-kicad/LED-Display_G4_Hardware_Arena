@@ -19,6 +19,12 @@ The Arena 12-18 allows to build panels around the fly in a 2/3 cylinder with a d
 
 Recent tests have shown, that these ribbon cables introduce noise and should be kept as short as possible. Version 1 is a simple 2-layer PCB. Version 2 is a 4-layer PCB which also has a power connector and an additional header to directly connect a panel. Version 2 is currently untested, we recommend version 1.
 
+## Arena 12-12
+
+Cylindrical arena with 12 column locations. Currently the folder only contains
+version 5.0. V5.0 is an exeriment to have an arean without an interconnect PCB,
+but doesn't work so far.
+
 
 # Files
 
@@ -34,6 +40,10 @@ Recent tests have shown, that these ribbon cables introduce noise and should be 
 │   ├── Interconnect_V1.pdf - schematic (no power, no extra panel header)
 │   ├── Interconnect_V2.brd - OrCAD EDA PCB design (4 layer, power connector)
 │   └── Interconnect_v2.pdf - schematic (power connector)
+├── arena_12-12                         - 12-12 Arena
+│   ├── production_v5                   - production files v5.0 (experimental)
+│   ├── arena_12-12_schematic_v5.pdf    - schematic v5.0 (experimental)
+│   └── arena_12-12_board-layout_v5.pdf - board  layout with physical dimensions
 ├── index.md                - documentation for https://reiserlab.github.io/Modular-LED-Display/
 └── README.mdown            - project readme for https://github.com/floesche/Arena-G4-Hardware
 ```
