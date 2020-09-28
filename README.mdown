@@ -1,3 +1,33 @@
 # G4 Arena Hardware
 
 This repository is part of <https://reiserlab.github.io/Modular-LED-Display/>. It contains production files the hardware of G4 Arena.
+
+
+## Files
+
+```
+├── arena_12-18             - 12-18 Arena
+│   ├── production_v1p1     - production files v1.1 (current)
+│   ├── production_v2p0     - production files v2.0 (not yet ready)
+│   ├── Arena_bottom.pdf    - schematic
+│   └── Arena_bottom_V1.brd - OrCAD EDA PCB design
+├── interconnect            - interconnect board VHDCI → ribbon cable
+│   ├── production_v1       - gerber, drill v1.1 (2 layer, no power connector)
+│   ├── production_v2       - gerber, drill v2.0 (4 layer, power connector)
+│   ├── Interconnect_V1.pdf - schematic (no power, no extra panel header)
+│   ├── Interconnect_V2.brd - OrCAD EDA PCB design (4 layer, power connector)
+│   └── Interconnect_v2.pdf - schematic (power connector)
+├── arena_12-12                         - 12-12 Arena
+│   ├── production_v5                   - production files v5.0 (experimental)
+│   ├── arena_12-12_schematic_v5.pdf    - schematic v5.0 (experimental)
+│   └── arena_12-12_board-layout_v5.pdf - board  layout with physical dimensions
+├── index.md                - documentation for https://reiserlab.github.io/Modular-LED-Display/
+└── README.mdown            - project readme for https://github.com/floesche/Arena-G4-Hardware
+```
+
+## Changelog
+
+- 2020-08-26: update to v1.2
+- 2020-08-20: Add V1 schematic
+- 2020-08-19: added OrCAD design files
+- 2020-08-17: reorder files
