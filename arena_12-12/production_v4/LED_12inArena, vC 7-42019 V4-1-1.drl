@@ -1,0 +1,11 @@
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : LED_12inArena, vC 7-42019 V4-1-1.drl for  ... layers TOP and TOP
+;DESIGN: LED_12inArena, vC 7-42019 V4.brd
+;   Holesize 1. = 46.900000 Tolerance = +0.000000/-0.000000 NON_PLATED MILS Quantity = 2
+%
+G90
+X0051060Y-0479090
+X-0056140Y-0479090
+M30
