@@ -10,7 +10,7 @@ nav_order: 7
 
 The arena board organizes panels in a geometry and provides structural integrity to the whole setup. Different shapes of cylindrical arenas have been built. They are often described by their number of panel columns populated and the virtual ones forming a full circle. A 12-12 arena is a closed cylinder formed by 12 columns in total. All columns can be populated in this design, but typically between 1 and 3 are left empty to access the center of the arena.
 
-Most functional designs will have two separate bill of material (BOM). One of the BOM should refer to "BOTTOM", another to "TOP". For a single setup, you will need two arena bards of the same type, one acting as the bottom board, one as the top board. 
+Most functional designs will have two separate bill of material (BOM). One of the BOM should refer to "BOTTOM", another to "TOP". For a single setup, you will need two arena bards of the same type, one acting as the bottom board, one as the top board.
 
 The BOM for the bottom arena board will usually contain more components. The bottom arena board is where the interconnect board and power are connected to and where the signals from the computer are distributed to the different columns. The top arena board gives structural integrity to the whole setup, it terminates signals, and sometimes provides additional power connectors.
 
@@ -19,9 +19,17 @@ The BOM for the bottom arena board will usually contain more components. The bot
 
 A 12-12 Arena places twelve columns of panels in a regular dodecagon, forming an approximate cylindrical display with 170mm diameter. These are type of arenas are useful for behavioral experiments.
 
-Given that usefulness it might surprise you, that we don't have any working designs in the repository, yet. Truthfully, this was surprising for us as well and this is going to change.
+Currently, the most recent version 2 is the most widely used version. Nevertheless, version 4 has some improvements and is designed to minimize noise. This should work, but is not yet widely adapted. All other versions are either deprecated or prototypes.
 
-Currently, the [arena_12-12-v5](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-12/production_v5) is an experimental design without a [interconnect board](#interconnect), but at the moment it does not yet work as expected.
+The [Arena 12-12 Version 1](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-12/production_v1) was developed in June 2017. In addition to the connectors approximating an inner circle with 170mm diameter, it had a second row of connectors about 180mm apart. Another visible distinction are eight vias inside the connector ring, which are used for the chip selects.
+
+The [Arena 12-12 Version 2](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-12/production_v2) is similar to version 1 in schematics and most of the pcb layout, but is missing the outer ring of potential connectors. Development on version 2 started in February 2018, with the most recent design iteration from June 2019. [Arena 12-12 Version 2C](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-12/production_v2C) is a prototype to length match all signal lines and decrease electric noise by routing them on individual layers. As a result the board has 12 (hex: `0xC`, hence 2C) layers. In our hands it didn't show improvements over other version 2 boards, but if you are looking to debug timing issues this could be a helpful starting point. Instead, if you want to repair a version 1 or version 2 board, we recommend [arena_12-12_v2.1](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-12/production_v2/arena_12-12_v2p1.zip) as it includes incremental improvements like a more helpful silkscreen.
+
+[Arena 12-12 Version 3](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-12/production_v3) is a prototype with two rings of connectors and additional changes to the physical shape of the PCB. It never left prototyping stage and is here only for historical purposes. This version was designed in June 2019.
+
+[Arena 12-12 Version 4](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-12/production_v4) is the attempt to minimize noise in the system further. To achieve that, the electronic design was changed in August 2019 so that the clock signal is now actively driven by a fan out instead of a simpler voltage translator as in previous versions. Furthermore, the chip select lines are isolated from each other through active components. The circular PCB was physically interrupted to avoid timing issues through circular traces.
+
+Currently, the [arena 12-12 v5](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-12/production_v5) is an experimental design without a [interconnect board](#interconnect) but instead with a direct VHDCI connection. Development is ongoing since Summer 2020, but the design does not work yet.
 
 ## 12-18 arena board
 {:#12-18}
