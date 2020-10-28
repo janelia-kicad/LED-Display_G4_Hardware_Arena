@@ -5,6 +5,8 @@ grand_parent: Generation 4
 nav_order: 7
 ---
 
+1. TOC
+{:toc}
 
 # Arena Board
 
