@@ -23,7 +23,7 @@ A 12-12 Arena places twelve columns of panels in a regular dodecagon, forming an
 
 Currently, the most recent version 2 is the most widely used version. Nevertheless, version 4 has some improvements and is designed to minimize noise. This should work, but is not yet widely adapted. All other versions are either deprecated or prototypes.
 
-![Arena board v1](../assets/arena_12-12_photo-top.jpg){:.ifr .pop}
+![Arena 12-12 board v1](assets/arena_12-12_front_photo.jpg){:.ifr .pop}
 
 The [Arena 12-12 Version 1](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-12/production_v1) was developed in June 2017. In addition to the connectors approximating an inner circle with 170mm diameter, it had a second row of connectors about 180mm apart. Another visible distinction are eight vias inside the connector ring, which are used for the chip selects. The image on the right shows such an arena board with the ribbon connector on the top left and the power connector on the bottom left.
 
@@ -44,14 +44,14 @@ Version 1 and 2 are based on the same schematic, differences are in routing. Als
 
 Here we share a 12-18 arena where the board occupies 299×206mm², designed as a PCB with 7 layers. The most stable production ready files are for [arena_12-18-v1.1](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-18/production_v1p1).
 
-There is also a [arena_12-18-v2.0](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-18/production_v2p0) being developed, which has not been yet. It is also more also more difficult and expensive to produce, since it has 7 layers and uses hidden vias. 
+There is also a [arena_12-18-v2.0](https://github.com/floesche/Arena-G4-Hardware/tree/master/arena_12-18/production_v2p0) being developed, which has not been yet. It is also more also more difficult and expensive to produce, since it has 7 layers and uses hidden vias.
 
 ## Arena Interconnect Board
 {:#interconnect}
 
-Some of the arenas are rotated during experiments and a direct conection of the stiff VHDCI cables would put unnecessary physical stress on the arena board and connector. Therefore the majority of arena boards use a 40pin header which can be used with flexible ribbon cables. The arena interconnect board acts as an adapter between 40pin arena connector and 68pin VHDCI connector from the computer PCIe card. Unfortunately, recent tests suggest, that the ribbon cable introduces noise in the communication. The ribbon cable should be as short as possible to reduce the noise.
+Some of the arenas are rotated during experiments and a direct connection of the stiff VHDCI cables would put unnecessary physical stress on the arena board and connector. Therefore the majority of arena boards use a 40pin header which can be used with flexible ribbon cables. The arena interconnect board acts as an adapter between 40pin arena connector and 68pin VHDCI connector from the computer PCIe card. Unfortunately, recent tests suggest, that the ribbon cable introduces noise in the communication. The ribbon cable should be as short as possible to reduce the noise.
 
-This interconnect board is a simple 2 layer PCB within the dimensions of 4.9×8.4mm². The production files are available as [interconnect-v1.2](https://github.com/floesche/Arena-G4-Hardware/tree/master/interconnect/production_v1). The design was done in-house at Janelia. 
+This interconnect board is a simple 2 layer PCB within the dimensions of 4.9×8.4mm². The production files are available as [interconnect-v1.2](https://github.com/floesche/Arena-G4-Hardware/tree/master/interconnect/production_v1). The design was done in-house at Janelia.
 
 Additionally, design files for an [interconnect-v2](https://github.com/floesche/Arena-G4-Hardware/tree/master/interconnect/production_v2) are listed in the repository. They are designed as 4-layer PCBs with additional power connectors and 15pin connector. In theory, they could be used to drive a single column of panels directly. This design is largely untested. We currently recommend using version 1 (see above).
 
@@ -59,7 +59,7 @@ Additionally, design files for an [interconnect-v2](https://github.com/floesche/
 
 ## 6 connector arena prototype
 
-![Test arena](../assets/arena_prototype.jpg)
+![Test arena](assets/arena_prototype_front_photo.jpg){:.pop}
 
 The test arena is used to connect the panels with the controller and to supply power to the panels. There are three headers which can be used to connect the panels to the display controller.
 
@@ -67,13 +67,13 @@ The test arena is used to connect the panels with the controller and to supply p
 - P23 60_Pin (2x30) six SPI bus header.
 - P30 40-Pin (2x20) six SPI bus w/ common chip select lines.
 
-5V power is supplied to the panels via 2.1mm DC jack, polarity is center positive. 
+5V power is supplied to the panels via 2.1mm DC jack, polarity is center positive.
 
 There are 5 sets of jumpers which can be used to configure the arena.
 
 ## Prototype Controller
 
-![Arduino based controller](../assets/controller_arduino.jpg){:.ifr}
+![Arduino based prototype controller](assets/arena_1-1_photo.jpg){:.ifr .pop}
 
 A demonstration controller, based on an Arduino Uno, is provided with the arena and panels. The demonstration controller connects to header P22 on the arena and will display a moving stripe pattern in 16-level gray scale mode.  The panels (up to four) should be connected to header P1 when using the demo controller. Note, the demo controller requires 5V power via the USB connector on the Arduino Uno in order to operate.
 
