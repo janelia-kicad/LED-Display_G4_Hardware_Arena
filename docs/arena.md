@@ -61,11 +61,11 @@ We also share the OrCAD design files (`interconnect/interconnect_v2.brd`) for an
 
 # Historic
 
-## 6 connector arena prototype
+## 6 connector arena prototype (6-inf arena)
 
-![Test arena](assets/arena_prototype_front_photo.jpg "6 Connector arena prototype"){:.pop}
+![Test arena](assets/arena_prototype_front_photo.jpg "6 Connector arena prototype"){:.ifr .pop}
 
-The test arena is used to connect the panels with the controller and to supply power to the panels. There are three headers which can be used to connect the panels to the display controller.
+The test arena with 6 panel connectors in a row (called a _6-inf arena_) is used to connect the panels with the controller and to supply power to the panels. There are three headers which can be used to connect the panels to the display controller.
 
 - P22 40-Pin (2x20) single SPI bus header.
 - P23 60_Pin (2x30) six SPI bus header.
@@ -74,6 +74,22 @@ The test arena is used to connect the panels with the controller and to supply p
 5V power is supplied to the panels via 2.1mm DC jack, polarity is center positive.
 
 There are 5 sets of jumpers which can be used to configure the arena.
+{:.clear}
+
+![Test arena PCB for ATmega328 v0.2 front](assets/arena_6-inf_v0p2_front.png){:.ifr .pop}
+![Test arena PCB for ATmega328 v0.2 back](assets/arena_6-inf_v0p2_back.png){:.ifr .pop .clear}
+
+Design files for 6-inf arenas for a ATmega328 (see [schematic](assets/arena_6-inf_v0p2_schematic.pdf)) are available in `arena_6-inf_v0p2`, production files in the subfolder `arena_6-inf_v0p2/production_v0`.
+
+![Test arena PCB for ATmega328 v0.1 front](assets/arena_6-inf_v0p1_front.png){:.ifr .pop .clear}
+![Test arena PCB for ATmega328 v0.1 back](assets/arena_6-inf_v0p1_back.png){:.ifr .pop .clear}
+
+Design files for 6-inf arenas for a ATmega328 (see [schematic](assets/arena_6-inf_v0p1_schematic.pdf)) are available in `arena_6-inf_v0p1`, production files in the subfolder `arena_6-inf_v0p1/production_v0`.
+
+![Test arena PCB for MAX6960 front](assets/arena_6-inf_max6960_v0p1_front.png){:.ifr .pop .clear}
+![Test arena PCB for MAX6960 back](assets/arena_6-inf_max6960_v0p1_back.png){:.ifr .pop .clear}
+
+There are 6-inf arenas for different types of drivers. For example, design files for 6-inf arenas for a MAX6960 driver (see [schematic](assets/arena_6-inf_max6960_v0p1_schematic.pdf)) are available in `arena_6-inf_max6960`, production files in the subfolder `arena_6-inf_max6960/production_v0`.
 
 ## Prototype Controller
 
