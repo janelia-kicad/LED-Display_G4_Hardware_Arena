@@ -76,7 +76,12 @@ The test arena with 6 panel connectors in a row (called a _6-inf arena_) is used
 There are 5 sets of jumpers which can be used to configure the arena.
 {:.clear}
 
-![Test arena PCB for ATmega328 v0.2 front](assets/arena_6-inf_v0p2_front.png){:.ifr .pop}
+![Test arena PCB for ATmega328 v0.3 front](assets/arena_6-inf_v0p3_front.png){:.ifr .pop}
+![Test arena PCB for ATmega328 v0.3 back](assets/arena_6-inf_v0p3_back.png){:.ifr .pop .clear}
+
+Design files for 6-inf arenas for a ATmega328 (see [schematic](assets/arena_6-inf_v0p3_schematic.pdf)) are available in `arena_6-inf_v0p3`, production files in the subfolder `arena_6-inf_v0p3/production_v0`.
+
+![Test arena PCB for ATmega328 v0.2 front](assets/arena_6-inf_v0p2_front.png){:.ifr .pop .clear}
 ![Test arena PCB for ATmega328 v0.2 back](assets/arena_6-inf_v0p2_back.png){:.ifr .pop .clear}
 
 Design files for 6-inf arenas for a ATmega328 (see [schematic](assets/arena_6-inf_v0p2_schematic.pdf)) are available in `arena_6-inf_v0p2`, production files in the subfolder `arena_6-inf_v0p2/production_v0`.
