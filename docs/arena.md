@@ -61,7 +61,15 @@ We also share the OrCAD design files (`interconnect/interconnect_v2.brd`) for an
 
 # Historic
 
+## 12-18 arena board v0
+
+![12-18 arena initial design v0.2 front](assets/arena_12-18_v0_front.png){:.ifr .pop}
+![12-18 arena initial design v0.2 back](assets/arena_12-18_v0_back.png){:.ifr .pop .clear}
+
+The initial version of an 12-18 arena was designed in KiCad (see [schematic](assets/arena_12-18_v0_schematic.pdf) and [pcb](assets/arena_12-18_v0_pcb.pdf)), but the production never exceeded the version 0.2.
+
 ## 6 connector arena prototype (6-inf arena)
+{:.clear}
 
 ![6-inf arena v0.1](assets/arena_6-inf_v0p1_front_photo.jpg "6 Connector arena prototype in version 0.1"){:.ifr .pop}
 
