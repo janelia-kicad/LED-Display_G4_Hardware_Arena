@@ -66,7 +66,7 @@ We also share the OrCAD design files (`interconnect/interconnect_v2.brd`) for an
 ![12-18 arena initial design v0.2 front](assets/arena_12-18_v0_front.png){:.ifr .pop}
 ![12-18 arena initial design v0.2 back](assets/arena_12-18_v0_back.png){:.ifr .pop .clear}
 
-The initial version of an 12-18 arena was designed in KiCad (see [schematic](assets/arena_12-18_v0_schematic.pdf) and [pcb](assets/arena_12-18_v0_pcb.pdf)), but the production never exceeded the version 0.2.
+The initial version of an 12-18 arena was designed in KiCad (see [schematic](assets/arena_12-18_v0_schematic.pdf) and [pcb](assets/arena_12-18_v0_pcb.pdf)), but the production never exceeded the version 0.2. The project is at `arena_12-18_v0`.
 
 ## 12-18 arena board with shifter v0
 {:.clear}
@@ -74,7 +74,7 @@ The initial version of an 12-18 arena was designed in KiCad (see [schematic](ass
 ![12-18 arena initial design v0.1 front](assets/arena_12-18_s_v0_front.png){:.ifr .pop}
 ![12-18 arena initial design v0.1 back](assets/arena_12-18_s_v0_back.png){:.ifr .pop .clear}
 
-Early on, there was a 12-18 arena that was called "with sifters" was designed in KiCad (see [schematic](assets/arena_12-18_s_v0_schematic.pdf), but the production in `arena_12-18_s_v0/production_v0` never exceeded the version 0.1.
+Early on, there was a 12-18 arena that was called "with sifters" was designed in KiCad (see project at `arena_12-18_s_v0` and [schematic](assets/arena_12-18_s_v0_schematic.pdf), but the production in `arena_12-18_s_v0/production_v0` never exceeded the version 0.1.
 
 ## 6 connector arena prototype (6-inf arena)
 {:.clear}
