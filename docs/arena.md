@@ -67,7 +67,6 @@ We also share the OrCAD design files (`interconnect/interconnect_v2.brd`) for an
 The initial version of an 12-18 arena was designed in KiCad (see [schematic](assets/arena_12-18_v0_schematic.pdf) and [pcb](assets/arena_12-18_v0_pcb.pdf)), but the production never exceeded the version 0.2. The project is at `arena_12-18_v0`.
 
 ## 12-18 arena board v0.1
-{:.clear}
 
 ![12-18 arena initial design v0.1 (front)](assets/arena_12-18_s_v0_front.png){:.ifr .pop}
 
@@ -76,7 +75,6 @@ The initial version of an 12-18 arena was designed in KiCad (see [schematic](ass
 Early on, there was a 12-18 arena that was called _with shifters_ was designed in KiCad (see project at `arena_12-18_s_v0` and [schematic](assets/arena_12-18_s_v0_schematic.pdf), but the production in `arena_12-18_s_v0/production_v0` never exceeded the version 0.1.
 
 ## 6 connector arena prototype (6-inf arena)
-{:.clear}
 
 ![6 Connector arena (6-inf) with an Arduino prototype controller](assets/arena_6-inf_v0p1_controller_photo.jpg){:standalone .ifr data-img-class="pop"}
 
@@ -89,7 +87,6 @@ The test arena with 6 panel connectors in a row (called a _6-inf arena_) is used
 5V power is supplied to the panels via 2.1mm DC jack, polarity is center positive.
 
 There are three different versions for the ATmega328 based panels, one for the MAX6960 panels.
-
 {:.clear}
 
 ![6-inf arena PCB for ATmega328 v0.3 (front)](assets/arena_6-inf_v0p3_front.png){:.ifr .pop}
@@ -119,7 +116,6 @@ Design files for version 0.1 of the 6-inf arenas for a ATmega328 (see [schematic
 There is also a 6-inf arenas for a MAX6960 driver (see [schematic](assets/arena_6-inf_max6960_v0p1_schematic.pdf)) available in `arena_6-inf_max6960`. This specific one only made it to version 0.1 and production files in the subfolder `arena_6-inf_max6960/production_v0`.
 
 ## Prototype Controller
-{:.clear}
 
 ![Arduino based prototype controller](assets/controller_arduino_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
 
