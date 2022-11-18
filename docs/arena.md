@@ -51,7 +51,7 @@ For some arenas, one board required physical but not electrical connection. In t
 
 ## Arena Interconnect Board {#interconnect}
 
-![Example for a short ribbon cable](assets/interconnect_ribbon-cable_short.jpg){:standalone .ifr data-img-class="pop"}
+![Assembled interconnect board](assets/interconnect_v1_iso_photo.jpg){:standalone .ifr data-img-class="pop"}
 
 Some of the arenas are rotated during experiments and a direct connection of the stiff VHDCI cables would put unnecessary physical stress on the arena board and connector. Therefore the majority of arena boards use a 40pin header which can be used with flexible ribbon cables. The arena interconnect board acts as an adapter between 40pin arena connector and 68pin VHDCI connector from the computer PCIe card. Unfortunately, recent tests suggest, that the ribbon cable introduces noise in the communication. The ribbon cable should be as short as possible to reduce the noise.
 
