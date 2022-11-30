@@ -1,0 +1,29 @@
+# Production files
+
+The `.art` files are GERBER RS274X files.
+
+The `Assembly.art` file contains the constraints for production. For example, the copper layers are as follows: `TOP`, `PWR`, `LAYER_1`, `GND2`, `LAYER_2`, `BOTTOM`.
+
+There are no paste layers, our engineer insists that it is the same as the solder mask layer.
+
+* `Assembly.art` - Assembly instructions
+* `drill_arena_12-12_v2_L1-L6` - Excellon Drill file between Layer 1 and Layer 6. Metric 3:3, auto-tool select, LZ, no repeat codes.
+* `TOP.art` - top Cu Layer (Layer 1)
+* `PWR.art` - Power Cu layer (Layer 2)
+* `LAYER_1.art` - Logic Cu layer 1 (Layer 3)
+* `GND2.art` - Ground Cu layer 2 (Layer 4)
+* `LAYER_2.art` - Logic Cu layer 2 (Layer 5)
+* `BOTTOM.art` - Bottom Cu layer (Layer 6)
+* `silk_screen_top.art` - Top silkscreen
+* `silk_screen_bottom.art` - Bottom silkscreen
+* `Solder_Mask_Bottom.art` - bottom solder mask
+* `Solder_Mask_Top.art` - top solder mask
+* `placement_body-center.txt` - placement file, using the body center of components, modified format (If manufacturer doesn't specify which placement file, they most likely want this one.)
+* `placement_pin1.txt` - centroid placement for the pin 1 location of each component
+* `placement_symbol-origin.txt` - centroid placement file
+* `BOM.xlsx` - Bill of Materials
+* `README.mdown` - this file
+
+# Changelog
+
+* 2022-11-30: merge between v2.1, feedback we received from a Bittele production, and updates from jET. Renamed previous version 2.2 (notched) to v6.0 to avoid confusion. Create new v2.3
