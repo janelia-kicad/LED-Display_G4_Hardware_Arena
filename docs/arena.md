@@ -28,17 +28,19 @@ The __Arena 12-12 Version 1__ (OrCAD design file at `arena_12-12/arena_12-12_v1.
 
 ![Rendering of an Arena 12-12 Version 2](assets/arena_12-12_v2_front_iso-render.png){:standalone .ifr data-img-class="pop"}
 
-The __Arena 12-12 Version 2__ (OrCAD design file at `arena_12-12/arena_12-12_v2.brd`) is similar to version 1 in [schematics](assets/arena_12-12_v1_schematic.pdf) and most of the pcb layout, but is missing the outer ring of potential connectors. Development on the 6 layer version 2 started in February 2018, with the most recent design iteration (`arena_12-12/arena_12-12_v2.2.brd`) from June 2019. If you want to repair a version 1 or version 2 board, we recommend the production files for __Arena 12-12 v2.1__ archived at `arena_12-12/production_v2/arena_12-12_v2p1.zip` as it includes incremental improvements like a more helpful silkscreen. The most recent __Arena 12-12 v2.2__ production files at `arena_12-12/production_v2/arena_12-12_v2p2.zip` include a cutout in the PCB. This _notched_ versions is an untested attempt to fit the arena under a specific microscope.
+The __Arena 12-12 Version 2__ (OrCAD design file at `arena_12-12/arena_12-12_v2.brd`) is similar to version 1 in [schematics](assets/arena_12-12_v1_schematic.pdf) and most of the pcb layout, but is missing the outer ring of potential connectors. Development on the 6 layer version 2 started in February 2018. If you want to repair a version 1 or version 2 board, we recommend the production files for __Arena 12-12 v2.3__ archived at `arena_12-12/production_v2/arena_12-12_v2p3.zip` as it includes incremental improvements like a more helpful silkscreen. While most of the arenas were hand-assembled and with parts that our machine shop had lying around. Version v2.3 is an attempt to fill in some of the gaps and is a step towards being able to give the assembly job to an external contractor. [Contact us](${{site.baseurl}}/Contact.html) about the progress if you have questions.
 
 __Arena 12-12 Version 2C__ (OrCAD design file at `arena_12-12/arena_12-12_v2C`) is a prototype to length match all signal lines and decrease electric noise by routing them on individual layers. As a result the board has 12 (hex: `0xC`, hence 2C) layers. In our hands it didn't show improvements over other version 2 boards, but if you are looking to debug timing issues this could be a helpful starting point.
-
-![Rendering of a notched Arena 12-12 Version 2.2](assets/arena_12-12_v2p2_front_render.png){:standalone .ifr data-img-class="pop"}
 
 __Arena 12-12 Version 3__ (OrCAD design file at `arena_12-12/arena_12-12_v3.brd`, see [schematics](assets/arena_12-12_v3_schematic.pdf)) is a 6 layer prototype with two rings of connectors and additional changes to the physical shape of the PCB. It never left prototyping stage and is here only for historical purposes. This version was designed in June 2019.
 
 __Arena 12-12 Version 4__ (OrCAD design file at `arena_12-12/arena_12-12_v4.brd`, see [schematics](assets/arena_12-12_v4_schematic.pdf)) is the attempt to minimize noise in the system further. To achieve that, the electronic design of this 6 layer PCB was changed in August 2019 so that the clock signal is now actively driven by a fanout instead of a simpler voltage translator as in previous versions. Furthermore, the chip select lines are isolated from each other through active components. The circular PCB was physically interrupted to avoid timing issues through circular traces.
 
 The __Arena 12-12 Version 5__ (OrCAD design file at `arena_12-12/arena_12-12_v5.brd`, see [schematics](assets/arena_12-12_v5_schematic.pdf)) is an experimental 6 layer design without a [interconnect board](#interconnect) but instead with a direct VHDCI connector. Development is ongoing since Summer 2020, but the design does not work yet.
+
+![Rendering of a notched Arena 12-12 Version 6](assets/arena_12-12_v6p0_front_render.png){:standalone .ifr data-img-class="pop"}
+
+The __Arena 12-12 Version 6__ (OrCAD design file at `arena_12-12/arena_12-12_v6.brd`, see [schematics](assets/arena_12-12_v6_schematic.pdf)) from June 2019 is technically the same as Version 2 (hence the schematic is literally the same), but has a cutout in the PCB to fit under a specific microscope (see image of _notched_ arena). The latest production files are at `arena_12-12/production_v6/arena_12-12_v6p0.zip`. This version was previously know as version v2.2, but since later improvements to v2.1 lead to confusion, we rebranded it as version v6.0.
 
 ## 12-18 arena board {#a12-18}
 
