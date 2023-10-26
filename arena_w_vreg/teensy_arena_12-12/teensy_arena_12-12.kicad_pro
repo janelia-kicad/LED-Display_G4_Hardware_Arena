@@ -842,12 +842,12 @@
       "Level Shifters"
     ],
     [
-      "00dcefbf-238f-41ae-ad8d-938fedd7284f",
-      "Voltage Regulators"
-    ],
-    [
       "5b6d0be6-08d3-404a-9e9b-565c640343d3",
       "Teensy"
+    ],
+    [
+      "17861c68-32c3-4000-8a50-4f303c28fa47",
+      "Power & Voltage Regulators"
     ]
   ],
   "text_variables": {}

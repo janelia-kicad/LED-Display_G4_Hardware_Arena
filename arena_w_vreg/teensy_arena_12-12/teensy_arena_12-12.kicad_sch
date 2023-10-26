@@ -586,23 +586,6 @@
     )
   )
 
-  (sheet (at 165.608 108.077) (size 45.466 46.355) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00dcefbf-238f-41ae-ad8d-938fedd7284f)
-    (property "Sheetname" "Voltage Regulators" (at 165.608 107.3654 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "voltage_regulators.kicad_sch" (at 165.608 155.0166 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "teensy_arena_12-12"
-        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "4"))
-      )
-    )
-  )
-
   (sheet (at 124.206 32.893) (size 33.147 18.034) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -628,14 +611,31 @@
     )
   )
 
-  (sheet (at 88.392 32.512) (size 25.654 18.415) (fields_autoplaced)
+  (sheet (at 49.276 100.33) (size 42.545 25.654) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 17861c68-32c3-4000-8a50-4f303c28fa47)
+    (property "Sheetname" "Power & Voltage Regulators" (at 49.276 99.6184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 49.276 126.5686 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "teensy_arena_12-12"
+        (path "/a2511654-3a17-43f1-8b9e-c45e375533dc" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 75.565 32.639) (size 33.02 18.034) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 5b6d0be6-08d3-404a-9e9b-565c640343d3)
-    (property "Sheetname" "Teensy" (at 88.392 31.8004 0)
+    (property "Sheetname" "Teensy" (at 75.565 31.9274 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "teensy.kicad_sch" (at 88.392 51.5116 0)
+    (property "Sheetfile" "teensy.kicad_sch" (at 75.565 51.2576 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
