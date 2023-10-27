@@ -1611,6 +1611,11 @@
     (uuid ff240179-937a-415c-b395-d4e5b59e0e9d)
   )
 
+  (text "Notes\n\n1. Currently have 1A per column (12A total)\n   Is this enough?\n\n2. Powering levelshifters using 5V from teensy ... "
+    (at 287.909 73.787 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 20b7308f-a882-4dd3-bfe9-282738d46895)
+  )
   (text "Level Shifters" (at 139.954 23.114 0)
     (effects (font (size 3.81 3.81) (thickness 0.508) bold) (justify left bottom))
     (uuid eb3b46c5-d9d1-4d71-ba53-e42305728b76)

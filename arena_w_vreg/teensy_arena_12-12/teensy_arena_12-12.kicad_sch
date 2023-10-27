@@ -81,7 +81,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 24a22302-295f-4a79-8162-dc1243f756aa)
-    (property "Sheetname" "Gounded Holes" (at 115.951 82.9814 0)
+    (property "Sheetname" "Ground Holes" (at 115.951 82.9814 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "holes.kicad_sch" (at 115.951 102.3116 0)

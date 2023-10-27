@@ -1332,6 +1332,11 @@
     (uuid fc860693-b1b0-42fc-b8a1-fddae5e75303)
   )
 
+  (text "Notes\n\n1. Currently using grove style header \n   Should I move to Stemma QT/Qwiictype header ... Adafruit DAC  MCP4728\n   Or should I put the MCP4728 right on the arena ... \n\n2. Analog inputs - stick with Grove header or use some other type of connector? "
+    (at 13.081 187.96 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 2b5da36e-ab79-45cb-9915-8ae138bef57c)
+  )
   (text "Analog inputs" (at 131.699 161.798 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 77299e19-b584-4f96-8030-9247cd0dd3e9)
