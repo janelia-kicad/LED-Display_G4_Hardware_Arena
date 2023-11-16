@@ -1332,7 +1332,7 @@
     (uuid fc860693-b1b0-42fc-b8a1-fddae5e75303)
   )
 
-  (text "Notes\n\n1. Currently using grove style header \n   Switch to Stemma QT/Qwiic type header  \n\n"
+  (text "Notes\n\n1. Switch to Stemma QT/Qwiic type header  \n2. Change so that 5V comes from external supply \n   Requires that teensys 4.1s are modified\n\n"
     (at 22.733 187.579 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 2b5da36e-ab79-45cb-9915-8ae138bef57c)
@@ -1783,10 +1783,10 @@
   (symbol (lib_id "arena_custom:Teensy4.1") (at 105.156 88.392 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57736547-9b71-4aff-bf36-03bdb59d93b4)
-    (property "Reference" "U13" (at 105.156 23.622 0)
+    (property "Reference" "U13" (at 105.156 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Teensy4.1" (at 105.156 26.162 0)
+    (property "Value" "Teensy4.1" (at 105.156 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "teensy:Teensy41" (at 94.996 78.232 0)
@@ -1868,7 +1868,7 @@
           (reference "U13") (unit 1)
         )
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/5b6d0be6-08d3-404a-9e9b-565c640343d3"
-          (reference "U13") (unit 1)
+          (reference "U18") (unit 1)
         )
       )
     )
