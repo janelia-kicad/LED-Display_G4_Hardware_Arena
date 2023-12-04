@@ -1679,8 +1679,8 @@
     (property "Datasheet" "~" (at 72.771 126.873 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a729ebbd-8d75-4317-81c1-0493fa6547a4))
-    (pin "2" (uuid 5ac8292e-edc0-413f-b929-127257e75733))
+    (pin "1" (uuid 63b07cc2-89b8-4351-86ad-ec8633699904))
+    (pin "2" (uuid 3b21d4a4-128d-4f6e-8140-ee9db58834a6))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -1693,7 +1693,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 200.152 126.619 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01a102e3-9d73-4331-bbfb-24d95709f1c9)
-    (property "Reference" "C39" (at 194.564 125.73 0)
+    (property "Reference" "C33" (at 194.564 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 193.675 127.635 0)
@@ -1705,12 +1705,12 @@
     (property "Datasheet" "~" (at 200.152 126.619 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9d2be05a-9606-4ba1-80a0-4992b7ac3abb))
-    (pin "2" (uuid f3efd8ad-9fec-4b71-a2a6-bb1800c91b06))
+    (pin "1" (uuid 9651175d-7154-47c5-8c54-ae5c3e219fe7))
+    (pin "2" (uuid c9dbf4fb-602e-4abe-b3d2-1c51dcbb4b19))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C39") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -1756,8 +1756,8 @@
     (property "Datasheet" "~" (at 178.181 126.873 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a446b8e8-c219-4b7b-8683-9aab7e6ba801))
-    (pin "2" (uuid de2e401f-564b-4347-aab1-a37d56d90f39))
+    (pin "1" (uuid 91cc0f35-11da-43d4-9bf9-5feb34908497))
+    (pin "2" (uuid 88c2a4a5-e9e6-4244-8f22-e3953bb04ea3))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -1782,8 +1782,8 @@
     (property "Datasheet" "~" (at 63.627 101.219 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d24ded6e-0e02-4b53-82a6-9ba6e5802d89))
-    (pin "2" (uuid 945aaf20-be0b-4631-bfbc-0235a2e23bc7))
+    (pin "1" (uuid b077734c-191e-47ae-9128-1b413d704e3f))
+    (pin "2" (uuid ddebdc10-e950-4bfc-a292-791171444daf))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -1796,7 +1796,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 169.037 101.219 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f41c032-00a0-4fd0-b7f7-d407f5e3edd0)
-    (property "Reference" "C30" (at 170.815 100.33 0)
+    (property "Reference" "C26" (at 170.815 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 170.942 102.235 0)
@@ -1808,12 +1808,12 @@
     (property "Datasheet" "~" (at 169.037 101.219 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 59da96c0-1463-40c2-8200-27ad1e312ec3))
-    (pin "2" (uuid 16bc1ec7-74a7-4c0c-ad72-ea69541e8145))
+    (pin "1" (uuid fcbf9e85-7911-43d6-b30a-58d2d78d331c))
+    (pin "2" (uuid 89ab097f-a86e-4396-8b29-038d0f1cb18d))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C30") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1872,7 +1872,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 169.037 75.819 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19cbddc9-1944-4bf3-a38e-973663713fdd)
-    (property "Reference" "C28" (at 170.815 74.93 0)
+    (property "Reference" "C24" (at 170.815 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 170.942 76.835 0)
@@ -1884,12 +1884,12 @@
     (property "Datasheet" "~" (at 169.037 75.819 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca1d5fc5-2ddf-466e-b875-56d619c4f6b4))
-    (pin "2" (uuid 58434b68-3822-48cf-95ed-a2b1a73909f4))
+    (pin "1" (uuid d796a9ad-9b2c-4a42-aee3-e19668827cd2))
+    (pin "2" (uuid 71ac63dd-d9b4-4fa7-86a6-9263c3f53298))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C28") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -1898,7 +1898,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 169.037 126.619 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ea164bc-1e84-4b4f-962f-91eab4ad55c0)
-    (property "Reference" "C32" (at 170.688 125.73 0)
+    (property "Reference" "C28" (at 170.688 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 170.815 127.635 0)
@@ -1910,12 +1910,12 @@
     (property "Datasheet" "~" (at 169.037 126.619 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9eab13b9-bd99-4a75-b79c-e147052eb933))
-    (pin "2" (uuid 1c1a19ae-1c84-4c2c-8c6b-47155a3a921e))
+    (pin "1" (uuid ae438e05-5ae8-4483-9f98-d96cf06f6c4c))
+    (pin "2" (uuid 68775574-e9d4-48cf-9258-2266e372ef32))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C32") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -1924,7 +1924,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 221.742 126.619 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f6c03c5-dbe6-4915-a003-91427879723a)
-    (property "Reference" "C40" (at 223.647 125.73 0)
+    (property "Reference" "C34" (at 223.647 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 223.774 127.635 0)
@@ -1936,12 +1936,12 @@
     (property "Datasheet" "~" (at 221.742 126.619 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6d3339d1-9979-491b-b662-212b07a00678))
-    (pin "2" (uuid 99713804-5a01-47c9-85aa-1d6afb307aa6))
+    (pin "1" (uuid 8d493764-0b27-46ff-80b5-dc4dcf010d17))
+    (pin "2" (uuid a6964279-4bd7-4e91-855e-2fba4803cf0c))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C40") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -1975,7 +1975,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 116.332 126.619 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24652da6-4e5c-42ce-8d0e-25a94546471e)
-    (property "Reference" "C24" (at 117.983 125.73 0)
+    (property "Reference" "C22" (at 117.983 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 118.11 127.635 0)
@@ -1987,12 +1987,12 @@
     (property "Datasheet" "~" (at 116.332 126.619 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b64fee64-147b-4a01-a9c0-1e9a611bd797))
-    (pin "2" (uuid 262e7fe7-d18e-46c3-8c3d-0a120e7a204b))
+    (pin "1" (uuid 8887409a-c19e-4117-8f17-a0a905ee6f3d))
+    (pin "2" (uuid c1b941c7-14e3-417f-99ee-f89fd5898a7d))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C24") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -2038,8 +2038,8 @@
     (property "Datasheet" "~" (at 42.037 126.619 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 91bdccad-8e7c-4c22-aa9e-66c30c9ce44f))
-    (pin "2" (uuid 5d5d54ff-5b30-4213-8ea2-7b3eb32539df))
+    (pin "1" (uuid 4d1e4257-895f-4146-92a1-516c94e6dfe2))
+    (pin "2" (uuid 169a55ee-624d-4214-b35d-13c81c320b7f))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2064,9 +2064,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 158.242 122.682 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e89c9cdd-dd90-4fc1-903e-29d3e856dfec))
-    (pin "2" (uuid 9a9880ad-0a20-4d9d-ae69-af92ac192ca2))
-    (pin "3" (uuid 24eb56b6-9782-4572-b8c4-b876f01031c8))
+    (pin "1" (uuid f8c19829-5566-4486-8a55-809eaf891fc6))
+    (pin "2" (uuid be9db98f-8d71-4622-ba0f-b1ec1e04b0ba))
+    (pin "3" (uuid 4eb917d7-081b-42e5-8f37-83f2401a2ad9))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2141,9 +2141,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 210.947 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6bcccc59-971f-4a3d-bb20-657ef7c01139))
-    (pin "2" (uuid 91eb0697-12b1-4ce2-bec5-e198063d0bfe))
-    (pin "3" (uuid 928c9156-b883-452d-8d31-b7b9b23e5e24))
+    (pin "1" (uuid b1bc456b-906c-4ccc-be7b-587c5b566b68))
+    (pin "2" (uuid 159d6b39-6efb-4f5d-bd16-d24a77b8e2cf))
+    (pin "3" (uuid 23e1da10-367d-471b-9f36-1511ae3398b0))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2168,8 +2168,8 @@
     (property "Datasheet" "~" (at 230.886 76.073 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 126f5d4f-1c06-4ab3-8eaf-06fb031811d6))
-    (pin "2" (uuid 1dad932e-fabb-4a1f-acc7-bc8119b570a8))
+    (pin "1" (uuid 209ad2c3-f84f-436b-bf3c-0fec06853117))
+    (pin "2" (uuid f5231d7a-4837-4e6d-9912-dbb486b5ad8f))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2182,7 +2182,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 200.152 75.819 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a8fb594-38f5-418f-9858-a72280207c26)
-    (property "Reference" "C35" (at 194.437 74.803 0)
+    (property "Reference" "C29" (at 194.437 74.803 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 193.548 76.835 0)
@@ -2194,12 +2194,12 @@
     (property "Datasheet" "~" (at 200.152 75.819 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 979618aa-daf7-4157-aff7-7ce8d06c3bcb))
-    (pin "2" (uuid 7d186037-1264-4490-99dc-7399e176f889))
+    (pin "1" (uuid 212198b5-215b-41fc-895c-816bf9c7c186))
+    (pin "2" (uuid 234f0eac-7a8e-4e81-8809-7e5ec1063497))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C35") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -2220,8 +2220,8 @@
     (property "Datasheet" "~" (at 230.886 101.473 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 28ceaddb-03cc-48ea-b5e9-e8fc79852ced))
-    (pin "2" (uuid 93786171-fc48-4405-be6a-571aac704b42))
+    (pin "1" (uuid b17e4462-fa5e-4388-9dd3-6457f7e9ee17))
+    (pin "2" (uuid 9f9095e4-ded6-4bb6-a304-fa1164246842))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2246,9 +2246,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 210.947 122.682 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 38172039-aa27-45fa-aea3-64ecc34aa59d))
-    (pin "2" (uuid cc5404f0-eb86-40d9-a4c7-66e15b6a993a))
-    (pin "3" (uuid e062b691-722a-4fb6-b1f5-6855443233fc))
+    (pin "1" (uuid d1cadad2-5a2a-475c-a7f2-c1345c467af4))
+    (pin "2" (uuid 76a753bb-9743-4977-8142-46de539e1991))
+    (pin "3" (uuid 70f2eac1-2401-436a-8c40-af1c4ef7153b))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2327,8 +2327,8 @@
     (property "Datasheet" "~" (at 72.771 101.473 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 70ea2677-040c-472e-93e1-c268c28c1a8f))
-    (pin "2" (uuid 7c734348-61e6-4777-ab9f-e4864a5c049e))
+    (pin "1" (uuid b7b17029-34c6-49cd-a8cb-e2586b02c03a))
+    (pin "2" (uuid fe2b3a7a-3ca5-4705-a05b-ae12db55fd06))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2391,7 +2391,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 147.447 126.619 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5fcd377e-4e71-4a0b-984a-08431805a4d2)
-    (property "Reference" "C31" (at 141.859 125.73 0)
+    (property "Reference" "C27" (at 141.859 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 140.843 127.635 0)
@@ -2403,12 +2403,12 @@
     (property "Datasheet" "~" (at 147.447 126.619 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0eed5fa9-4a5a-423f-a054-df0ef4c900cc))
-    (pin "2" (uuid 30ae24cb-e7c0-406c-a797-3932832985b7))
+    (pin "1" (uuid 88aa90bf-8fdd-4bb3-a216-a1b6b712e265))
+    (pin "2" (uuid 258cdac7-914b-48f7-b833-9c80b39893ed))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C31") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -2417,7 +2417,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 116.332 101.219 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60ca1f1b-41ff-40ee-98c7-8a1a739390ad)
-    (property "Reference" "C22" (at 117.983 100.33 0)
+    (property "Reference" "C20" (at 117.983 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 118.11 102.235 0)
@@ -2429,12 +2429,12 @@
     (property "Datasheet" "~" (at 116.332 101.219 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 850807bb-9450-4d55-a46b-4e9dda2736fe))
-    (pin "2" (uuid 9207f98c-a5b1-41b1-8962-ea1667011fed))
+    (pin "1" (uuid 2e2b58cb-3e7f-4c30-b31c-81e4ec3b5bcb))
+    (pin "2" (uuid 852c67d1-2cbf-4d28-9932-4b90d03e5cfd))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C22") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -2455,9 +2455,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 105.537 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da837a7d-8bf2-4c99-a096-43c871eaca0f))
-    (pin "2" (uuid ca88613b-0be2-4c6e-9d0d-825666f4123b))
-    (pin "3" (uuid e1a95f20-5aee-47dd-bf99-1a14e2a2e5e2))
+    (pin "1" (uuid ff91798e-eeb9-4d28-b1e4-b5bf2d6af070))
+    (pin "2" (uuid 987eb5a7-259d-4994-8740-b81541cf27fd))
+    (pin "3" (uuid d73bd338-8506-430e-8204-bffac66ea217))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2525,7 +2525,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 147.447 101.219 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64bee236-4f33-44da-a8cd-530d811589d6)
-    (property "Reference" "C29" (at 141.732 100.203 0)
+    (property "Reference" "C25" (at 141.732 100.203 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 140.843 102.235 0)
@@ -2537,12 +2537,12 @@
     (property "Datasheet" "~" (at 147.447 101.219 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4cfbdd7a-27c2-4267-a231-dc2d4e7d5c83))
-    (pin "2" (uuid 1d117691-54fc-48eb-86a2-1ace7b03aa9e))
+    (pin "1" (uuid b82b61a0-ba10-4d61-9326-9e4a23015bf9))
+    (pin "2" (uuid c6684919-b5e6-426f-99ef-99a8c726ef01))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C29") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2563,8 +2563,8 @@
     (property "Datasheet" "~" (at 230.886 126.873 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b007d5f-cc26-41ee-9f18-bf8406206cbf))
-    (pin "2" (uuid 4525395f-dfef-4c73-8e3d-ab33d85459a6))
+    (pin "1" (uuid 5c10d96f-183f-4a27-9f85-fed60f0ecd22))
+    (pin "2" (uuid 37c6a337-8727-4aff-a0f0-1f06ee671e84))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2589,8 +2589,8 @@
     (property "Datasheet" "~" (at 125.476 76.073 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7e1c6dac-c75c-46e4-86e8-4e24c152e2e6))
-    (pin "2" (uuid 2b72767a-d2a2-4455-a2af-f65e8419a53c))
+    (pin "1" (uuid 289ded8b-c122-46fc-98ec-e75b8944c857))
+    (pin "2" (uuid afd18afe-c36f-484e-ac17-9152189e9b04))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2603,7 +2603,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 94.742 101.219 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b9ff667-8e68-4503-ac8e-a59049ae6924)
-    (property "Reference" "C21" (at 89.027 100.203 0)
+    (property "Reference" "C19" (at 89.027 100.203 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10F" (at 89.281 102.235 0)
@@ -2615,12 +2615,12 @@
     (property "Datasheet" "~" (at 94.742 101.219 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4151b7a4-b3fd-417b-8e18-0c83f66191fb))
-    (pin "2" (uuid 5906fdc3-9b79-4ad3-af97-4a10e3bf833f))
+    (pin "1" (uuid fa0a3166-371e-4f8e-8e0e-eb5ef1881299))
+    (pin "2" (uuid a53bc8f4-523e-4dd8-a48f-185ac7bfa1ab))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C21") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -2691,8 +2691,8 @@
     (property "Datasheet" "~" (at 63.627 126.619 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e6f408a8-73dd-4d85-b745-2f3f7242a536))
-    (pin "2" (uuid f67bb0fc-a812-435d-ad8f-17c77de20db3))
+    (pin "1" (uuid a3c704eb-bb1f-42dd-80b7-9b6ebeffd4fc))
+    (pin "2" (uuid bdfd6227-e60b-4a81-bee7-178b248fed06))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2767,8 +2767,8 @@
     (property "Datasheet" "~" (at 42.037 75.819 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 40453c5b-700f-4ba3-a388-735cda20cb24))
-    (pin "2" (uuid 937fc9a0-e469-42c6-bc5a-37a29ead44f8))
+    (pin "1" (uuid 028a58ba-a5ab-489f-9f8d-94b3fc59dd90))
+    (pin "2" (uuid 91f2c8e7-a9e9-4286-b90a-27117670c65f))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2806,7 +2806,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 116.332 75.819 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84eef659-8f2f-4292-9b70-6417325f1b5a)
-    (property "Reference" "C20" (at 117.983 74.93 0)
+    (property "Reference" "C18" (at 117.983 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 118.237 76.835 0)
@@ -2818,12 +2818,12 @@
     (property "Datasheet" "~" (at 116.332 75.819 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bf42b90d-e55e-4f93-9fc2-14c65f807ce1))
-    (pin "2" (uuid 8a3962f0-6604-4a03-9a13-f681470fc621))
+    (pin "1" (uuid 74066c4d-4b83-476f-bc4a-beac536bc407))
+    (pin "2" (uuid f6380ca3-dd94-4dd1-81d4-f1fc1069d2d8))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C20") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -2844,9 +2844,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 105.537 122.682 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7e7869e9-782f-49c8-b893-6103019e4a11))
-    (pin "2" (uuid 02a5ec7a-0888-405a-aa7d-1687a37881b3))
-    (pin "3" (uuid de652193-bda0-47dc-9961-eb19e62e2a1d))
+    (pin "1" (uuid ec1b1026-0d43-4d41-b076-761b01a40abd))
+    (pin "2" (uuid 07e88b6c-bd53-43a6-90b9-1c6f19473357))
+    (pin "3" (uuid fe3f8d04-4085-408e-bbea-c2ec02731427))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2859,7 +2859,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 221.742 101.219 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88cd3bc1-6719-4391-b240-bff7fe4c41cd)
-    (property "Reference" "C38" (at 223.52 100.457 0)
+    (property "Reference" "C32" (at 223.52 100.457 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 223.647 102.235 0)
@@ -2871,12 +2871,12 @@
     (property "Datasheet" "~" (at 221.742 101.219 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 549e8176-fcc9-442d-8f5f-807d7c0bce5b))
-    (pin "2" (uuid a4bdf568-7ef4-490c-a121-bed017e21c16))
+    (pin "1" (uuid 42e7de81-b354-441c-ae3b-e23db050688b))
+    (pin "2" (uuid f55dec78-26cd-47f7-8dfc-9161837866e3))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C38") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -2897,8 +2897,8 @@
     (property "Datasheet" "~" (at 178.181 101.473 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 378630c5-cab5-4aa8-9bea-901b313bdf84))
-    (pin "2" (uuid a4d0ec8d-418a-4ca0-8726-7bcece1ada88))
+    (pin "1" (uuid c36bb8a7-4804-4438-aaf9-0e3505f654d4))
+    (pin "2" (uuid cf07ba06-51b9-42b9-9d47-4ca6f8569c19))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -2911,7 +2911,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 200.152 101.219 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b415969-8ad0-4d71-b7d6-022bd07bcb68)
-    (property "Reference" "C37" (at 194.564 100.203 0)
+    (property "Reference" "C31" (at 194.564 100.203 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 193.421 102.235 0)
@@ -2923,12 +2923,12 @@
     (property "Datasheet" "~" (at 200.152 101.219 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 845cff0b-d6ca-405c-9c7b-5ae7bc9f4129))
-    (pin "2" (uuid f0ac42e9-e90b-4c3c-8c16-e8162453aecd))
+    (pin "1" (uuid 83feae9f-aac4-41f0-aba1-28b6a4e565c2))
+    (pin "2" (uuid 721e7167-4e68-4de8-8d7d-860ef86ee51e))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C37") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -2974,8 +2974,8 @@
     (property "Datasheet" "~" (at 63.627 75.819 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 18adbaa0-b4eb-405e-ad02-9405cbe43532))
-    (pin "2" (uuid b211e72f-13cd-43b2-b380-13ef63744386))
+    (pin "1" (uuid bbc72718-def5-49d3-b228-8daed9a2978e))
+    (pin "2" (uuid da9a71eb-9d8c-41ee-88c3-1a1423c54001))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3000,9 +3000,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 105.537 71.882 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 78fd7477-b582-4da9-91e4-9ebf60ee995c))
-    (pin "2" (uuid 716e70cc-3195-44da-b402-b3cffaf57808))
-    (pin "3" (uuid ca3e92f7-606d-42db-8291-1d4b46748a08))
+    (pin "1" (uuid 587e3b13-19b1-45c8-a7aa-f4da73dfcc78))
+    (pin "2" (uuid 9fee3fe0-e7b3-4223-a8ae-315930c5cc30))
+    (pin "3" (uuid 3941622f-9922-461f-90e2-1f4c81e07b23))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3027,9 +3027,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 158.242 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ebb4eb33-0b34-4a9d-85f8-8a094a91a063))
-    (pin "2" (uuid 188d7660-c1a7-4430-9f2f-070c042f7312))
-    (pin "3" (uuid feecaaa2-35d3-4a5b-a485-6a941612f4b3))
+    (pin "1" (uuid 85f2833f-21fd-411a-be00-cfa1b9882180))
+    (pin "2" (uuid 4f23fbfa-219b-4cd5-a68f-fdb458af3b4c))
+    (pin "3" (uuid bef2b5fe-a945-47f4-a8c9-f07ebcb2032f))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3079,8 +3079,8 @@
     (property "Datasheet" "~" (at 125.476 126.873 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 404f068d-15c6-417d-81a9-d9820d932dc3))
-    (pin "2" (uuid 63f8f3a4-c777-46ea-9d4b-9bb8bdfef47e))
+    (pin "1" (uuid 480b9254-1289-4dca-b9e9-eb2828588404))
+    (pin "2" (uuid b3d02499-fa6d-4354-a1e5-f643acde9850))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3155,8 +3155,8 @@
     (property "Datasheet" "~" (at 125.476 101.473 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8cfb11c3-c8bf-4635-993d-5ccb3f108dc5))
-    (pin "2" (uuid 9980c945-8cac-46de-bc13-7e27f3c27809))
+    (pin "1" (uuid dbabbde4-dfd6-42a8-9f09-7091543c63b6))
+    (pin "2" (uuid 05791d79-bafe-4cdb-838b-90f6aba96d64))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3181,9 +3181,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 52.832 97.282 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d186bcf-bcf4-4d0c-a4fd-49f996e7bce4))
-    (pin "2" (uuid 95d2989e-61c0-4e78-b8cd-ed1e28b9e1fe))
-    (pin "3" (uuid 6418f2a0-54cc-4ae1-a43c-a6d263ce5ed3))
+    (pin "1" (uuid 4644556d-a3df-4b1f-9407-10091c716bbb))
+    (pin "2" (uuid d9593b48-fb73-496c-b1a8-884b533f6889))
+    (pin "3" (uuid 05e17cd0-a0a8-4d6e-8950-63e8be0622cb))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3208,9 +3208,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 52.832 71.882 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 600cd911-c887-493b-b6ad-465f1bada842))
-    (pin "2" (uuid b5f9a6e0-1266-4b6e-8266-0e08a78e1555))
-    (pin "3" (uuid 646b649a-cc95-4eba-b6ef-f920322b7bda))
+    (pin "1" (uuid 0b78e3c4-0058-4209-989e-fa1c1305c1b9))
+    (pin "2" (uuid 734bccd2-01b1-40cd-95bc-078ab95aecbb))
+    (pin "3" (uuid 06d7f421-fb0e-40f9-9153-4c39d9731773))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3263,9 +3263,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 158.242 71.882 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae2716f2-8396-4a9c-a5a9-95d8aa612aa8))
-    (pin "2" (uuid 3e15abf1-47d4-4050-af2c-69d61d5b7af5))
-    (pin "3" (uuid e65d086c-ace5-4c42-ac9f-c3fb2426f347))
+    (pin "1" (uuid 5931537a-2b18-472b-8991-4fb8ee16aec8))
+    (pin "2" (uuid eabbc79b-5370-490d-b261-54ae174e7520))
+    (pin "3" (uuid 05ea72b3-749c-436d-83ad-08c82bd8ef42))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3328,7 +3328,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 221.742 75.819 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3b9939a-a58e-4fa6-be9f-d3beadad3566)
-    (property "Reference" "C36" (at 223.52 74.93 0)
+    (property "Reference" "C30" (at 223.52 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 223.647 76.835 0)
@@ -3340,12 +3340,12 @@
     (property "Datasheet" "~" (at 221.742 75.819 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8d576c3a-b6fd-43dc-b0e4-53cb7c9aa4a2))
-    (pin "2" (uuid 48bbae45-ecd4-49b8-b06b-e1bffe40d9f0))
+    (pin "1" (uuid 8fcfe48f-cbdc-4744-bdeb-d2d0bba6e686))
+    (pin "2" (uuid 6c2501e3-7186-49c6-91e2-adb2b9a2f751))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C36") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -3419,8 +3419,8 @@
     (property "Datasheet" "~" (at 42.037 101.219 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63ba2cba-e430-49b8-ac2f-a1f829d0b633))
-    (pin "2" (uuid e50aaed0-6e19-498b-a84f-ff6b693a6cc9))
+    (pin "1" (uuid 6fd1f478-c125-427f-8145-698f16763fa4))
+    (pin "2" (uuid f7f029ff-e0df-48e4-8ca6-056d6b2e53a0))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3445,8 +3445,8 @@
     (property "Datasheet" "~" (at 72.771 76.073 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6b11635-ec89-4128-b7fa-c7fdac394555))
-    (pin "2" (uuid ca6b68d8-9a6b-4663-a177-c49430486a36))
+    (pin "1" (uuid 91807b8f-167d-428a-b2c1-53323c96337e))
+    (pin "2" (uuid 74db04ee-320c-46dc-b533-4e0b267eec7e))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3546,9 +3546,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 210.947 71.882 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 16035e71-de5c-4f89-a6dd-2d0877692094))
-    (pin "2" (uuid 34e07842-0e8f-4b20-b38c-34647f6758ad))
-    (pin "3" (uuid 2b2aee76-dc5a-4b81-b49c-b1ca7d2d006a))
+    (pin "1" (uuid 9c095ebf-4d9a-4a9c-8831-2a06e6e3c157))
+    (pin "2" (uuid 1911f81e-963c-4f5d-b28a-75e39dca1cc4))
+    (pin "3" (uuid 4797f080-8e8b-4216-b074-5054ccb6af54))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3573,9 +3573,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1084.pdf" (at 52.832 122.682 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1a96965a-7999-4c5b-9057-17da41cf030a))
-    (pin "2" (uuid 9e129c78-7b9c-4c07-8bc1-dec589b6f107))
-    (pin "3" (uuid 54aed608-0464-47e6-91da-667371c04118))
+    (pin "1" (uuid 6c5ea725-c621-4169-974c-ba9d220ee5e8))
+    (pin "2" (uuid 3b7eef89-bbfb-4310-a8b7-1a288a03b130))
+    (pin "3" (uuid 122b9adc-6258-43b1-a7fd-5ba6adabadd8))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3600,8 +3600,8 @@
     (property "Datasheet" "~" (at 178.181 76.073 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d0297ac5-7b1c-4a25-a7b1-65fe6f0a3d1d))
-    (pin "2" (uuid a7649ce6-7e2b-4a83-a00a-6cee372c235c))
+    (pin "1" (uuid d45f0b58-3278-4836-be14-1ff753c67a7e))
+    (pin "2" (uuid 56551938-b169-4471-bb90-efb6e75ba1d0))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
@@ -3642,7 +3642,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 147.447 75.819 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9c20877-682e-4874-a62f-25ab38f79d03)
-    (property "Reference" "C27" (at 141.732 74.803 0)
+    (property "Reference" "C23" (at 141.732 74.803 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 140.843 76.835 0)
@@ -3654,12 +3654,12 @@
     (property "Datasheet" "~" (at 147.447 75.819 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a1f24786-128c-4851-9ade-156e3ad34765))
-    (pin "2" (uuid a0e7e82e-e521-4fa6-8dfa-6a2329922e7e))
+    (pin "1" (uuid a56c0921-7222-4653-8e1f-21aa3e45fe4a))
+    (pin "2" (uuid e108cc12-461a-4ade-a30e-028b2086111d))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C27") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -3668,7 +3668,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 94.742 126.619 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb3f7d23-a2a6-45dd-95ae-73deb5857028)
-    (property "Reference" "C23" (at 89.027 125.73 0)
+    (property "Reference" "C21" (at 89.027 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 88.138 127.635 0)
@@ -3680,12 +3680,12 @@
     (property "Datasheet" "~" (at 94.742 126.619 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fcf5b404-21b3-45ae-9f17-f43a5dc8b89f))
-    (pin "2" (uuid f1d11967-93bf-4f12-a4de-7890ae54103b))
+    (pin "1" (uuid 7234e8b4-384b-44c0-a764-bf2b347943b4))
+    (pin "2" (uuid a792fef1-4746-437d-b036-22652b9ca747))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C23") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -3694,7 +3694,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 94.742 75.819 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee586719-f8a3-420f-98aa-eff9da876e69)
-    (property "Reference" "C19" (at 89.027 74.803 0)
+    (property "Reference" "C17" (at 89.027 74.803 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 88.138 76.835 0)
@@ -3706,12 +3706,12 @@
     (property "Datasheet" "~" (at 94.742 75.819 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33ed19b7-cb25-4e25-8d27-cb5a15978280))
-    (pin "2" (uuid 79ca543c-10e2-4bd8-9f85-855f523ecccd))
+    (pin "1" (uuid 46654da9-f12d-469f-bfc3-970fbe8311d6))
+    (pin "2" (uuid 6f508a68-8f0f-451b-990f-41b782506d10))
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C19") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
