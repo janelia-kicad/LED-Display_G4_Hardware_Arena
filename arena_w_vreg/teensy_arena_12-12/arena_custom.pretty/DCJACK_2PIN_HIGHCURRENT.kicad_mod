@@ -21,4 +21,9 @@
   (pad "" thru_hole circle (at 4.4958 5.0038) (size 3.556 3.556) (drill 2.6924) (layers "*.Cu" "*.Mask") (tstamp 2d53fecd-90b1-4315-a79d-a413c69b5412))
   (pad "1" thru_hole circle (at 0 11.9888) (size 4.064 4.064) (drill 3.1496) (layers "*.Cu" "*.Mask") (tstamp 34e1b60a-21a5-4a8d-a140-c0a0298445c1))
   (pad "2" thru_hole circle (at 0 5.9944) (size 3.556 3.556) (drill 2.6924) (layers "*.Cu" "*.Mask") (tstamp e2818523-534c-4b14-af3e-6bc195f44343))
+  (model "${KIPRJMOD}/arena_custom.pretty/3d_models/PWR_JACK_PJ-063AH.step"
+    (offset (xyz 0 0 5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )

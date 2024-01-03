@@ -19,4 +19,9 @@
   (pad "1" thru_hole circle (at -4.7498 -2.54) (size 2.54 2.54) (drill 1.778) (layers "*.Cu" "*.Mask") (tstamp ac85ad52-9e0d-4453-b245-82d9ca330ed2))
   (pad "2" thru_hole circle (at 0 -2.54) (size 2.54 2.54) (drill 1.778) (layers "*.Cu" "*.Mask") (tstamp e3642a27-065f-479b-9631-5da827a6eb43))
   (pad "3" thru_hole circle (at 4.7498 -2.54) (size 2.54 2.54) (drill 1.778) (layers "*.Cu" "*.Mask") (tstamp b8c1c316-4885-4119-9aef-bcf381392960))
+  (model "${KIPRJMOD}/arena_custom.pretty/3d_models/slide_switch_L102021ML04Q.step"
+    (offset (xyz 0 -3.37 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
