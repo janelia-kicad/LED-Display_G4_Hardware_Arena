@@ -1,4 +1,4 @@
-22105109302438136
+22106813695662528
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91104,6 +91104,13 @@ HEADER_TOP
 0
 15
 15
+arena_custom
+JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+6
+5
 arena_custom
 NS-Tech_Grove_1x04_P2mm_Horizontal
 https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf

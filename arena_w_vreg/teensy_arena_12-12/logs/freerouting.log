@@ -2030,3 +2030,354 @@ Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
 2024-01-03 11:24:45.298 [Thread-74] INFO  Starting route optimization on 1 thread...
 2024-01-03 11:24:45.303 [Thread-74] INFO  Route optimization was completed in 0.00 seconds.
 2024-01-03 11:24:52.404 [Thread-86] INFO  Starting auto-routing...
+2024-01-03 12:10:19.276 [Thread-86] INFO  Auto-routing was completed in 45 minute(s) 26.87 seconds.
+2024-01-03 12:10:19.376 [Thread-86] INFO  Starting route optimization on 1 thread...
+2024-01-03 12:10:19.378 [Thread-86] INFO  Route optimization was completed in 0.00 seconds.
+2024-01-03 12:10:29.231 [AWT-EventQueue-0] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-01-03 12:10:32.389 [Thread-125] INFO  Starting auto-routing...
+2024-01-03 12:10:33.847 [Thread-125] WARN  FloatLine: Parameter is null
+2024-01-03 12:10:33.857 [Thread-125] WARN  FloatLine: Parameter is null
+2024-01-03 17:37:49.094 [Thread-125] INFO  Auto-routing was completed in 5 hour(s) 27 minute(s) 16.70 seconds.
+2024-01-03 17:37:49.195 [Thread-125] INFO  Starting route optimization on 1 thread...
+2024-01-03 17:37:49.196 [Thread-125] INFO  Route optimization was completed in 0.00 seconds.
+2024-01-03 17:39:06.980 [AWT-EventQueue-0] INFO  Saving 'teensy_arena_12-12.ses'...
+2024-01-03 17:41:47.082 [Thread-165] INFO  Starting auto-routing...
+2024-01-03 17:41:47.622 [Thread-165] WARN  FloatLine: Parameter is null
+2024-01-03 17:41:47.631 [Thread-165] WARN  FloatLine: Parameter is null
+2024-01-04 09:36:49.299 [Thread-165] INFO  Auto-routing was completed in 15 hour(s) 55 minute(s) 2.21 seconds.
+2024-01-04 09:36:49.400 [Thread-165] INFO  Starting route optimization on 1 thread...
+2024-01-04 09:36:49.401 [Thread-165] INFO  Route optimization was completed in 0.00 seconds.
+2024-01-04 09:36:56.772 [Thread-185] INFO  Starting auto-routing...
+2024-01-04 09:36:57.279 [Thread-185] WARN  FloatLine: Parameter is null
+2024-01-04 09:36:57.288 [Thread-185] WARN  FloatLine: Parameter is null
+2024-01-04 10:09:24.447 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.466 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.476 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.481 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.482 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.483 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.484 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.485 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.487 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.488 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.489 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.490 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.492 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.495 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.497 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.498 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.499 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.509 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.511 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.513 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.516 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.521 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.524 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.528 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.531 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.534 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.537 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.541 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.544 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.547 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.549 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.551 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.552 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:09:24.554 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.595 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.685 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.696 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.709 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.713 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.713 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.714 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.718 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.744 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.768 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.776 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.787 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.803 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.807 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.813 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.823 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.829 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.837 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.842 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.849 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.854 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.859 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.867 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.874 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.882 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.889 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.893 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.897 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.908 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.919 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.922 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.926 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.938 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:12:46.942 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 10:14:05.703 [Thread-185] INFO  Auto-routing was completed in 37 minute(s) 8.93 seconds.
+2024-01-04 10:14:05.804 [Thread-185] INFO  Starting route optimization on 1 thread...
+2024-01-04 10:14:05.805 [Thread-185] INFO  Route optimization was completed in 0.00 seconds.
+2024-01-04 10:15:05.123 [AWT-EventQueue-0] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-01-04 10:15:52.652 [Thread-254] INFO  Starting auto-routing...
+2024-01-04 10:15:54.110 [Thread-254] WARN  FloatLine: Parameter is null
+2024-01-04 10:15:54.120 [Thread-254] WARN  FloatLine: Parameter is null
+2024-01-04 10:42:23.007 [Thread-254] WARN  There were only 19.10 changes in the last 20 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 10:43:41.193 [Thread-254] WARN  There were only 13.45 changes in the last 40 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 10:44:59.465 [Thread-254] WARN  There were only 12.00 changes in the last 60 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 10:46:18.028 [Thread-254] WARN  There were only 12.00 changes in the last 80 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 10:46:35.856 [Thread-254] INFO  Auto-routing was completed in 30 minute(s) 43.20 seconds.
+2024-01-04 10:46:35.957 [Thread-254] INFO  Starting route optimization on 1 thread...
+2024-01-04 10:46:35.959 [Thread-254] INFO  Route optimization was completed in 0.00 seconds.
+2024-01-04 10:47:05.211 [Thread-279] INFO  Starting auto-routing...
+2024-01-04 10:47:05.716 [Thread-279] WARN  FloatLine: Parameter is null
+2024-01-04 10:47:05.725 [Thread-279] WARN  FloatLine: Parameter is null
+2024-01-04 11:12:23.694 [Thread-279] WARN  There were only 17.25 changes in the last 20 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 11:13:36.902 [Thread-279] WARN  There were only 16.00 changes in the last 40 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 11:14:50.482 [Thread-279] WARN  There were only 16.00 changes in the last 60 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 11:16:02.851 [Thread-279] WARN  There were only 16.00 changes in the last 80 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 11:17:18.087 [Thread-279] WARN  There were only 16.00 changes in the last 100 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 11:18:33.230 [Thread-279] WARN  There were only 16.00 changes in the last 120 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 11:19:49.913 [Thread-279] WARN  There were only 16.00 changes in the last 140 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 11:21:05.097 [Thread-279] WARN  There were only 16.00 changes in the last 160 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 11:22:16.105 [Thread-279] WARN  There were only 16.00 changes in the last 180 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 11:23:29.554 [Thread-279] WARN  There were only 16.00 changes in the last 200 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 11:23:29.555 [Thread-279] WARN  There was so little change during the recent passes that autorouter will be stopped now.
+2024-01-04 11:23:29.556 [Thread-279] INFO  Auto-routing was completed in 36 minute(s) 24.34 seconds.
+2024-01-04 11:23:29.656 [Thread-279] INFO  Starting route optimization on 1 thread...
+2024-01-04 11:35:50.235 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.252 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.261 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.267 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.268 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.269 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.271 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.274 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.276 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.277 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.282 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.285 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.290 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.291 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:50.292 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:54.371 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:54.381 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:54.386 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:54.388 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:54.392 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:54.407 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:54.408 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:35:54.413 [AWT-EventQueue-0] ERROR Cannot invoke "app.freerouting.board.SearchTreeObject.shape_layer(int)" because "curr_object" is null
+java.lang.NullPointerException: Cannot invoke "app.freerouting.board.SearchTreeObject.shape_layer(int)" because "curr_object" is null
+	at app.freerouting.board.ShapeSearchTree.overlapping_tree_entries(ShapeSearchTree.java:374) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.board.ShapeSearchTree.overlapping_objects(ShapeSearchTree.java:319) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.board.ShapeSearchTree.overlapping_objects(ShapeSearchTree.java:333) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.board.BasicBoard.overlapping_objects(BasicBoard.java:965) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.board.Trace.get_normal_contacts(Trace.java:173) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.board.Trace.get_start_contacts(Trace.java:99) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.board.Trace.get_ratsnest_corners(Trace.java:324) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.interactive.NetIncompletes$NetItem.get_triangulation_corners(NetIncompletes.java:290) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.datastructures.PlanarDelaunayTriangulation.<init>(PlanarDelaunayTriangulation.java:49) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.interactive.NetIncompletes.<init>(NetIncompletes.java:48) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.interactive.RatsNest.<init>(RatsNest.java:55) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.interactive.BoardHandling.create_ratsnest(BoardHandling.java:388) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.interactive.BoardHandling.toggle_ratsnest(BoardHandling.java:365) ~[freerouting-executable.jar:unspecified]
+	at app.freerouting.gui.BoardToolbar.lambda$new$12(BoardToolbar.java:159) ~[freerouting-executable.jar:unspecified]
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source) ~[?:?]
+	at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source) ~[?:?]
+	at java.awt.Component.processMouseEvent(Unknown Source) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(Unknown Source) ~[?:?]
+	at java.awt.Component.processEvent(Unknown Source) ~[?:?]
+	at java.awt.Container.processEvent(Unknown Source) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Unknown Source) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) ~[?:?]
+	at java.awt.Component.dispatchEvent(Unknown Source) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Unknown Source) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Unknown Source) ~[?:?]
+	at java.awt.Component.dispatchEvent(Unknown Source) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) ~[?:?]
+	at java.awt.EventQueue$4.run(Unknown Source) ~[?:?]
+	at java.awt.EventQueue$4.run(Unknown Source) ~[?:?]
+	at java.security.AccessController.doPrivileged(Unknown Source) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) ~[?:?]
+	at java.awt.EventQueue$5.run(Unknown Source) ~[?:?]
+	at java.awt.EventQueue$5.run(Unknown Source) ~[?:?]
+	at java.security.AccessController.doPrivileged(Unknown Source) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:?]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:?]
+2024-01-04 11:35:54.767 [Thread-279] WARN  FloatLine: Parameter is null
+2024-01-04 11:35:54.879 [Thread-279] WARN  FloatLine: Parameter is null
+2024-01-04 11:36:00.191 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.200 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.202 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.206 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.210 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.212 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.213 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.214 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.215 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.216 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.219 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:36:00.223 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.399 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.412 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.415 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.420 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.422 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.424 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.426 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.430 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.439 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.451 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.454 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.457 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.461 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:37.466 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.909 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.910 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.912 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.913 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.913 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.916 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.917 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.921 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.926 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.933 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.934 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.935 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.936 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.936 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.937 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.938 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.939 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.940 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.945 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.948 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.950 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.951 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.951 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.952 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.954 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.954 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.956 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.956 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.958 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.958 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.959 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.960 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.961 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.961 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.961 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.962 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.962 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.964 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.966 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.966 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.967 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.968 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.969 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.970 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.971 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.971 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.972 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.972 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.974 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.974 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.975 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.976 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.977 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 11:51:41.977 [Thread-279] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:17:05.092 [Thread-279] INFO  Route optimization was completed in 53 minute(s) 35.43 seconds and it improved the design by ~49.77%.
+2024-01-04 12:18:34.849 [Thread-309] INFO  Starting auto-routing...
+2024-01-04 12:19:44.548 [Thread-309] WARN  There were only 6.00 changes in the last 20 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 12:20:54.183 [Thread-309] WARN  There were only 6.00 changes in the last 40 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 12:22:03.678 [Thread-309] WARN  There were only 6.00 changes in the last 60 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 12:23:13.149 [Thread-309] WARN  There were only 6.00 changes in the last 80 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 12:24:22.640 [Thread-309] WARN  There were only 6.00 changes in the last 100 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 12:25:32.135 [Thread-309] WARN  There were only 6.00 changes in the last 120 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 12:26:41.687 [Thread-309] WARN  There were only 6.00 changes in the last 140 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 12:27:51.533 [Thread-309] WARN  There were only 6.00 changes in the last 160 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 12:28:29.651 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.663 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.666 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.669 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.675 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.677 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.679 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.685 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.689 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.691 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.699 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.708 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:29.711 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-01-04 12:28:59.268 [Thread-309] WARN  There were only 6.29 changes in the last 180 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 12:30:00.441 [Thread-309] WARN  There were only 6.26 changes in the last 200 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 12:30:00.441 [Thread-309] WARN  There was so little change during the recent passes that autorouter will be stopped now.
+2024-01-04 12:30:00.442 [Thread-309] INFO  Auto-routing was completed in 11 minute(s) 25.59 seconds.
+2024-01-04 12:30:00.543 [Thread-309] INFO  Starting route optimization on 1 thread...
+2024-01-04 13:35:06.374 [Thread-309] INFO  Route optimization was completed in 1 hour(s) 5 minute(s) 5.83 seconds and it improved the design by ~50.31%.
+2024-01-04 13:35:34.870 [AWT-EventQueue-0] INFO  Saving 'teensy_arena_12-12.ses'...
+2024-01-04 13:35:42.453 [Thread-328] INFO  Starting auto-routing...
+2024-01-04 13:36:46.340 [Thread-328] WARN  There were only 6.00 changes in the last 20 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 13:37:49.470 [Thread-328] WARN  There were only 6.00 changes in the last 40 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 13:38:51.387 [Thread-328] WARN  There were only 6.00 changes in the last 60 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 13:39:52.446 [Thread-328] WARN  There were only 6.00 changes in the last 80 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 13:40:54.216 [Thread-328] WARN  There were only 6.00 changes in the last 100 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 13:41:55.180 [Thread-328] WARN  There were only 6.00 changes in the last 120 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 13:42:56.289 [Thread-328] WARN  There were only 6.00 changes in the last 140 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 13:43:57.505 [Thread-328] WARN  There were only 6.00 changes in the last 160 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 13:44:58.714 [Thread-328] WARN  There were only 6.00 changes in the last 180 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 13:45:59.830 [Thread-328] WARN  There were only 6.00 changes in the last 200 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-01-04 13:45:59.830 [Thread-328] WARN  There was so little change during the recent passes that autorouter will be stopped now.
+2024-01-04 13:45:59.831 [Thread-328] INFO  Auto-routing was completed in 10 minute(s) 17.38 seconds.
+2024-01-04 13:45:59.931 [Thread-328] INFO  Starting route optimization on 1 thread...
+2024-01-04 15:12:11.693 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-04 15:12:12.244 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-04 15:12:20.876 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-04 15:12:20.892 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-04 15:12:21.029 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 06:58:00.856 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:13:50.520 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:13:55.869 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:13:58.912 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:14:16.342 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:14:16.411 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:14:17.411 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:14:17.507 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:14:29.705 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:14:29.738 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:14:30.170 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:14:43.927 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:18:55.011 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:18:55.064 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:18:59.000 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:18:59.362 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:19:07.683 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 07:19:14.166 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 08:14:52.740 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 08:14:53.819 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 08:14:53.944 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 08:14:54.102 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 08:14:57.486 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 08:14:58.191 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 08:14:58.846 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 08:14:59.040 [Thread-328] WARN  CalcFromSide: start corner was not found
+2024-01-05 11:14:48.520 [Thread-328] INFO  Route optimization was completed in 21 hour(s) 28 minute(s) 48.59 seconds and it improved the design by ~50.42%.
+2024-01-05 11:14:56.026 [AWT-EventQueue-0] INFO  Saving 'teensy_arena_12-12.ses'...
