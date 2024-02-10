@@ -1,4 +1,4 @@
-22106813696098504
+22108521230411853
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91146,6 +91146,13 @@ TE_CONN_DSUB_RA_68
 0
 70
 70
+arena_custom
+TO-252
+
+
+0
+3
+3
 arena_custom
 slide_switch
 
