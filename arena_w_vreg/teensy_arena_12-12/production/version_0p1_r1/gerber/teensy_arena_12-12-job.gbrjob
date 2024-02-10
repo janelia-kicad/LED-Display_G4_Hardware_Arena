@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.2-6a45011f42~172~ubuntu22.04.1"
+      "Version": "7.0.8-7.0.8~ubuntu22.04.1"
     },
-    "CreationDate": "2023-06-12T08:58:01-07:00"
+    "CreationDate": "2024-02-09T15:05:28-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "arena",
-      "GUID": "6172656e-612e-46b6-9963-61645f706362",
+      "Name": "teensy_arena_12-12",
+      "GUID": "7465656e-7379-45f6-9172-656e615f3132",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 260.5,
-      "Y": 80.5
+      "X": 254.3,
+      "Y": 254.3
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -24,73 +24,73 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.127,
-      "PadToTrack": 0.127,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.3
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.127,
-      "PadToTrack": 0.127,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "TrackToRegion": 0.508,
-      "RegionToRegion": 0.508
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "arena-F_Cu.gtl",
+      "Path": "teensy_arena_12-12-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "arena-In1_Cu.g2",
+      "Path": "teensy_arena_12-12-In1_Cu.g2",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "arena-In2_Cu.g3",
+      "Path": "teensy_arena_12-12-In2_Cu.g3",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "arena-B_Cu.gbl",
+      "Path": "teensy_arena_12-12-B_Cu.gbl",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "arena-F_Paste.gtp",
+      "Path": "teensy_arena_12-12-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "arena-B_Paste.gbp",
+      "Path": "teensy_arena_12-12-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "arena-F_Silkscreen.gto",
+      "Path": "teensy_arena_12-12-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "arena-B_Silkscreen.gbo",
+      "Path": "teensy_arena_12-12-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "arena-F_Mask.gts",
+      "Path": "teensy_arena_12-12-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "arena-B_Mask.gbs",
+      "Path": "teensy_arena_12-12-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "arena-Edge_Cuts.gm1",
+      "Path": "teensy_arena_12-12-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
