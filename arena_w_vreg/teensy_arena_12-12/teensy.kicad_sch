@@ -1309,11 +1309,6 @@
     (uuid fc860693-b1b0-42fc-b8a1-fddae5e75303)
   )
 
-  (text "Notes\n\n1. Switch to Stemma QT/Qwiic type header  \n2. Change so that 5V comes from external supply \n   Requires that teensys 4.1s are modified\n\n"
-    (at 22.733 187.579 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid 2b5da36e-ab79-45cb-9915-8ae138bef57c)
-  )
   (text "Analog inputs" (at 123.952 160.401 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 77299e19-b584-4f96-8030-9247cd0dd3e9)

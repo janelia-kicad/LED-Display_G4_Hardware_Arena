@@ -2406,7 +2406,7 @@
     (effects (font (size 5.08 5.08) (thickness 0.508) bold) (justify left bottom))
     (uuid 5169d8df-4049-4d5f-bcef-a9a0851a8069)
   )
-  (text "SI2302-TP \nDigikey SI2302-TPMSCT-ND\nLCSC C4748714  \nCheck footprint & pinout!!!"
+  (text "SI2302-TP \nDigikey SI2302-TPMSCT-ND\nLCSC C4748714  \n"
     (at 55.245 107.061 0)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid c533834c-86b4-4ba7-b057-73e6cb2a28fc)

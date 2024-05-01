@@ -1591,11 +1591,6 @@
     (uuid ff2c9b9e-9045-483f-bc9d-eedb468ebb47)
   )
 
-  (text "Notes:\n\n1. Add additional 5V regulator or use 5V from exisit to power for level shifters. \n2. Check that switch can handle the current ..."
-    (at 19.05 166.624 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid 0924b49c-eb3c-4a66-ae57-8093532bc878)
-  )
   (text "7-12V" (at 156.21 47.244 0)
     (effects (font (size 2.032 2.032)) (justify left bottom))
     (uuid 48810a44-58cf-4afc-a6b0-c8d441bfe010)
