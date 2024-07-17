@@ -100,4 +100,9 @@
   (pad "68" thru_hole circle (at 20.955 -3.8) (size 1.4 1.4) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 73efae8a-21c3-46fd-af7d-b98602a97466))
   (pad "69" thru_hole circle (at -28.955 -5.705) (size 3.7 3.7) (drill 2.7) (layers "*.Cu" "*.Mask") (tstamp c4da8b80-c157-4abb-8cbb-e5a99b1a1b6a))
   (pad "70" thru_hole circle (at 28.955 -5.705) (size 3.7 3.7) (drill 2.7) (layers "*.Cu" "*.Mask") (tstamp b90d8c7a-fd5c-44d1-b42d-24b45d8bad4a))
+  (model "${KIPRJMOD}/arena_custom.pretty/3d_models/ni_68pin_connector.step"
+    (offset (xyz 0 -6.5 4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

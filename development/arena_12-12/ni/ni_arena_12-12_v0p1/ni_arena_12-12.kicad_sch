@@ -19,7 +19,7 @@
   )
   (bus (pts (xy 85.471 58.42) (xy 94.107 58.42))
     (stroke (width 0) (type default))
-    (uuid a477b9ef-abf4-450a-83f5-c73ed272da54)
+    (uuid f5401b2d-5891-43a2-81cd-8d19a85723fd)
   )
 
   (text "12-12 Teensy Arena" (at 113.03 33.02 0)
@@ -39,11 +39,11 @@
     )
     (pin "PAN5V{PAN}" bidirectional (at 127.254 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 480d7a5f-a5ec-4daa-b239-a93636939131)
+      (uuid 7ac534d2-0cc4-4d65-b750-e1b075b9ae6a)
     )
     (pin "PAN3V{PAN}" bidirectional (at 94.107 58.42 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5d4f953c-19b0-4f53-bd0d-b3422a7632b8)
+      (uuid 19fd3241-05d5-474e-b3ef-60c76b30b5ca)
     )
     (instances
       (project "ni_arena_12-12"
@@ -98,7 +98,7 @@
     )
     (pin "PAN5V{PAN}" bidirectional (at 136.144 58.42 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 49aa195d-e245-46fa-8354-affe8b81a14d)
+      (uuid 14e82bed-75aa-42e2-aadf-1d362ed4ae92)
     )
     (instances
       (project "ni_arena_12-12"
@@ -119,7 +119,7 @@
     )
     (pin "PAN3V{PAN}" bidirectional (at 85.471 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 18a3b017-12f8-4f46-83e9-d7bcc21443d9)
+      (uuid f5f48d57-9bba-4a86-a90b-e43a06fe65d8)
     )
     (instances
       (project "ni_arena_12-12"
