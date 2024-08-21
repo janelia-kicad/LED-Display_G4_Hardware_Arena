@@ -2243,7 +2243,7 @@
 
   (footprint "MountingHole:MountingHole_4.5mm_Pad" (layer "F.Cu")
     (tstamp a4b7fd36-2a5f-4981-8fb4-cd82033211aa)
-    (at 285.75 177.8)
+    (at 285.75 190.5)
     (descr "Mounting Hole 4.5mm")
     (tags "mounting hole 4.5mm")
     (property "Sheetfile" "holes.kicad_sch")
@@ -2716,7 +2716,7 @@
 
   (footprint "MountingHole:MountingHole_4.5mm_Pad" (layer "F.Cu")
     (tstamp df9f0171-c523-4872-af7f-cb46c2b00210)
-    (at 285.75 254)
+    (at 285.75 266.7)
     (descr "Mounting Hole 4.5mm")
     (tags "mounting hole 4.5mm")
     (property "Sheetfile" "holes.kicad_sch")
@@ -2920,7 +2920,7 @@
 
   (footprint "arena_custom:TE_CONN_DSUB_VERT_68" (layer "F.Cu")
     (tstamp ed30ac4a-28b9-4c28-8376-33d64665af14)
-    (at 285.75 215.9 90)
+    (at 285.75 228.6 90)
     (property "Sheetfile" "ni_connector.kicad_sch")
     (property "Sheetname" "NI Connector")
     (property "ki_description" "Generic connector, double row, 02x34, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -4763,7 +4763,7 @@
     (stroke (width 0.3) (type default)) (layer "Edge.Cuts") (tstamp 5a6de23d-aec8-4a9e-ac0b-d774d0bd942c))
   (gr_line (start 63.5 69.85) (end 63.5 285.75)
     (stroke (width 0.3) (type default)) (layer "Edge.Cuts") (tstamp 5e0d19c2-32a3-45c2-bbdb-093f815be3dd))
-  (gr_circle (center 177.8 177.8) (end 256.3 177.8)
+  (gr_circle (center 177.8 177.8) (end 254.508 177.8)
     (stroke (width 0.3) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 940eb539-13d2-4485-8940-d703e14d104f))
   (gr_line (start 292.1 285.75) (end 292.1 69.85)
     (stroke (width 0.3) (type default)) (layer "Edge.Cuts") (tstamp b62d2a00-5088-45bf-8685-7dd42d5bea5f))

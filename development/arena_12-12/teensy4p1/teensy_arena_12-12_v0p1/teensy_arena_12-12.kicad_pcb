@@ -2229,7 +2229,7 @@
 
   (footprint "teensy:Teensy41" (layer "F.Cu")
     (tstamp a3f219b5-ddde-4702-af61-6f0136ab89eb)
-    (at 259.836926 267.226674 -160)
+    (at 260.310378 270.545439 -160)
     (property "Sheetfile" "teensy.kicad_sch")
     (property "Sheetname" "Teensy")
     (path "/5b6d0be6-08d3-404a-9e9b-565c640343d3/57736547-9b71-4aff-bf36-03bdb59d93b4")
