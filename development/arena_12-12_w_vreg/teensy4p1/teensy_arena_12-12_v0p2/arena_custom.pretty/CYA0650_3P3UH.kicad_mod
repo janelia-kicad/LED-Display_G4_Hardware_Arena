@@ -19,4 +19,9 @@
     (thermal_bridge_angle 45) (tstamp 7fc12ae0-187d-47c5-b201-735b24db8d9a))
   (pad "2" smd roundrect (at 2.8 0) (size 2.35 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp f06e5595-1173-436e-a7f9-53dc07929f1e))
+  (model "${KIPRJMOD}/arena_custom.pretty/3d_models/CYA0630-3P3UH.step"
+    (offset (xyz 0 0 0.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
