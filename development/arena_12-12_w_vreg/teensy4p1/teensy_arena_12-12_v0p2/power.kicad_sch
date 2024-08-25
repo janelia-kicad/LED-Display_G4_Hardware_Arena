@@ -2188,6 +2188,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9639f243-0643-4418-927a-dd17205abf5d)
   )
+  (label "SW_VCC" (at 68.199 214.63 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9cf9f5ed-d114-42e0-9aa6-35f0a1cf034f)
+  )
   (label "POW.5V_HDR_8" (at 205.74 139.065 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b7e07c90-6d83-4a9a-822d-41b7408149f0)
@@ -3729,7 +3733,7 @@
   (symbol (lib_id "Device:C_Small") (at 45.72 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 638602d2-368f-4152-bd50-60c0c4c8a627)
-    (property "Reference" "C12" (at 39.37 43.18 0)
+    (property "Reference" "C11" (at 39.37 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 38.735 46.355 0)
@@ -3746,7 +3750,7 @@
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -5084,7 +5088,7 @@
   (symbol (lib_id "Device:C_Small") (at 71.12 37.465 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be8a420a-d698-4db5-92ad-c7fef851d98f)
-    (property "Reference" "C11" (at 77.47 36.195 0)
+    (property "Reference" "C12" (at 77.47 36.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 79.375 38.1 0)
@@ -5101,7 +5105,7 @@
     (instances
       (project "teensy_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C11") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )

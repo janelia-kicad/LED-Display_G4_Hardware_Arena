@@ -2381,3 +2381,760 @@ java.lang.NullPointerException: Cannot invoke "app.freerouting.board.SearchTreeO
 2024-01-05 08:14:59.040 [Thread-328] WARN  CalcFromSide: start corner was not found
 2024-01-05 11:14:48.520 [Thread-328] INFO  Route optimization was completed in 21 hour(s) 28 minute(s) 48.59 seconds and it improved the design by ~50.42%.
 2024-01-05 11:14:56.026 [AWT-EventQueue-0] INFO  Saving 'teensy_arena_12-12.ses'...
+2024-08-24 17:42:01.513 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-08-24 17:42:02.572 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-08-24 17:42:11.115 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-08-24 17:42:11.147 [main] INFO  Settings were loaded from freerouting.json
+2024-08-24 17:42:12.170 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-08-24 17:43:00.409 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-08-24 17:43:00.442 [main] INFO  Settings were loaded from freerouting.json
+2024-08-24 17:43:01.475 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-08-24 17:43:01.469 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-08-24 17:43:11.931 [Thread-28] INFO  Starting auto-routing...
+2024-08-24 17:43:12.604 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.610 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.616 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.620 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.624 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.628 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.632 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.638 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.642 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.647 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.651 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.655 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.917 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.920 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.924 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.928 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.935 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.938 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.941 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.945 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.952 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.956 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.973 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.976 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.978 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:12.982 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.000 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.003 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.005 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.007 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.010 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.014 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.174 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.177 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.179 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.180 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:13.196 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.280 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.280 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.280 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.281 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.282 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.282 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.283 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.284 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.565 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.565 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.566 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.567 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.567 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.568 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.568 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.570 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:43:39.647 [Thread-28] INFO  Auto-routing was completed in 27.71 seconds.
+2024-08-24 17:43:39.748 [Thread-28] INFO  Starting route optimization on 1 thread...
+2024-08-24 17:43:39.750 [Thread-28] INFO  Route optimization was completed in 0.00 seconds.
+2024-08-24 17:48:07.839 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-08-24 17:48:07.872 [main] INFO  Settings were loaded from freerouting.json
+2024-08-24 17:48:08.903 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-08-24 17:48:08.897 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-08-24 17:48:09.553 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-08-24 17:48:09.554 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-08-24 17:48:09.554 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-08-24 17:48:09.555 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-08-24 17:48:09.555 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-08-24 17:48:09.555 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-08-24 17:48:09.555 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-08-24 17:48:09.556 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-08-24 17:48:09.556 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-08-24 17:48:09.556 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-08-24 17:50:24.661 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-08-24 17:50:24.694 [main] INFO  Settings were loaded from freerouting.json
+2024-08-24 17:50:25.711 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-08-24 17:50:25.708 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-08-24 17:50:33.470 [Thread-28] INFO  Starting auto-routing...
+2024-08-24 17:50:34.115 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.121 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.125 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.129 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.131 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.136 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.139 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.143 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.148 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.155 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.160 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.165 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.437 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.439 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.444 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.448 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.456 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.459 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.462 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.466 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.475 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.478 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.498 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.501 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.504 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.510 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.535 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.539 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.542 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.546 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.550 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.556 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.710 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.714 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.716 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.718 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:50:34.737 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 17:55:44.590 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 18:11:37.990 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.000 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.011 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.017 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.018 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.020 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.021 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.023 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.023 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.024 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.025 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.026 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.027 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.028 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.029 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.029 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.030 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.031 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.031 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.032 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.033 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.035 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:11:38.036 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:13:34.394 [Thread-28] INFO  Auto-routing was completed in 23 minute(s) 0.92 seconds.
+2024-08-24 18:13:34.495 [Thread-28] INFO  Starting route optimization on 1 thread...
+2024-08-24 18:13:34.539 [Thread-28] INFO  Route optimization was completed in 0.04 seconds.
+2024-08-24 18:20:51.052 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-08-24 18:20:51.085 [main] INFO  Settings were loaded from freerouting.json
+2024-08-24 18:20:52.114 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-08-24 18:20:52.109 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-08-24 18:21:03.950 [Thread-28] INFO  Starting auto-routing...
+2024-08-24 18:21:04.608 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.615 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.620 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.623 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.627 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.630 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.634 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.639 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.643 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.648 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.652 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.656 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.960 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.964 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.969 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.973 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.982 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.984 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.987 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:04.992 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.000 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.006 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.018 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.020 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.021 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.024 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.037 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.040 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.041 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.044 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.046 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.050 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.201 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.204 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.205 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.207 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.221 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.227 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.229 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:21:05.230 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:25:20.620 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 18:25:22.603 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 18:25:30.359 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 18:29:33.926 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.935 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.938 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.941 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.941 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.942 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.943 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.943 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.944 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.945 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.947 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.947 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.948 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.949 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.949 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.950 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.950 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.951 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.952 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.953 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.953 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.954 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.956 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.956 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.957 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.958 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.959 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.960 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.960 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.961 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.961 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:33.962 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.953 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.964 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.969 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.970 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.971 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.972 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.972 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.973 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.973 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.974 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.974 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.976 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.977 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.978 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.979 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.980 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.981 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.982 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.983 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.984 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.985 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.985 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.985 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.986 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.987 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.987 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.988 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.989 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.990 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.991 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.992 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.992 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.993 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:29:48.994 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2024-08-24 18:49:53.726 [Thread-28] INFO  Auto-routing was completed in 28 minute(s) 49.78 seconds.
+2024-08-24 18:49:53.827 [Thread-28] INFO  Starting route optimization on 1 thread...
+2024-08-24 18:49:53.853 [Thread-28] INFO  Route optimization was completed in 0.03 seconds.
+2024-08-24 18:59:31.736 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-08-24 18:59:31.768 [main] INFO  Settings were loaded from freerouting.json
+2024-08-24 18:59:32.796 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-08-24 18:59:32.791 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-08-24 18:59:37.256 [Thread-28] INFO  Starting auto-routing...
+2024-08-24 18:59:37.914 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.919 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.923 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.925 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.928 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.930 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.933 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.937 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.943 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.947 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.951 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:37.955 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.227 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.231 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.236 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.241 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.250 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.253 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.256 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.262 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.270 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.275 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.297 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.300 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.302 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.306 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.328 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.332 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.334 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.339 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.343 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.350 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.353 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.375 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.386 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.389 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 18:59:38.392 [Thread-28] WARN  FloatLine: Parameter is null
+2024-08-24 19:02:49.806 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:02:49.807 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:02:49.814 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:02:49.942 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:04:53.121 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:04:54.956 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:04:56.690 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:04:58.258 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:04:58.266 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:04:58.821 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:04:59.498 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:01.479 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:03.228 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:10.688 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:10.702 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:21.182 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:24.744 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:24.962 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:30.035 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:30.041 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:30.217 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:30.593 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:30.797 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:35.979 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:37.756 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:46.527 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:46.894 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:58.192 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:58.200 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:58.374 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:58.777 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:05:59.101 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:06:04.106 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:06:06.084 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:06:14.412 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:06:14.750 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:06:29.908 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:06:32.022 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:06:40.135 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:06:40.439 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:06:54.298 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:06:56.492 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:04.558 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:04.860 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:11.391 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:20.865 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:23.117 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:31.183 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:31.334 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:44.914 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:47.278 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:55.788 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:07:55.862 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:02.164 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:05.004 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:13.110 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:13.148 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:18.265 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:21.180 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:29.244 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:29.390 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:34.507 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:37.539 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:45.358 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:45.611 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:50.633 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:08:53.782 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:01.472 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:01.852 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:06.845 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:10.141 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:17.708 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:18.199 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:23.070 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:26.481 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:33.801 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:34.379 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:39.183 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:42.774 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:49.920 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:50.611 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:55.344 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:09:59.040 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:06.088 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:06.874 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:11.559 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:15.356 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:22.307 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:24.509 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:27.807 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:31.701 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:38.528 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:40.769 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:44.069 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:48.094 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:54.785 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:10:57.016 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:00.357 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:04.517 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:11.028 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:13.280 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:16.565 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:20.750 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:27.178 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:29.423 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:32.692 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:36.948 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:43.253 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:45.564 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:48.814 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:53.160 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:11:59.414 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:01.800 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:05.096 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:09.552 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:15.746 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:18.092 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:21.362 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:26.006 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:32.007 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:34.444 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:37.701 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:42.490 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:48.417 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:50.945 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:54.197 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:12:59.027 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:04.824 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:07.280 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:10.550 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:15.562 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:21.250 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:23.787 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:27.042 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:32.266 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:37.864 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:40.321 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:43.601 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:48.753 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:54.251 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:13:56.791 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:00.072 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:05.541 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:11.007 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:13.662 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:16.997 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:22.629 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:27.920 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:30.499 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:33.756 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:39.308 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:44.604 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:47.235 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:50.542 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:14:56.267 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:01.616 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:04.291 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:07.587 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:13.378 [Thread-28] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:18.053 [Thread-28] INFO  Auto-routing was completed in 15 minute(s) 40.80 seconds.
+2024-08-24 19:15:18.154 [Thread-28] INFO  Starting route optimization on 1 thread...
+2024-08-24 19:15:18.164 [Thread-28] INFO  Route optimization was completed in 0.01 seconds.
+2024-08-24 19:15:25.669 [Thread-41] INFO  Starting auto-routing...
+2024-08-24 19:15:27.028 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:32.932 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:38.130 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:40.762 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:44.148 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:50.090 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:55.260 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:15:57.933 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:01.276 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:07.266 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:12.420 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:15.108 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:18.384 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:24.367 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:29.529 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:32.234 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:35.537 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:41.557 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:46.675 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:49.394 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:52.753 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:16:58.754 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:03.901 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:06.604 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:09.868 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:15.938 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:21.049 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:23.812 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:27.109 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:33.178 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:38.240 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:40.961 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:44.263 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:50.311 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:55.378 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:17:58.140 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:01.484 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:07.556 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:12.619 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:15.395 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:18.669 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:24.713 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:29.753 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:32.528 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:35.782 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:41.823 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:46.850 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:49.665 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:53.020 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:18:59.046 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:04.080 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:06.884 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:10.193 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:16.290 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:21.303 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:24.076 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:27.300 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:33.331 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:38.318 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:41.098 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:44.379 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:50.453 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:55.467 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:19:58.284 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:01.642 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:07.696 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:12.680 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:15.509 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:18.795 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:24.860 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:29.847 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:32.662 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:35.926 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:42.000 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:47.011 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:49.856 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:53.129 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:20:59.166 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:04.160 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:07.026 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:10.369 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:16.486 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:21.488 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:24.306 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:27.550 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:33.621 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:38.586 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:41.397 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:44.632 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:50.765 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:55.754 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:21:58.586 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:01.894 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:07.982 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:12.944 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:15.827 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:19.168 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:25.290 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:30.280 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:33.087 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:36.346 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:42.491 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:47.471 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:50.299 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:53.541 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:22:59.672 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:04.628 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:07.508 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:10.836 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:16.952 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:21.893 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:24.753 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:28.053 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:34.166 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:39.112 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:41.942 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:45.206 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:51.293 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:56.253 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:23:59.082 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:02.316 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:08.451 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:13.392 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:16.294 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:19.595 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:25.697 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:30.625 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:33.484 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:36.850 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:42.981 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:47.929 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:50.758 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:24:54.030 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:00.208 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:05.146 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:08.009 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:11.281 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:17.388 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:22.324 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:25.208 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:28.533 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:34.600 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:39.488 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:42.347 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:45.658 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:51.730 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:56.608 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:25:59.485 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:02.737 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:08.865 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:13.774 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:16.692 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:19.939 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:26.048 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:30.960 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:33.886 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:37.203 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:43.292 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:48.161 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:51.104 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:26:54.414 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:00.539 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:05.474 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:08.369 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:11.630 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:17.764 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:22.654 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:25.551 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:28.812 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:34.932 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:39.784 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:42.710 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:45.989 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:52.086 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:56.970 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:27:59.924 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:03.278 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:09.379 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:14.253 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:17.127 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:20.391 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:26.521 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:31.334 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:34.266 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:37.505 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:43.580 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:48.442 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:51.378 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:28:54.654 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:00.765 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:05.624 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:08.590 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:11.943 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:18.054 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:22.918 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:25.821 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:29.094 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:35.252 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:40.057 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:43.017 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:46.266 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:52.371 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:29:57.229 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:00.207 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:03.487 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:09.585 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:14.473 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:17.439 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:20.800 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:26.918 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:31.792 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:34.709 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:38.080 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:44.287 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:49.150 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:52.135 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:30:55.390 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:01.540 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:06.373 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:09.343 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:12.635 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:18.762 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:23.571 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:26.557 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:29.851 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:36.002 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:40.914 [Thread-41] WARN  CalcFromSide: start corner was not found
+2024-08-24 19:31:42.551 [Thread-41] INFO  Auto-routing was completed in 16 minute(s) 16.88 seconds.
+2024-08-24 19:31:42.651 [Thread-41] INFO  Starting route optimization on 1 thread...
+2024-08-24 19:31:42.652 [Thread-41] INFO  Route optimization was completed in 0.00 seconds.
