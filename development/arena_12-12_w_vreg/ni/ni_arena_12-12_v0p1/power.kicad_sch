@@ -2427,6 +2427,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a45f3753-8b98-4c83-b234-8456514e02d3)
   )
+  (label "SW_VCC" (at 47.371 213.233 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bd4fb404-46aa-4021-9b2f-fff98b624355)
+  )
   (label "POW.5V_HDR_3" (at 107.315 104.267 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cd4449c5-ae2d-40f4-ae97-2cff6fe9d3da)
@@ -4211,7 +4215,7 @@
   (symbol (lib_id "Device:C_Small") (at 39.37 45.212 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 676b2b2a-620e-494a-8015-5ec68ec348fe)
-    (property "Reference" "C12" (at 33.02 43.307 0)
+    (property "Reference" "C11" (at 33.02 43.307 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 32.385 46.482 0)
@@ -4228,7 +4232,7 @@
     (instances
       (project "ni_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -5188,7 +5192,7 @@
   (symbol (lib_id "Device:C_Small") (at 64.77 37.592 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af7d5678-f838-438c-9f65-1c9ab53db2dc)
-    (property "Reference" "C11" (at 71.12 36.322 0)
+    (property "Reference" "C12" (at 71.12 36.322 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 73.025 38.227 0)
@@ -5205,7 +5209,7 @@
     (instances
       (project "ni_arena_12-12"
         (path "/a2511654-3a17-43f1-8b9e-c45e375533dc/17861c68-32c3-4000-8a50-4f303c28fa47"
-          (reference "C11") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )

@@ -195,10 +195,6 @@
         {
           "diameter": 1.0,
           "drill": 0.6
-        },
-        {
-          "diameter": 1.8,
-          "drill": 1.1
         }
       ],
       "zones_allow_external_fillets": false
@@ -480,8 +476,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
-        "via_diameter": 1.8,
-        "via_drill": 1.1,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
         "wire_width": 6
       },
       {
@@ -497,8 +493,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
-        "via_diameter": 1.8,
-        "via_drill": 1.1,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
         "wire_width": 6
       },
       {
@@ -531,8 +527,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
-        "via_diameter": 1.8,
-        "via_drill": 1.1,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
         "wire_width": 6
       }
     ],
@@ -548,59 +544,63 @@
       },
       {
         "netclass": "Pwr_VCC",
-        "pattern": "SW_VCC"
+        "pattern": "/Power & Voltage Regulators/SW_VCC"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_1"
+        "pattern": "/Level Shifters/POW.5V_HDR_1"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_2"
+        "pattern": "/Level Shifters/POW.5V_HDR_2"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_3"
+        "pattern": "/Level Shifters/POW.5V_HDR_3"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_4"
+        "pattern": "/Level Shifters/POW.5V_HDR_4"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_5"
+        "pattern": "/Level Shifters/POW.5V_HDR_5"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_6"
+        "pattern": "/Level Shifters/POW.5V_HDR_6"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_7"
+        "pattern": "/Level Shifters/POW.5V_HDR_7"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_8"
+        "pattern": "/Level Shifters/POW.5V_HDR_8"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_9"
+        "pattern": "/Level Shifters/POW.5V_HDR_9"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_10"
+        "pattern": "/Level Shifters/POW.5V_HDR_10"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_11"
+        "pattern": "/Level Shifters/POW.5V_HDR_11"
       },
       {
         "netclass": "Pwr_5V",
-        "pattern": "/Panel Headers/POW.5V_HDR_12"
+        "pattern": "/Level Shifters/POW.5V_HDR_12"
       },
       {
         "netclass": "Cmp_GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*"
       }
     ]
   },

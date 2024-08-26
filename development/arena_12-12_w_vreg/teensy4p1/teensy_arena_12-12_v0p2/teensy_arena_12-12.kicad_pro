@@ -552,7 +552,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "Pwr_VCC",
         "pattern": "VCC"
       },
       {
