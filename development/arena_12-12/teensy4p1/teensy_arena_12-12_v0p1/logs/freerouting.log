@@ -2381,3 +2381,32 @@ java.lang.NullPointerException: Cannot invoke "app.freerouting.board.SearchTreeO
 2024-01-05 08:14:59.040 [Thread-328] WARN  CalcFromSide: start corner was not found
 2024-01-05 11:14:48.520 [Thread-328] INFO  Route optimization was completed in 21 hour(s) 28 minute(s) 48.59 seconds and it improved the design by ~50.42%.
 2024-01-05 11:14:56.026 [AWT-EventQueue-0] INFO  Saving 'teensy_arena_12-12.ses'...
+2024-08-28 11:50:52.638 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-08-28 11:50:52.670 [main] INFO  Settings were loaded from freerouting.json
+2024-08-28 11:50:53.687 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-08-28 11:50:53.685 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-08-28 11:52:38.576 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-08-28 11:52:38.607 [main] INFO  Settings were loaded from freerouting.json
+2024-08-28 11:52:39.624 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-08-28 11:52:39.622 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-08-28 11:53:03.881 [Thread-35] INFO  Starting auto-routing...
+2024-08-28 11:59:27.065 [Thread-35] INFO  Auto-routing was completed in 6 minute(s) 23.18 seconds.
+2024-08-28 11:59:27.166 [Thread-35] INFO  Starting route optimization on 1 thread...
+2024-08-28 11:59:57.740 [Thread-35] INFO  Route optimization was completed in 30.57 seconds.
+2024-08-28 12:16:45.739 [AWT-EventQueue-0] INFO  Saving 'teensy_arena_12-12.ses'...
