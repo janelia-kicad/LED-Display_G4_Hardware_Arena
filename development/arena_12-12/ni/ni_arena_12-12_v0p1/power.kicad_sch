@@ -550,6 +550,11 @@
     (uuid eac47849-a989-4adb-8505-bd6591ae6299)
   )
 
+  (label "SW_5V" (at 48.514 36.576 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bb323989-8728-4532-8f1c-820eeb565838)
+  )
+
   (symbol (lib_id "Device:C") (at 133.223 38.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00ddbcca-53ae-4e40-b223-d6ad41095811)
