@@ -317,9 +317,14 @@
     (effects (font (size 2.032 2.032)) (justify left bottom))
     (uuid 48810a44-58cf-4afc-a6b0-c8d441bfe010)
   )
-  (text "Power & Voltage Regulation" (at 115.189 21.082 0)
+  (text "Power" (at 115.189 21.082 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid eac47849-a989-4adb-8505-bd6591ae6299)
+  )
+
+  (label "SW_5V" (at 142.24 37.084 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6bb8630f-5d22-48ab-9f49-45c1a4d52f67)
   )
 
   (symbol (lib_id "power:+5V") (at 231.394 39.243 0) (unit 1)

@@ -539,7 +539,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Pwr_VCC",
+        "netclass": "Pwr_VCC_branch",
         "pattern": "VCC"
       },
       {
@@ -595,7 +595,7 @@
         "pattern": "/Level Shifters/POW.5V_HDR_12"
       },
       {
-        "netclass": "Pwr_GND",
+        "netclass": "Cmp_GND",
         "pattern": "GND"
       },
       {
