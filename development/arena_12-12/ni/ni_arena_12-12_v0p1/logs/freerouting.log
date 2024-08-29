@@ -2394,3 +2394,244 @@ Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
 	... 2 more
 2024-08-28 13:00:20.863 [Thread-36] INFO  Starting auto-routing...
+2024-08-28 13:28:19.469 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 13:56:15.633 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 13:57:34.706 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 13:58:53.687 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:00:12.547 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:01:31.566 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:02:50.544 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:04:09.393 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:05:28.204 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:06:46.760 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:08:05.360 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:09:24.015 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:10:41.910 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:12:00.030 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:13:17.867 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:14:35.370 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:15:52.699 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:17:09.953 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:18:27.145 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:19:45.644 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:21:04.296 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:22:22.606 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:23:40.885 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:24:59.205 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:26:17.676 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:27:36.019 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:28:54.711 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:30:13.219 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:31:31.484 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:32:49.673 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:34:08.057 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:35:26.234 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:36:44.039 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:38:01.864 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:39:19.571 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:40:36.818 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:41:54.025 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:43:10.998 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:44:27.826 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:45:44.382 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:47:00.943 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:48:17.238 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:49:33.315 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:50:49.288 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:52:04.865 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:53:20.325 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:54:35.460 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:55:50.825 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:57:10.237 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:58:29.826 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 14:59:49.548 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:01:09.230 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:02:28.957 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:03:48.687 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:05:08.408 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:06:28.345 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:07:47.902 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:09:07.567 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:10:27.382 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:11:47.118 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:13:06.494 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:14:26.123 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:15:45.893 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:17:05.576 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:18:25.125 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:19:44.264 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:21:03.163 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:22:21.873 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:23:40.257 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:24:58.513 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:26:16.558 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:27:34.287 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:28:52.039 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:30:09.352 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:31:26.516 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:32:43.504 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:34:00.244 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:35:17.031 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:36:33.540 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:37:49.965 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:39:05.959 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:40:22.319 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:41:38.231 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:42:53.578 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:44:08.843 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:45:23.956 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:46:42.578 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:48:02.136 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:49:21.866 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:50:41.582 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:52:01.331 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:53:20.942 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:54:40.795 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:56:00.546 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:57:20.163 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:58:39.743 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 15:59:59.483 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:01:18.986 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:02:38.650 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:03:58.222 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:05:17.821 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:06:37.035 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:07:55.811 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:09:14.825 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:10:33.682 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:11:52.516 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:13:10.792 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:14:29.098 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:15:47.256 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:17:05.095 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:18:22.788 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:19:40.105 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:20:57.315 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:22:14.217 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:23:31.014 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:24:47.865 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:26:04.297 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:27:20.521 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:28:36.506 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:29:52.053 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:31:07.644 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:32:23.171 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:33:38.970 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:34:54.086 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:36:11.841 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:37:31.608 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:38:51.332 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:40:11.015 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:41:30.586 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:42:50.258 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:44:10.231 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 16:45:29.602 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 17:05:45.953 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 17:07:06.417 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 17:08:26.785 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 17:09:46.893 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 17:11:06.800 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 17:12:26.459 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 17:13:45.609 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 17:57:03.039 [Thread-36] INFO  Auto-routing was completed in 4 hour(s) 56 minute(s) 42.17 seconds.
+2024-08-28 17:57:03.140 [Thread-36] INFO  Starting route optimization on 1 thread...
+2024-08-28 17:57:03.148 [Thread-36] INFO  Route optimization was completed in 0.01 seconds.
+2024-08-28 18:01:29.096 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-08-28 18:01:29.129 [main] INFO  Settings were loaded from freerouting.json
+2024-08-28 18:01:30.157 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2024-08-28 18:01:30.152 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-08-28 18:01:56.261 [Thread-36] INFO  Starting auto-routing...
+2024-08-28 18:16:01.042 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:25:03.068 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:25:15.570 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:25:17.704 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:25:19.814 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:25:36.278 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:25:38.392 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:25:40.576 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:25:56.828 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:25:58.924 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:26:00.836 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:26:23.613 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:26:56.321 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:26:58.524 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:27:00.753 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:27:25.716 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:27:27.825 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:27:29.912 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:27:59.168 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:28:01.462 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:28:03.634 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:28:33.508 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:28:35.570 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:28:37.577 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:29:10.100 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:29:12.151 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:29:13.844 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:29:46.780 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:29:49.140 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:42:37.356 [Thread-36] INFO  Auto-routing was completed in 40 minute(s) 41.09 seconds.
+2024-08-28 18:42:37.457 [Thread-36] INFO  Starting route optimization on 1 thread...
+2024-08-28 18:52:51.318 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:53:10.663 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:53:15.929 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:53:21.395 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:53:26.427 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:53:38.359 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:53:50.823 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 18:54:02.347 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:54:03.842 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:54:08.119 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:54:08.236 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:54:13.230 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:54:14.797 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:54:19.084 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:54:19.284 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:54:20.670 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:54:25.029 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:54:57.466 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:55:03.921 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:55:27.775 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:55:51.396 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:55:57.269 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:56:02.550 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:56:09.448 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:58:02.104 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:58:15.258 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:58:25.182 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:58:36.344 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:58:39.341 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:58:49.994 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:58:51.713 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 18:59:02.362 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-28 19:18:11.521 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 19:29:53.383 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 21:20:54.194 [Thread-36] WARN  RoutingBoard.insert_forced_trace_polyline: shove trace failed
+2024-08-28 23:15:01.900 [Thread-36] WARN  Polyline: must contain at least 2 different points
+2024-08-28 23:32:35.477 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-29 01:06:16.906 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-29 01:06:17.036 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-29 04:13:04.971 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-29 04:13:07.895 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-29 04:13:11.331 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-29 04:13:11.334 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-29 04:40:37.805 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-29 04:40:39.357 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-29 04:40:39.357 [Thread-36] WARN  CalcFromSide: start corner was not found
+2024-08-29 04:42:15.614 [Thread-36] INFO  Route optimization was completed in 9 hour(s) 59 minute(s) 38.15 seconds and it improved the design by ~53.27%.
+2024-08-29 04:42:26.185 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
+2024-08-29 04:46:28.445 [Thread-62] INFO  Starting auto-routing...
+2024-08-29 04:46:28.828 [Thread-62] INFO  Auto-routing was completed in 0.38 seconds.
+2024-08-29 04:46:28.928 [Thread-62] INFO  Starting route optimization on 1 thread...
+2024-08-29 06:25:18.471 [Thread-62] WARN  CalcFromSide: start corner was not found
+2024-08-29 06:25:19.941 [Thread-62] WARN  CalcFromSide: start corner was not found
+2024-08-29 06:25:23.283 [Thread-62] WARN  CalcFromSide: start corner was not found
+2024-08-29 06:40:37.499 [Thread-62] INFO  Route optimization was completed in 1 hour(s) 54 minute(s) 8.57 seconds and it improved the design by ~50.01%.
