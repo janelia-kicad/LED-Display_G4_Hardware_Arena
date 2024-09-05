@@ -2380,8 +2380,8 @@
     (effects (font (size 2.032 2.032)) (justify left bottom))
     (uuid 48810a44-58cf-4afc-a6b0-c8d441bfe010)
   )
-  (text "\n\n8.5A 3.3uH ±20% 19.9mΩ SMD,7.2x6.6mm Inductors, LCSC PN C5189753\n\nStep-Down Voltage Regulator, \n6.5A LCSC PN C5189747\n8.0A LCSC PN C464812"
-    (at 223.52 191.897 0)
+  (text "\n3.3uH Inductors, 6.5A LCSC PN C5189747\nStep-Down Voltage Regulator, C464812\n\n"
+    (at 230.378 188.468 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 648974b1-02b6-4649-a96b-95736b9937e3)
   )

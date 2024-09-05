@@ -1390,7 +1390,7 @@
     (uuid ffed3ce1-5699-4c06-9910-d4c43cc79160)
   )
 
-  (text "68-pin DSUB for NI cable  \n\nRA\nTE Connectivity 2-5174225-5\nDigikey PN A33476-ND\n\nVertical\nTE Connectivity \nDigikey "
+  (text "68-pin DSUB for NI cable, vertical  \nTE Connectivity 5174339-5\nDigikey PN A123166-ND\n"
     (at 74.93 177.038 0)
     (effects (font (size 2.032 2.032)) (justify left bottom))
     (uuid 24c5e3f2-ca31-4ecb-9c49-cc7a5cef3966)
