@@ -2702,3 +2702,327 @@ Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
 2024-08-27 14:37:28.282 [Thread-37] INFO  Starting route optimization on 1 thread...
 2024-08-27 14:39:49.428 [Thread-37] INFO  Route optimization was completed in 2 minute(s) 21.15 seconds.
 2024-08-27 19:00:07.491 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
+2024-09-02 17:32:51.956 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-09-02 17:32:51.988 [main] INFO  Settings were loaded from freerouting.json
+2024-09-02 17:32:53.011 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-09-02 17:33:45.855 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-09-02 17:33:45.886 [main] INFO  Settings were loaded from freerouting.json
+2024-09-02 17:33:46.904 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2024-09-02 17:33:46.902 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-09-02 17:34:30.038 [Thread-44] INFO  Starting auto-routing...
+2024-09-02 17:34:30.539 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.707 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.720 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.729 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.819 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.823 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.826 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.828 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.830 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.833 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.837 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.840 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.844 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.847 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.850 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.853 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.855 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.858 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.862 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.864 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.867 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.869 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.872 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.878 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.880 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.884 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.886 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.893 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.898 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.900 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.904 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.907 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.911 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.919 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.922 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.928 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.935 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 17:34:30.942 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:19:50.691 [Thread-44] WARN  There were only 19.85 changes in the last 20 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-09-02 18:21:04.577 [Thread-44] INFO  Auto-routing was completed in 46 minute(s) 34.54 seconds.
+2024-09-02 18:21:04.678 [Thread-44] INFO  Starting route optimization on 1 thread...
+2024-09-02 18:23:53.149 [Thread-44] INFO  Route optimization was completed in 2 minute(s) 48.47 seconds.
+2024-09-02 18:40:47.330 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
+2024-09-02 18:54:22.705 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-09-02 18:54:22.737 [main] INFO  Settings were loaded from freerouting.json
+2024-09-02 18:54:23.755 [main] INFO  Opening 'ni_arena_12-12.dsn'...
+2024-09-02 18:54:23.753 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-09-02 18:54:55.024 [Thread-44] INFO  Starting auto-routing...
+2024-09-02 18:54:55.517 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.692 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.698 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.706 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.797 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.801 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.804 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.806 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.808 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.811 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.815 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.818 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.821 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.825 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.828 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.831 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.833 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.836 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.840 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.843 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.845 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.847 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.850 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.860 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.862 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.866 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.868 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.871 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.875 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.877 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.881 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.883 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.887 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.893 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.895 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.900 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.907 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 18:54:55.913 [Thread-44] WARN  FloatLine: Parameter is null
+2024-09-02 19:38:37.555 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.556 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.556 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.556 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.556 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.556 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.556 [Thread-44] WARN  ShapeSearchTree.overlaps_with_clearance: p_shape is not bounded
+2024-09-02 19:38:37.561 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.562 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.562 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.562 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.562 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.562 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.565 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.565 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.565 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.565 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.565 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.565 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.565 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.566 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.875 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.876 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.876 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.876 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.876 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.876 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.876 [Thread-44] WARN  ShapeSearchTree.overlaps_with_clearance: p_shape is not bounded
+2024-09-02 19:38:37.881 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.881 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.881 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.881 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.881 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.881 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.882 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.882 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.883 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.883 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.883 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.883 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:37.883 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:37.883 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.097 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.097 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.097 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.097 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.097 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.097 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.098 [Thread-44] WARN  ShapeSearchTree.overlaps_with_clearance: p_shape is not bounded
+2024-09-02 19:38:38.101 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.102 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.102 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.102 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.102 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.102 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.103 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.103 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.103 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.103 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.103 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.104 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.104 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.104 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.310 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.310 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.310 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.310 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.310 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.310 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.310 [Thread-44] WARN  ShapeSearchTree.overlaps_with_clearance: p_shape is not bounded
+2024-09-02 19:38:38.314 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.315 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.315 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.315 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.315 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.315 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.316 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.316 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.316 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.316 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.316 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.316 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.316 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.316 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.365 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.365 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.366 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.366 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.366 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.366 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.366 [Thread-44] WARN  ShapeSearchTree.overlaps_with_clearance: p_shape is not bounded
+2024-09-02 19:38:38.370 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.370 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.370 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.370 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.370 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.370 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.372 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.372 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.372 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.372 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.372 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.372 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.372 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.372 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.609 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.610 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.610 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.610 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.610 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.610 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.610 [Thread-44] WARN  ShapeSearchTree.overlaps_with_clearance: p_shape is not bounded
+2024-09-02 19:38:38.614 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.614 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.614 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.614 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.614 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.614 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.615 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.615 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.615 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.615 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.615 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.615 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.615 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.616 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.931 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.931 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.931 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.931 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.931 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.931 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.931 [Thread-44] WARN  ShapeSearchTree.overlaps_with_clearance: p_shape is not bounded
+2024-09-02 19:38:38.935 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.935 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.936 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.936 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.936 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.936 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.937 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.937 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.937 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.937 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.937 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.937 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:38:38.937 [Thread-44] WARN  IntPoint: p_y is out of range
+2024-09-02 19:38:38.937 [Thread-44] WARN  IntPoint: p_x is out of range
+2024-09-02 19:41:55.066 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 19:42:01.759 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 19:42:23.317 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 19:42:23.383 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 19:42:26.525 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 19:42:26.822 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 19:42:29.954 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 19:42:30.791 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 19:42:31.367 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 19:42:31.369 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 20:01:18.036 [Thread-44] INFO  Auto-routing was completed in 1 hour(s) 6 minute(s) 23.01 seconds.
+2024-09-02 20:01:18.136 [Thread-44] INFO  Starting route optimization on 1 thread...
+2024-09-02 20:41:01.715 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 20:41:04.003 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 20:41:04.012 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 20:41:04.153 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 20:41:04.901 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 21:08:50.391 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 21:09:01.405 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 21:25:42.399 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 22:52:43.964 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:19:55.008 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:19:55.067 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:19:58.244 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:19:58.317 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:20:03.799 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:20:04.502 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:20:04.507 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:20:06.396 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:20:06.421 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:20:12.481 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:20:58.908 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:02.267 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:04.453 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:06.762 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:08.975 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:11.200 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:13.151 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:13.163 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:13.413 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:13.424 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:14.089 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-02 23:21:16.679 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-03 01:13:39.423 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-03 01:13:39.930 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-03 01:23:40.532 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-03 01:23:46.102 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-03 02:20:47.461 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-03 02:53:15.444 [Thread-44] WARN  Polyline: must contain at least 2 different points
+2024-09-03 02:54:25.146 [Thread-44] WARN  Polyline: must contain at least 2 different points
+2024-09-03 04:47:55.437 [Thread-44] WARN  CalcFromSide: start corner was not found
+2024-09-03 06:34:45.713 [Thread-44] WARN  UndoableObjects.save_for_undo: object node not found
+2024-09-03 06:35:35.458 [Thread-44] WARN  NetIncompletes.calculate_net_items: too many items
+2024-09-03 06:36:17.757 [Thread-44] WARN  UndoableObjects.save_for_undo: object node not found
+2024-09-03 06:36:22.108 [Thread-44] WARN  UndoableObjects.save_for_undo: object node not found
+2024-09-03 06:36:22.129 [Thread-44] WARN  UndoableObjects.save_for_undo: object node not found
+2024-09-03 06:36:22.160 [Thread-44] WARN  UndoableObjects.save_for_undo: object node not found
+2024-09-03 08:09:42.582 [Thread-44] INFO  Route optimization was completed in 12 hour(s) 8 minute(s) 24.44 seconds and it improved the design by ~52.88%.
+2024-09-03 08:09:48.020 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...

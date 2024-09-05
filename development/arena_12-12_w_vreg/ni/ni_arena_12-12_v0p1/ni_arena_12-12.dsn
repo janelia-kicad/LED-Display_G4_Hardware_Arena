@@ -1,4 +1,4 @@
-(pcb "/home/wbd/work/panels_g4/LED-Display_G4_Hardware_Arena/development/arena_12-12_w_vreg/ni/ni_arena_12-12_v0p1/ni_arena_12-12.dsn"
+(pcb "/home/wbd/work/panels_g4/LED-Display_G4_Hardware_Arena_copy/development/arena_12-12_w_vreg/ni/ni_arena_12-12_v0p1/ni_arena_12-12.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -26,10 +26,22 @@
         (index 2)
       )
     )
+    (layer In3.Cu
+      (type power)
+      (property
+        (index 3)
+      )
+    )
+    (layer In4.Cu
+      (type power)
+      (property
+        (index 4)
+      )
+    )
     (layer B.Cu
       (type signal)
       (property
-        (index 3)
+        (index 5)
       )
     )
     (boundary
@@ -60,6 +72,11 @@
             290830 -285750  290830 -69850  285750 -64770  69850 -64770  64770 -69850))
     (plane VCC (polygon In2.Cu 0  64770 -69850  64770 -285750  69850 -290830  285750 -290830
             290830 -285750  290830 -69850  285750 -64770  69850 -64770  64770 -69850))
+    (plane +3.3V (polygon In3.Cu 0  64770 -69850  64770 -285750  69850 -290830  285750 -290830
+            290830 -285750  290830 -69850  285750 -64770  69850 -64770  64770 -69850))
+    (plane GND (polygon In4.Cu 0  69850 -64770  64770 -69850  64770 -285750  69850 -290830
+            285750 -290830  290830 -285750  290830 -69850  285750 -64770
+            69850 -64770))
     (keepout "" (polygon signal 0  175597 -100121  173836 -100191  172076 -100301  170320 -100450
             168568 -100640  166820 -100869  165078 -101138  163342 -101446
             161614 -101794  159895 -102180  158184 -102606  156484 -103070
@@ -130,27 +147,75 @@
             193123 -101615  191391 -101287  189652 -100999  187907 -100750
             186157 -100540  184402 -100370  182644 -100241  180884 -100151
             179122 -100101  177359 -100091  175597 -100121))
-    (keepout "" (polygon F.Cu 0  64770 -69850  64770 -285750  63500 -285750  63500 -69850
-            64770 -69850))
-    (keepout "" (polygon In1.Cu 0  64770 -69850  64770 -285750  63500 -285750  63500 -69850
-            64770 -69850))
-    (keepout "" (polygon In2.Cu 0  64770 -69850  64770 -285750  63500 -285750  63500 -69850
-            64770 -69850))
-    (keepout "" (polygon B.Cu 0  64770 -69850  64770 -285750  63500 -285750  63500 -69850
-            64770 -69850))
+    (keepout "" (polygon F.Cu 0  64770 -285750  63500 -285750  63500 -292100  69850 -292100
+            69850 -290830  64770 -285750))
+    (keepout "" (polygon In1.Cu 0  64770 -285750  63500 -285750  63500 -292100  69850 -292100
+            69850 -290830  64770 -285750))
+    (keepout "" (polygon In2.Cu 0  64770 -285750  63500 -285750  63500 -292100  69850 -292100
+            69850 -290830  64770 -285750))
+    (keepout "" (polygon In3.Cu 0  64770 -285750  63500 -285750  63500 -292100  69850 -292100
+            69850 -290830  64770 -285750))
+    (keepout "" (polygon In4.Cu 0  64770 -285750  63500 -285750  63500 -292100  69850 -292100
+            69850 -290830  64770 -285750))
+    (keepout "" (polygon B.Cu 0  64770 -285750  63500 -285750  63500 -292100  69850 -292100
+            69850 -290830  64770 -285750))
+    (keepout "" (polygon F.Cu 0  290830 -285750  292100 -285750  292100 -292100  285750 -292100
+            285750 -290830  290830 -285750))
+    (keepout "" (polygon In1.Cu 0  290830 -285750  292100 -285750  292100 -292100  285750 -292100
+            285750 -290830  290830 -285750))
+    (keepout "" (polygon In2.Cu 0  290830 -285750  292100 -285750  292100 -292100  285750 -292100
+            285750 -290830  290830 -285750))
+    (keepout "" (polygon In3.Cu 0  290830 -285750  292100 -285750  292100 -292100  285750 -292100
+            285750 -290830  290830 -285750))
+    (keepout "" (polygon In4.Cu 0  290830 -285750  292100 -285750  292100 -292100  285750 -292100
+            285750 -290830  290830 -285750))
+    (keepout "" (polygon B.Cu 0  290830 -285750  292100 -285750  292100 -292100  285750 -292100
+            285750 -290830  290830 -285750))
     (keepout "" (polygon F.Cu 0  64770 -69850  63500 -69850  63500 -63500  69850 -63500
             69850 -64770  64770 -69850))
     (keepout "" (polygon In1.Cu 0  64770 -69850  63500 -69850  63500 -63500  69850 -63500
             69850 -64770  64770 -69850))
     (keepout "" (polygon In2.Cu 0  64770 -69850  63500 -69850  63500 -63500  69850 -63500
             69850 -64770  64770 -69850))
+    (keepout "" (polygon In3.Cu 0  64770 -69850  63500 -69850  63500 -63500  69850 -63500
+            69850 -64770  64770 -69850))
+    (keepout "" (polygon In4.Cu 0  64770 -69850  63500 -69850  63500 -63500  69850 -63500
+            69850 -64770  64770 -69850))
     (keepout "" (polygon B.Cu 0  64770 -69850  63500 -69850  63500 -63500  69850 -63500
             69850 -64770  64770 -69850))
+    (keepout "" (polygon F.Cu 0  285750 -290830  285750 -292100  69850 -292100  69850 -290830
+            285750 -290830))
+    (keepout "" (polygon In1.Cu 0  285750 -290830  285750 -292100  69850 -292100  69850 -290830
+            285750 -290830))
+    (keepout "" (polygon In2.Cu 0  285750 -290830  285750 -292100  69850 -292100  69850 -290830
+            285750 -290830))
+    (keepout "" (polygon In3.Cu 0  285750 -290830  285750 -292100  69850 -292100  69850 -290830
+            285750 -290830))
+    (keepout "" (polygon In4.Cu 0  285750 -290830  285750 -292100  69850 -292100  69850 -290830
+            285750 -290830))
+    (keepout "" (polygon B.Cu 0  285750 -290830  285750 -292100  69850 -292100  69850 -290830
+            285750 -290830))
+    (keepout "" (polygon F.Cu 0  64770 -69850  64770 -285750  63500 -285750  63500 -69850
+            64770 -69850))
+    (keepout "" (polygon In1.Cu 0  64770 -69850  64770 -285750  63500 -285750  63500 -69850
+            64770 -69850))
+    (keepout "" (polygon In2.Cu 0  64770 -69850  64770 -285750  63500 -285750  63500 -69850
+            64770 -69850))
+    (keepout "" (polygon In3.Cu 0  64770 -69850  64770 -285750  63500 -285750  63500 -69850
+            64770 -69850))
+    (keepout "" (polygon In4.Cu 0  64770 -69850  64770 -285750  63500 -285750  63500 -69850
+            64770 -69850))
+    (keepout "" (polygon B.Cu 0  64770 -69850  64770 -285750  63500 -285750  63500 -69850
+            64770 -69850))
     (keepout "" (polygon F.Cu 0  69850 -64770  285750 -64770  285750 -63500  69850 -63500
             69850 -64770))
     (keepout "" (polygon In1.Cu 0  69850 -64770  285750 -64770  285750 -63500  69850 -63500
             69850 -64770))
     (keepout "" (polygon In2.Cu 0  69850 -64770  285750 -64770  285750 -63500  69850 -63500
+            69850 -64770))
+    (keepout "" (polygon In3.Cu 0  69850 -64770  285750 -64770  285750 -63500  69850 -63500
+            69850 -64770))
+    (keepout "" (polygon In4.Cu 0  69850 -64770  285750 -64770  285750 -63500  69850 -63500
             69850 -64770))
     (keepout "" (polygon B.Cu 0  69850 -64770  285750 -64770  285750 -63500  69850 -63500
             69850 -64770))
@@ -160,6 +225,10 @@
             285750 -63500  285750 -64770))
     (keepout "" (polygon In2.Cu 0  285750 -64770  290830 -69850  292100 -69850  292100 -63500
             285750 -63500  285750 -64770))
+    (keepout "" (polygon In3.Cu 0  285750 -64770  290830 -69850  292100 -69850  292100 -63500
+            285750 -63500  285750 -64770))
+    (keepout "" (polygon In4.Cu 0  285750 -64770  290830 -69850  292100 -69850  292100 -63500
+            285750 -63500  285750 -64770))
     (keepout "" (polygon B.Cu 0  285750 -64770  290830 -69850  292100 -69850  292100 -63500
             285750 -63500  285750 -64770))
     (keepout "" (polygon F.Cu 0  290830 -69850  292100 -69850  292100 -285750  290830 -285750
@@ -168,33 +237,13 @@
             290830 -69850))
     (keepout "" (polygon In2.Cu 0  290830 -69850  292100 -69850  292100 -285750  290830 -285750
             290830 -69850))
+    (keepout "" (polygon In3.Cu 0  290830 -69850  292100 -69850  292100 -285750  290830 -285750
+            290830 -69850))
+    (keepout "" (polygon In4.Cu 0  290830 -69850  292100 -69850  292100 -285750  290830 -285750
+            290830 -69850))
     (keepout "" (polygon B.Cu 0  290830 -69850  292100 -69850  292100 -285750  290830 -285750
             290830 -69850))
-    (keepout "" (polygon F.Cu 0  290830 -285750  292100 -285750  292100 -292100  285750 -292100
-            285750 -290830  290830 -285750))
-    (keepout "" (polygon In1.Cu 0  290830 -285750  292100 -285750  292100 -292100  285750 -292100
-            285750 -290830  290830 -285750))
-    (keepout "" (polygon In2.Cu 0  290830 -285750  292100 -285750  292100 -292100  285750 -292100
-            285750 -290830  290830 -285750))
-    (keepout "" (polygon B.Cu 0  290830 -285750  292100 -285750  292100 -292100  285750 -292100
-            285750 -290830  290830 -285750))
-    (keepout "" (polygon F.Cu 0  285750 -290830  285750 -292100  69850 -292100  69850 -290830
-            285750 -290830))
-    (keepout "" (polygon In1.Cu 0  285750 -290830  285750 -292100  69850 -292100  69850 -290830
-            285750 -290830))
-    (keepout "" (polygon In2.Cu 0  285750 -290830  285750 -292100  69850 -292100  69850 -290830
-            285750 -290830))
-    (keepout "" (polygon B.Cu 0  285750 -290830  285750 -292100  69850 -292100  69850 -290830
-            285750 -290830))
-    (keepout "" (polygon F.Cu 0  64770 -285750  63500 -285750  63500 -292100  69850 -292100
-            69850 -290830  64770 -285750))
-    (keepout "" (polygon In1.Cu 0  64770 -285750  63500 -285750  63500 -292100  69850 -292100
-            69850 -290830  64770 -285750))
-    (keepout "" (polygon In2.Cu 0  64770 -285750  63500 -285750  63500 -292100  69850 -292100
-            69850 -290830  64770 -285750))
-    (keepout "" (polygon B.Cu 0  64770 -285750  63500 -285750  63500 -292100  69850 -292100
-            69850 -290830  64770 -285750))
-    (via "Via[0-3]_600:300_um" "Via[0-3]_1000:600_um" "Via[0-3]_4000:3000_um")
+    (via "Via[0-5]_600:300_um" "Via[0-5]_1000:600_um" "Via[0-5]_4000:3000_um")
     (rule
       (width 300)
       (clearance 200.1)
@@ -658,6 +707,8 @@
       (shape (circle F.Cu 1400))
       (shape (circle In1.Cu 1400))
       (shape (circle In2.Cu 1400))
+      (shape (circle In3.Cu 1400))
+      (shape (circle In4.Cu 1400))
       (shape (circle B.Cu 1400))
       (attach off)
     )
@@ -665,6 +716,8 @@
       (shape (circle F.Cu 1600))
       (shape (circle In1.Cu 1600))
       (shape (circle In2.Cu 1600))
+      (shape (circle In3.Cu 1600))
+      (shape (circle In4.Cu 1600))
       (shape (circle B.Cu 1600))
       (attach off)
     )
@@ -672,6 +725,8 @@
       (shape (circle F.Cu 1930.4))
       (shape (circle In1.Cu 1930.4))
       (shape (circle In2.Cu 1930.4))
+      (shape (circle In3.Cu 1930.4))
+      (shape (circle In4.Cu 1930.4))
       (shape (circle B.Cu 1930.4))
       (attach off)
     )
@@ -679,6 +734,8 @@
       (shape (circle F.Cu 2540))
       (shape (circle In1.Cu 2540))
       (shape (circle In2.Cu 2540))
+      (shape (circle In3.Cu 2540))
+      (shape (circle In4.Cu 2540))
       (shape (circle B.Cu 2540))
       (attach off)
     )
@@ -686,6 +743,8 @@
       (shape (circle F.Cu 3556))
       (shape (circle In1.Cu 3556))
       (shape (circle In2.Cu 3556))
+      (shape (circle In3.Cu 3556))
+      (shape (circle In4.Cu 3556))
       (shape (circle B.Cu 3556))
       (attach off)
     )
@@ -693,6 +752,8 @@
       (shape (circle F.Cu 3700))
       (shape (circle In1.Cu 3700))
       (shape (circle In2.Cu 3700))
+      (shape (circle In3.Cu 3700))
+      (shape (circle In4.Cu 3700))
       (shape (circle B.Cu 3700))
       (attach off)
     )
@@ -700,6 +761,8 @@
       (shape (circle F.Cu 4064))
       (shape (circle In1.Cu 4064))
       (shape (circle In2.Cu 4064))
+      (shape (circle In3.Cu 4064))
+      (shape (circle In4.Cu 4064))
       (shape (circle B.Cu 4064))
       (attach off)
     )
@@ -707,6 +770,8 @@
       (shape (circle F.Cu 9000))
       (shape (circle In1.Cu 9000))
       (shape (circle In2.Cu 9000))
+      (shape (circle In3.Cu 9000))
+      (shape (circle In4.Cu 9000))
       (shape (circle B.Cu 9000))
       (attach off)
     )
@@ -770,27 +835,35 @@
       (shape (rect F.Cu -800 -800 800 800))
       (shape (rect In1.Cu -800 -800 800 800))
       (shape (rect In2.Cu -800 -800 800 800))
+      (shape (rect In3.Cu -800 -800 800 800))
+      (shape (rect In4.Cu -800 -800 800 800))
       (shape (rect B.Cu -800 -800 800 800))
       (attach off)
     )
-    (padstack "Via[0-3]_600:300_um"
+    (padstack "Via[0-5]_600:300_um"
       (shape (circle F.Cu 600))
       (shape (circle In1.Cu 600))
       (shape (circle In2.Cu 600))
+      (shape (circle In3.Cu 600))
+      (shape (circle In4.Cu 600))
       (shape (circle B.Cu 600))
       (attach off)
     )
-    (padstack "Via[0-3]_1000:600_um"
+    (padstack "Via[0-5]_1000:600_um"
       (shape (circle F.Cu 1000))
       (shape (circle In1.Cu 1000))
       (shape (circle In2.Cu 1000))
+      (shape (circle In3.Cu 1000))
+      (shape (circle In4.Cu 1000))
       (shape (circle B.Cu 1000))
       (attach off)
     )
-    (padstack "Via[0-3]_4000:3000_um"
+    (padstack "Via[0-5]_4000:3000_um"
       (shape (circle F.Cu 4000))
       (shape (circle In1.Cu 4000))
       (shape (circle In2.Cu 4000))
+      (shape (circle In3.Cu 4000))
+      (shape (circle In4.Cu 4000))
       (shape (circle B.Cu 4000))
       (attach off)
     )
@@ -1292,7 +1365,7 @@
     (net "Net-(U17-VFB)"
       (pins R26-1 U17-4 R25-2)
     )
-    (class kicad_default "" +3.3V "/Level Shifters/PAN3V.CS_00" "/Level Shifters/PAN3V.CS_01"
+    (class kicad_default "" "/Level Shifters/PAN3V.CS_00" "/Level Shifters/PAN3V.CS_01"
       "/Level Shifters/PAN3V.CS_02" "/Level Shifters/PAN3V.CS_03" "/Level Shifters/PAN3V.CS_04"
       "/Level Shifters/PAN3V.CS_05" "/Level Shifters/PAN3V.CS_06" "/Level Shifters/PAN3V.CS_07"
       "/Level Shifters/PAN3V.EXT_INT" "/Level Shifters/PAN3V.MISO_00" "/Level Shifters/PAN3V.MISO_01"
@@ -1337,7 +1410,7 @@
       "unconnected-(J2-Pin_7-Pad7)" "unconnected-(J2-Pin_8-Pad8)" "unconnected-(J2-Pin_9-Pad9)"
       "unconnected-(U18-NC-Pad4)"
       (circuit
-        (use_via Via[0-3]_600:300_um)
+        (use_via Via[0-5]_600:300_um)
       )
       (rule
         (width 300)
@@ -1346,7 +1419,16 @@
     )
     (class Cmp_GND
       (circuit
-        (use_via Via[0-3]_600:300_um)
+        (use_via Via[0-5]_600:300_um)
+      )
+      (rule
+        (width 300)
+        (clearance 200.1)
+      )
+    )
+    (class Pwr_3V3 +3.3V
+      (circuit
+        (use_via Via[0-5]_600:300_um)
       )
       (rule
         (width 300)
@@ -1359,64 +1441,60 @@
       "/Level Shifters/POW.5V_HDR_6" "/Level Shifters/POW.5V_HDR_7" "/Level Shifters/POW.5V_HDR_8"
       "/Level Shifters/POW.5V_HDR_9"
       (circuit
-        (use_via Via[0-3]_1000:600_um)
+        (use_via Via[0-5]_1000:600_um)
       )
       (rule
         (width 1000)
-        (clearance 254.1)
+        (clearance 200.1)
       )
     )
     (class Pwr_GND GND
       (circuit
-        (use_via Via[0-3]_1000:600_um)
+        (use_via Via[0-5]_1000:600_um)
       )
       (rule
         (width 1000)
-        (clearance 254.1)
+        (clearance 200.1)
       )
     )
     (class Pwr_VCC "/Power & Voltage Regulators/SW_VCC" VCC
       (circuit
-        (use_via Via[0-3]_4000:3000_um)
+        (use_via Via[0-5]_4000:3000_um)
       )
       (rule
         (width 3000)
-        (clearance 254.1)
+        (clearance 200.1)
       )
     )
     (class Pwr_VCC_branch
       (circuit
-        (use_via Via[0-3]_1000:600_um)
+        (use_via Via[0-5]_1000:600_um)
       )
       (rule
         (width 1000)
-        (clearance 254.1)
+        (clearance 200.1)
       )
     )
   )
   (wiring
-    (wire (path F.Cu 300  255778 -287648  257150 -287648  258603 -287648)(net +3.3V)(type route))
-    (wire (path B.Cu 300  257124 -283108  257124 -287623  257150 -287648)(net +3.3V)(type route))
-    (wire (path B.Cu 300  272415 -177800  277978 -172237)(net "/Level Shifters/PAN5V.CS_01")(type route))
-    (wire (path B.Cu 300  266474 -177800  272415 -177800)(net "/Level Shifters/PAN5V.CS_01")(type route))
+    (wire (path F.Cu 600  203276 -277317  204775 -277317)(net GND)(type route))
+    (wire (path F.Cu 300  191948 -287477  193167 -287477)(net "/Level Shifters/POW.5V_HDR_10")(type route))
     (wire (path F.Cu 300  126624 -282524  126616 -282516)(net +3.3V)(type route))
     (wire (path F.Cu 300  232683 -282499  232670 -282485)(net +3.3V)(type route))
-    (wire (path F.Cu 300  104775 -282499  104724 -282448)(net +3.3V)(type route))
+    (wire (path F.Cu 300  172897 -282576  171422 -282576)(net +3.3V)(type route))
     (wire (path F.Cu 300  186883 -283167  185657 -283167)(net +3.3V)(type route))
     (wire (path F.Cu 300  104800 -287648  106000 -287648)(net +3.3V)(type route))
+    (wire (path F.Cu 300  255778 -287648  257150 -287648)(net +3.3V)(type route))
     (wire (path F.Cu 300  258603 -287648  258635 -287680)(net +3.3V)(type route))
     (wire (path F.Cu 300  172796 -287776  173894 -287776)(net +3.3V)(type route))
     (wire (path F.Cu 300  188953 -282947  188451 -282947)(net +3.3V)(type route))
-    (wire (path F.Cu 300  188953 -282140  189433 -281661)(net +3.3V)(type route))
+    (wire (path F.Cu 300  257150 -287648  258603 -287648)(net +3.3V)(type route))
     (wire (path F.Cu 300  171422 -287776  172796 -287776)(net +3.3V)(type route))
-    (wire (path F.Cu 300  188953 -282947  188953 -282140)(net +3.3V)(type route))
-    (wire (path F.Cu 300  192862 -281661  192888 -281686)(net +3.3V)(type route))
     (wire (path F.Cu 300  188231 -283167  186883 -283167)(net +3.3V)(type route))
-    (wire (path F.Cu 300  172721 -282576  171422 -282576)(net +3.3V)(type route))
     (wire (path F.Cu 300  127940 -282524  126624 -282524)(net +3.3V)(type route))
-    (wire (path F.Cu 300  172796 -282651  172721 -282576)(net +3.3V)(type route))
-    (wire (path F.Cu 300  185657 -283167  185649 -283159)(net +3.3V)(type route))
     (wire (path F.Cu 300  104724 -282448  103378 -282448)(net +3.3V)(type route))
+    (wire (path F.Cu 300  185657 -283167  185649 -283159)(net +3.3V)(type route))
+    (wire (path F.Cu 300  172923 -282550  172897 -282576)(net +3.3V)(type route))
     (wire (path F.Cu 300  106000 -287648  106016 -287663)(net +3.3V)(type route))
     (wire (path F.Cu 300  235122 -287685  235127 -287680)(net +3.3V)(type route))
     (wire (path F.Cu 300  127940 -287713  128988 -287711)(net +3.3V)(type route))
@@ -1426,27 +1504,9 @@
     (wire (path F.Cu 300  188451 -282947  188231 -283167)(net +3.3V)(type route))
     (wire (path F.Cu 300  173894 -287776  173939 -287731)(net +3.3V)(type route))
     (wire (path F.Cu 300  103378 -287648  104800 -287648)(net +3.3V)(type route))
-    (wire (path F.Cu 300  189433 -281661  192862 -281661)(net +3.3V)(type route))
     (wire (path F.Cu 300  232670 -287685  234137 -287685  235122 -287685)(net +3.3V)(type route))
-    (wire (path B.Cu 300  127940 -283250  127940 -287713)(net +3.3V)(type route))
-    (wire (path B.Cu 300  127940 -283250  127940 -282524)(net +3.3V)(type route))
-    (wire (path B.Cu 300  172796 -282651  172796 -287776)(net +3.3V)(type route))
-    (wire (path B.Cu 300  104790 -283250  104775 -283235)(net +3.3V)(type route))
     (wire (path B.Cu 300  104775 -287623  104800 -287648)(net +3.3V)(type route))
-    (wire (path B.Cu 300  192888 -281686  194412 -283210)(net +3.3V)(type route))
-    (wire (path B.Cu 300  257023 -283210  257124 -283108)(net +3.3V)(type route))
-    (wire (path B.Cu 300  164597 -283159  164506 -283250)(net +3.3V)(type route))
-    (wire (path B.Cu 300  128194 -283250  127940 -283250  104790 -283250)(net +3.3V)(type route))
-    (wire (path B.Cu 300  173711 -283159  176047 -283159)(net +3.3V)(type route))
-    (wire (path B.Cu 300  257124 -283108  257124 -282448)(net +3.3V)(type route))
-    (wire (path B.Cu 300  234137 -283210  234137 -282499)(net +3.3V)(type route))
-    (wire (path B.Cu 300  104775 -283235  104775 -287623)(net +3.3V)(type route))
-    (wire (path B.Cu 300  104775 -282499  104775 -283235)(net +3.3V)(type route))
-    (wire (path B.Cu 300  176047 -283159  164597 -283159)(net +3.3V)(type route))
-    (wire (path B.Cu 300  234137 -282499  234137 -287685)(net +3.3V)(type route))
-    (wire (path B.Cu 300  164506 -283250  128194 -283250)(net +3.3V)(type route))
-    (wire (path B.Cu 300  194412 -283210  234137 -283210  257023 -283210)(net +3.3V)(type route))
-    (wire (path B.Cu 300  176047 -283159  185649 -283159)(net +3.3V)(type route))
+    (wire (path B.Cu 300  257124 -287623  257150 -287648)(net +3.3V)(type route))
     (wire (path F.Cu 300  190449 -284074  191177 -284074)(net "/Level Shifters/POW.5V_HDR_10")(type route))
     (wire (path F.Cu 300  192075 -272491  193046 -271520)(net "/Level Shifters/POW.5V_HDR_10")(type route))
     (wire (path F.Cu 300  97638 -287633  97653 -287648)(net "/Level Shifters/POW.5V_HDR_10")(type route))
@@ -1501,6 +1561,8 @@
     (wire (path F.Cu 3000  288290 -104140  288290 -115849)(net "/Power & Voltage Regulators/SW_VCC")(type route))
     (wire (path F.Cu 3000  287299 -116840  284480 -116840)(net "/Power & Voltage Regulators/SW_VCC")(type route))
     (wire (path F.Cu 3000  280035 -92024.2  280035 -95885  288290 -104140)(net "/Power & Voltage Regulators/SW_VCC")(type route))
+    (wire (path B.Cu 300  272415 -177800  277978 -172237)(net "/Level Shifters/PAN5V.CS_01")(type route))
+    (wire (path B.Cu 300  266474 -177800  272415 -177800)(net "/Level Shifters/PAN5V.CS_01")(type route))
     (wire (path F.Cu 300  269621 -154051  269037 -154635)(net GND)(type route))
     (wire (path F.Cu 300  244443 -245731  244069 -245135)(net GND)(type route))
     (wire (path F.Cu 300  155372 -83769.2  155372 -84531.2)(net GND)(type route))
@@ -1973,86 +2035,88 @@
     (wire (path F.Cu 300  267801 -202355  266054 -201317)(net "Net-(U17-VFB)")(type route))
     (wire (path F.Cu 300  268376 -201371  267801 -202355)(net "Net-(U17-VFB)")(type route))
     (wire (path F.Cu 300  275488 -204013  275209 -202997  270662 -200635  268376 -201371)(net "Net-(U17-VFB)")(type route))
-    (via "Via[0-3]_600:300_um"  257150 -287648 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  277978 -172237 (net "/Level Shifters/PAN5V.CS_01")
+    (via "Via[0-5]_1000:600_um"  204775 -277317 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  193167 -287477 (net "/Level Shifters/POW.5V_HDR_10")
       (type route))
-    (via "Via[0-3]_600:300_um"  257124 -282448 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  234137 -282499 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  185649 -283159 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  234137 -287685 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  104775 -282499 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  172796 -287776 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  172796 -282651 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  127940 -287713 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  192888 -281686 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  127940 -282524 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  104800 -287648 (net +3.3V)(type route))
-    (via "Via[0-3]_600:300_um"  164186 -287801 (net "/Level Shifters/POW.5V_HDR_10")
+    (via "Via[0-5]_600:300_um"  257124 -282448 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  234137 -282499 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  185649 -283159 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  234137 -287685 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  104724 -282448 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  172796 -287776 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  172923 -282550 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  127940 -287713 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  127940 -282524 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  257150 -287648 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  104800 -287648 (net +3.3V)(type route))
+    (via "Via[0-5]_600:300_um"  164186 -287801 (net "/Level Shifters/POW.5V_HDR_10")
       (type route))
-    (via "Via[0-3]_600:300_um"  119355 -287731 (net "/Level Shifters/POW.5V_HDR_10")
+    (via "Via[0-5]_600:300_um"  119355 -287731 (net "/Level Shifters/POW.5V_HDR_10")
       (type route))
-    (via "Via[0-3]_600:300_um"  192075 -272491 (net "/Level Shifters/POW.5V_HDR_10")
+    (via "Via[0-5]_600:300_um"  192075 -272491 (net "/Level Shifters/POW.5V_HDR_10")
       (type route))
-    (via "Via[0-3]_600:300_um"  225400 -287690 (net "/Level Shifters/POW.5V_HDR_10")
+    (via "Via[0-5]_600:300_um"  225400 -287690 (net "/Level Shifters/POW.5V_HDR_10")
       (type route))
-    (via "Via[0-3]_600:300_um"  96215.2 -287633 (net "/Level Shifters/POW.5V_HDR_10")
+    (via "Via[0-5]_600:300_um"  96215.2 -287633 (net "/Level Shifters/POW.5V_HDR_10")
       (type route))
-    (via "Via[0-3]_600:300_um"  192075 -284074 (net "/Level Shifters/POW.5V_HDR_10")
+    (via "Via[0-5]_600:300_um"  192075 -284074 (net "/Level Shifters/POW.5V_HDR_10")
       (type route))
-    (via "Via[0-3]_600:300_um"  248514 -287663 (net "/Level Shifters/POW.5V_HDR_10")
+    (via "Via[0-5]_600:300_um"  248514 -287663 (net "/Level Shifters/POW.5V_HDR_10")
       (type route))
-    (via "Via[0-3]_600:300_um"  248539 -282448 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  205435 -85140.8 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  119431 -282550 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  78232 -151130 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  150216 -270434 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  250673 -105029 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  155372 -83769.2 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  270408 -205410 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  83820 -200228 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  92354.4 -287630 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  104927 -250622 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  104902 -104953 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  200254 -271729 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  176708 -287731 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  160299 -287833 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  250673 -250622 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  78282.8 -204445 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  204521 -78308.2 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  96240.6 -282473 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  244729 -287680 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  277317 -151257 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  261518 -287680 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  277292 -204546 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  151105 -277292 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  221412 -287706 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  288544 -124968 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  151206 -78282.8 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  107645 -244170 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  164236 -282600 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  225425 -282499 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  189154 -287477 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  108712 -287680 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  85090 -150114 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  186893 -285928 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  115595 -287782 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  237922 -287655 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  111354 -107569 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  248056 -111328 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  244145 -247904 (net GND)(type route))
-    (via "Via[0-3]_600:300_um"  131750 -287706 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  271831 -155600 (net GND)(type route))
-    (via "Via[0-3]_1000:600_um"  147472 -275209 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  108687 -102870 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  252705 -108661 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  78333.6 -200254 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  80441.8 -147472 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  200254 -277317 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  277343 -155423 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  246939 -252705 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  155346 -78308.2 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  102870 -246990 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  208153 -80467.2 (net VCC)(type route))
-    (via "Via[0-3]_1000:600_um"  275184 -208077 (net VCC)(type route))
+    (via "Via[0-5]_600:300_um"  277978 -172237 (net "/Level Shifters/PAN5V.CS_01")
+      (type route))
+    (via "Via[0-5]_600:300_um"  248539 -282448 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  205435 -85140.8 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  119431 -282550 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  78232 -151130 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  150216 -270434 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  250673 -105029 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  155372 -83769.2 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  270408 -205410 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  83820 -200228 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  92354.4 -287630 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  104927 -250622 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  104902 -104953 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  200254 -271729 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  176708 -287731 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  160299 -287833 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  250673 -250622 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  78282.8 -204445 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  204521 -78308.2 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  96240.6 -282473 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  244729 -287680 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  277317 -151257 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  261518 -287680 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  277292 -204546 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  151105 -277292 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  221412 -287706 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  288544 -124968 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  151206 -78282.8 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  107645 -244170 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  164236 -282600 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  225425 -282499 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  189154 -287477 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  108712 -287680 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  85090 -150114 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  186893 -285928 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  115595 -287782 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  237922 -287655 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  111354 -107569 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  248056 -111328 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  244145 -247904 (net GND)(type route))
+    (via "Via[0-5]_600:300_um"  131750 -287706 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  271831 -155600 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  147472 -275209 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  108687 -102870 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  252705 -108661 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  78333.6 -200254 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  80441.8 -147472 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  200254 -277317 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  277343 -155423 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  246939 -252705 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  155346 -78308.2 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  102870 -246990 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  208153 -80467.2 (net VCC)(type route))
+    (via "Via[0-5]_1000:600_um"  275184 -208077 (net VCC)(type route))
   )
 )

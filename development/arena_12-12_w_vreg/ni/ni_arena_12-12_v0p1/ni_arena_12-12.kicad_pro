@@ -470,6 +470,23 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.3,
+        "name": "Pwr_3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 1.0,
         "microvia_drill": 0.6,
         "name": "Pwr_5V",
@@ -599,8 +616,8 @@
         "pattern": "GND"
       },
       {
-        "netclass": "Default",
-        "pattern": "*"
+        "netclass": "Pwr_3V3",
+        "pattern": "+3.3V"
       }
     ]
   },
