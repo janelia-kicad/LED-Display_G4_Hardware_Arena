@@ -6922,3 +6922,555 @@ Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
 2024-08-25 11:44:57.699 [Thread-33] INFO  Starting route optimization on 1 thread...
 2024-08-25 11:46:34.661 [Thread-33] INFO  Route optimization was completed in 1 minute(s) 36.96 seconds.
 2024-08-25 12:55:17.488 [AWT-EventQueue-0] INFO  Saving 'teensy_arena_12-12.ses'...
+2024-09-10 12:07:06.018 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-09-10 12:07:06.051 [main] INFO  Settings were loaded from freerouting.json
+2024-09-10 12:07:07.066 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-09-10 12:09:02.689 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-09-10 12:09:02.722 [main] INFO  Settings were loaded from freerouting.json
+2024-09-10 12:09:03.744 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-09-10 12:09:03.738 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-09-10 12:09:04.110 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.110 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.111 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.111 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.111 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.112 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.112 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.112 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.112 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.112 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.113 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.113 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.113 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.113 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.113 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.114 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.114 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.114 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.114 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.114 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.115 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.115 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.115 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.115 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.115 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.115 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.115 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.116 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.116 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.116 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.116 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.116 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.116 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.116 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.117 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.117 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.117 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.117 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.117 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.117 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.117 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.117 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.118 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.118 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.118 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.118 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.118 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.118 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.119 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.119 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+3.3V'
+2024-09-10 12:09:04.119 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-09-10 12:09:04.119 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-09-10 12:09:04.119 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-09-10 12:09:04.119 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-09-10 12:09:04.119 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-09-10 12:09:04.119 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-09-10 12:09:04.120 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-09-10 12:09:04.120 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-09-10 12:09:04.120 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-09-10 12:09:04.120 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '+5V'
+2024-09-10 12:09:04.120 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-VBST)'
+2024-09-10 12:09:04.120 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-VBST)'
+2024-09-10 12:09:04.120 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-VBST)'
+2024-09-10 12:09:04.121 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Power & Voltage Regulators/SW_VCC'
+2024-09-10 12:09:04.121 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Power & Voltage Regulators/SW_VCC'
+2024-09-10 12:09:04.121 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Power & Voltage Regulators/SW_VCC'
+2024-09-10 12:09:04.121 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Power & Voltage Regulators/SW_VCC'
+2024-09-10 12:09:04.121 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Power & Voltage Regulators/SW_VCC'
+2024-09-10 12:09:04.121 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Power & Voltage Regulators/SW_VCC'
+2024-09-10 12:09:04.121 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Power & Voltage Regulators/SW_VCC'
+2024-09-10 12:09:04.121 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-SW)'
+2024-09-10 12:09:04.122 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-SW)'
+2024-09-10 12:09:04.122 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-SW)'
+2024-09-10 12:09:04.122 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-SW)'
+2024-09-10 12:09:04.122 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-SW)'
+2024-09-10 12:09:04.122 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.122 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.122 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.122 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.122 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.123 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.123 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.123 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.123 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.123 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.123 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.123 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.123 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.123 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.123 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.124 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.124 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.124 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.125 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.125 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.125 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.125 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.125 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.125 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.125 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.125 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.126 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.126 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.126 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.126 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.126 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.126 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.126 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.126 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.127 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.127 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.127 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.127 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.127 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.127 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.127 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.128 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.128 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.128 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.128 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.128 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.128 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.128 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.128 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.128 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.129 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.129 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.129 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.129 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.129 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.129 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.129 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.129 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.129 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.130 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.130 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.130 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.130 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.130 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.130 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.130 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.130 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.130 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.130 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.131 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.132 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.132 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.132 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.132 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.132 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.132 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.132 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.132 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.132 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.132 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.133 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.133 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.133 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.133 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.133 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.133 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'GND'
+2024-09-10 12:09:04.133 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(Q2-G)'
+2024-09-10 12:09:04.133 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(Q2-G)'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(Q2-G)'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(Q2-G)'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.134 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.135 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.135 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.135 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.135 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.135 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.135 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.135 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.135 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.135 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.135 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.136 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.137 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.138 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.139 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.139 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.139 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.139 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.139 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.139 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.139 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.139 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'VCC'
+2024-09-10 12:09:04.139 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_1'
+2024-09-10 12:09:04.139 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_1'
+2024-09-10 12:09:04.140 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_1'
+2024-09-10 12:09:04.140 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_1'
+2024-09-10 12:09:04.140 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_1'
+2024-09-10 12:09:04.140 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_1'
+2024-09-10 12:09:04.140 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_1'
+2024-09-10 12:09:04.140 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-VBST)'
+2024-09-10 12:09:04.140 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-VBST)'
+2024-09-10 12:09:04.140 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-VBST)'
+2024-09-10 12:09:04.140 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-SW)'
+2024-09-10 12:09:04.141 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-SW)'
+2024-09-10 12:09:04.141 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-SW)'
+2024-09-10 12:09:04.141 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-SW)'
+2024-09-10 12:09:04.141 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-VBST)'
+2024-09-10 12:09:04.141 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-VBST)'
+2024-09-10 12:09:04.141 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-VBST)'
+2024-09-10 12:09:04.141 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-SW)'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-SW)'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-SW)'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-SW)'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_3'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_3'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_3'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_3'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-VBST)'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-VBST)'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-VBST)'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-SW)'
+2024-09-10 12:09:04.142 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-SW)'
+2024-09-10 12:09:04.143 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-SW)'
+2024-09-10 12:09:04.143 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-SW)'
+2024-09-10 12:09:04.143 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_4'
+2024-09-10 12:09:04.143 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_4'
+2024-09-10 12:09:04.143 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_4'
+2024-09-10 12:09:04.143 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_4'
+2024-09-10 12:09:04.143 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_4'
+2024-09-10 12:09:04.143 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_4'
+2024-09-10 12:09:04.144 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-VBST)'
+2024-09-10 12:09:04.144 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-VBST)'
+2024-09-10 12:09:04.144 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-VBST)'
+2024-09-10 12:09:04.144 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-SW)'
+2024-09-10 12:09:04.144 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-SW)'
+2024-09-10 12:09:04.144 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-SW)'
+2024-09-10 12:09:04.144 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-SW)'
+2024-09-10 12:09:04.144 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-VBST)'
+2024-09-10 12:09:04.144 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-VBST)'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-SW)'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-SW)'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-SW)'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-SW)'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_6'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_6'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_6'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_6'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-VBST)'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-VBST)'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-VBST)'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-SW)'
+2024-09-10 12:09:04.145 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-SW)'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-SW)'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-SW)'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-SW)'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-SW)'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_7'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_7'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_7'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-VBST)'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-VBST)'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-VBST)'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-SW)'
+2024-09-10 12:09:04.146 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-SW)'
+2024-09-10 12:09:04.147 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-SW)'
+2024-09-10 12:09:04.147 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-SW)'
+2024-09-10 12:09:04.147 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-SW)'
+2024-09-10 12:09:04.147 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-SW)'
+2024-09-10 12:09:04.147 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-VBST)'
+2024-09-10 12:09:04.148 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-VBST)'
+2024-09-10 12:09:04.148 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-VBST)'
+2024-09-10 12:09:04.148 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-SW)'
+2024-09-10 12:09:04.148 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-SW)'
+2024-09-10 12:09:04.148 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-SW)'
+2024-09-10 12:09:04.148 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-SW)'
+2024-09-10 12:09:04.148 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-SW)'
+2024-09-10 12:09:04.148 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-SW)'
+2024-09-10 12:09:04.148 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_9'
+2024-09-10 12:09:04.148 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_9'
+2024-09-10 12:09:04.149 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_9'
+2024-09-10 12:09:04.149 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_9'
+2024-09-10 12:09:04.149 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_9'
+2024-09-10 12:09:04.149 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-VBST)'
+2024-09-10 12:09:04.149 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-VBST)'
+2024-09-10 12:09:04.149 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-VBST)'
+2024-09-10 12:09:04.150 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-SW)'
+2024-09-10 12:09:04.150 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-SW)'
+2024-09-10 12:09:04.150 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-SW)'
+2024-09-10 12:09:04.150 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-SW)'
+2024-09-10 12:09:04.150 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-SW)'
+2024-09-10 12:09:04.150 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_10'
+2024-09-10 12:09:04.150 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_10'
+2024-09-10 12:09:04.150 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_10'
+2024-09-10 12:09:04.150 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_10'
+2024-09-10 12:09:04.150 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_10'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-VBST)'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-VBST)'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-VBST)'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-SW)'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-SW)'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-SW)'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-SW)'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-SW)'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-VBST)'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-VBST)'
+2024-09-10 12:09:04.151 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-VBST)'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-SW)'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-SW)'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-SW)'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-SW)'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-SW)'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-SW)'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_12'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_12'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_12'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_12'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at '/Panel Headers/POW.5V_HDR_12'
+2024-09-10 12:09:04.152 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U6-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U7-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-VFB)'
+2024-09-10 12:09:04.153 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U8-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U9-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-VFB)'
+2024-09-10 12:09:04.154 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U10-VFB)'
+2024-09-10 12:09:04.155 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-VFB)'
+2024-09-10 12:09:04.155 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-VFB)'
+2024-09-10 12:09:04.155 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-VFB)'
+2024-09-10 12:09:04.155 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-VFB)'
+2024-09-10 12:09:04.155 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-VFB)'
+2024-09-10 12:09:04.155 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U11-VFB)'
+2024-09-10 12:09:04.156 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-VFB)'
+2024-09-10 12:09:04.156 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-VFB)'
+2024-09-10 12:09:04.156 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-VFB)'
+2024-09-10 12:09:04.156 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-VFB)'
+2024-09-10 12:09:04.156 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-VFB)'
+2024-09-10 12:09:04.156 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U12-VFB)'
+2024-09-10 12:09:04.156 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-VFB)'
+2024-09-10 12:09:04.156 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U13-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U14-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-VFB)'
+2024-09-10 12:09:04.157 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U15-VFB)'
+2024-09-10 12:09:04.158 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-VFB)'
+2024-09-10 12:09:04.158 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-VFB)'
+2024-09-10 12:09:04.158 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-VFB)'
+2024-09-10 12:09:04.158 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-VFB)'
+2024-09-10 12:09:04.158 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U16-VFB)'
+2024-09-10 12:09:04.158 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-VFB)'
+2024-09-10 12:09:04.158 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-VFB)'
+2024-09-10 12:09:04.158 [main] WARN  Wiring.read_wire_scope: wire corner outside board at 'Net-(U17-VFB)'
+2024-09-10 12:12:34.976 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-09-10 12:12:35.008 [main] INFO  Settings were loaded from freerouting.json
+2024-09-10 12:12:36.025 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-09-10 12:12:36.023 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-09-10 12:13:24.624 [Thread-41] INFO  Starting auto-routing...
+2024-09-10 12:13:25.169 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.175 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.181 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.184 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.187 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.190 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.193 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.197 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.204 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.207 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.212 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.216 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.220 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.224 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.226 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.233 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.238 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.241 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.243 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.249 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.252 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.263 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.270 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.272 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.285 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.291 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.295 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.302 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.307 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.311 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:25.316 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:50.116 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:50.117 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:50.117 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:50.118 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:50.119 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:50.119 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:50.120 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:50.122 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:50.123 [Thread-41] WARN  FloatLine: Parameter is null
+2024-09-10 12:13:50.197 [Thread-41] INFO  Auto-routing was completed in 25.57 seconds.
+2024-09-10 12:13:50.297 [Thread-41] INFO  Starting route optimization on 1 thread...
+2024-09-10 12:13:50.307 [Thread-41] INFO  Route optimization was completed in 0.01 seconds.
+2024-09-10 12:15:12.504 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2024-09-10 12:15:12.537 [main] INFO  Settings were loaded from freerouting.json
+2024-09-10 12:15:13.553 [main] INFO  Opening 'teensy_arena_12-12.dsn'...
+2024-09-10 12:15:13.551 [Thread-3] ERROR java/net/http/HttpClient
+java.lang.NoClassDefFoundError: java/net/http/HttpClient
+	at app.freerouting.management.VersionChecker.run(VersionChecker.java:23) ~[freerouting-executable.jar:unspecified]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	... 2 more
+2024-09-10 12:15:57.298 [Thread-43] INFO  Starting auto-routing...
+2024-09-10 12:15:57.838 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.843 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.848 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.851 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.854 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.857 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.859 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.863 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.866 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.870 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.874 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.880 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.886 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.892 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.896 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.902 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.909 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.913 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.916 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.926 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.929 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.950 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.952 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.954 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.964 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.969 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.971 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.975 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.979 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.982 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:15:57.985 [Thread-43] WARN  FloatLine: Parameter is null
+2024-09-10 12:20:01.892 [Thread-43] WARN  CalcFromSide: start corner was not found
+2024-09-10 12:20:13.886 [Thread-43] WARN  CalcFromSide: start corner was not found
+2024-09-10 12:20:15.194 [Thread-43] WARN  CalcFromSide: start corner was not found
+2024-09-10 12:20:20.875 [Thread-43] WARN  CalcFromSide: start corner was not found
+2024-09-10 12:20:23.191 [Thread-43] WARN  CalcFromSide: start corner was not found
+2024-09-10 12:20:25.973 [Thread-43] WARN  CalcFromSide: start corner was not found
+2024-09-10 12:20:29.964 [Thread-43] WARN  CalcFromSide: start corner was not found
+2024-09-10 12:58:26.249 [Thread-43] WARN  There were only 19.30 changes in the last 20 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-09-10 13:09:09.932 [Thread-43] WARN  There were only 10.50 changes in the last 40 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2024-09-10 13:19:59.320 [Thread-43] WARN  There were only 7.37 changes in the last 60 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.

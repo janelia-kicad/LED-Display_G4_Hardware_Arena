@@ -610,6 +610,10 @@
       {
         "netclass": "Pwr_GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Pwr_5V",
+        "pattern": "+5V"
       }
     ]
   },
