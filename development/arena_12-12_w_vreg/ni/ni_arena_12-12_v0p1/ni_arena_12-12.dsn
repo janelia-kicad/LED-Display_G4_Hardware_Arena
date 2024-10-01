@@ -1,4 +1,4 @@
-(pcb "/home/wbd/work/panels_g4/LED-Display_G4_Hardware_Arena_copy/development/arena_12-12_w_vreg/ni/ni_arena_12-12_v0p1/ni_arena_12-12.dsn"
+(pcb "/home/wbd/work/panels_g4/LED-Display_G4_Hardware_Arena/development/arena_12-12_w_vreg/ni/ni_arena_12-12_v0p1/ni_arena_12-12.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -402,7 +402,7 @@
       (place U18 189903.400000 -284084.700000 front 90.000000 (PN "AP2112K-3.3"))
     )
     (component arena_custom:TE_CONN_DSUB_VERT_68
-      (place J2 285750.000000 -228600.000000 front 90.000000 (PN NI_TE_68pos))
+      (place J2 285750.000000 -228600.000000 front -90.000000 (PN NI_TE_68pos))
     )
   )
   (library
@@ -1003,56 +1003,56 @@
       (pins J2-34 U5-9)
     )
     (net "/Level Shifters/PAN3V.CS_00"
-      (pins U1-1 J2-68)
+      (pins U1-1 J2-35)
     )
     (net "/Level Shifters/PAN3V.CS_01"
-      (pins U1-3 J2-67)
+      (pins U1-3 J2-36)
     )
     (net "/Level Shifters/PAN3V.CS_02"
-      (pins U1-4 J2-66)
+      (pins U1-4 J2-37)
     )
     (net "/Level Shifters/PAN3V.CS_03"
-      (pins U1-5 J2-65)
+      (pins U1-5 J2-38)
     )
     (net "/Level Shifters/PAN3V.CS_04"
-      (pins U1-6 J2-64)
+      (pins U1-6 J2-39)
     )
     (net "/Level Shifters/PAN3V.CS_05"
-      (pins U1-7 J2-63)
+      (pins U1-7 J2-40)
     )
     (net "/Level Shifters/PAN3V.CS_06"
-      (pins U1-8 J2-62)
+      (pins U1-8 J2-41)
     )
     (net "/Level Shifters/PAN3V.CS_07"
-      (pins U1-9 J2-61)
+      (pins U1-9 J2-42)
     )
     (net "/Level Shifters/PAN5V.CS_07"
       (pins P10-14 P12-14 P7-14 P9-14 P11-14 U1-12 P5-14 P4-14 P1-14 P6-14 P8-14 P2-14
         P3-14)
     )
     (net "/Level Shifters/PAN3V.SCK_00"
-      (pins U2-1 J2-60)
+      (pins U2-1 J2-43)
     )
     (net "/Level Shifters/PAN3V.SCK_01"
-      (pins U2-3 J2-59)
+      (pins U2-3 J2-44)
     )
     (net "/Level Shifters/PAN3V.SCK_02"
-      (pins U2-4 J2-58)
+      (pins U2-4 J2-45)
     )
     (net "/Level Shifters/PAN3V.SCK_03"
-      (pins U2-5 J2-57)
+      (pins U2-5 J2-46)
     )
     (net "/Level Shifters/PAN3V.SCK_04"
-      (pins U2-6 J2-56)
+      (pins U2-6 J2-47)
     )
     (net "/Level Shifters/PAN3V.SCK_05"
-      (pins U2-7 J2-55)
+      (pins U2-7 J2-48)
     )
     (net "/Level Shifters/PAN3V.MOSI_00"
-      (pins U2-8 J2-54)
+      (pins U2-8 J2-49)
     )
     (net "/Level Shifters/PAN3V.MISO_00"
-      (pins U2-9 J2-53)
+      (pins U2-9 J2-50)
     )
     (net "/Level Shifters/PAN5V.MISO_00"
       (pins U2-12 P1-6)
@@ -1073,7 +1073,7 @@
       (pins U2-17 P9-4 P3-4)
     )
     (net "/Level Shifters/PAN3V.EXT_INT"
-      (pins J2-35 U5-8)
+      (pins J2-68 U5-8)
     )
     (net "/Level Shifters/PAN5V.SCK_01"
       (pins U2-18 P8-4 P2-4)
@@ -1082,28 +1082,28 @@
       (pins P7-4 U2-20 P1-4)
     )
     (net "/Level Shifters/PAN3V.MOSI_01"
-      (pins U3-1 J2-52)
+      (pins U3-1 J2-51)
     )
     (net "/Level Shifters/PAN3V.MISO_01"
-      (pins U3-3 J2-51)
+      (pins U3-3 J2-52)
     )
     (net "/Level Shifters/PAN3V.MOSI_02"
-      (pins U3-4 J2-50)
+      (pins U3-4 J2-53)
     )
     (net "/Level Shifters/PAN3V.MISO_02"
-      (pins U3-5 J2-49)
+      (pins U3-5 J2-54)
     )
     (net "/Level Shifters/PAN3V.MOSI_03"
-      (pins U3-6 J2-48)
+      (pins U3-6 J2-55)
     )
     (net "/Level Shifters/PAN3V.MISO_03"
-      (pins U3-7 J2-47)
+      (pins U3-7 J2-56)
     )
     (net "/Level Shifters/PAN3V.MOSI_04"
-      (pins U3-8 J2-46)
+      (pins U3-8 J2-57)
     )
     (net "/Level Shifters/PAN3V.MISO_04"
-      (pins U3-9 J2-45)
+      (pins U3-9 J2-58)
     )
     (net "/Level Shifters/PAN5V.MISO_04"
       (pins U3-12 P5-6)
@@ -1130,31 +1130,31 @@
       (pins U3-20 P2-5)
     )
     (net "/Level Shifters/PAN3V.MOSI_05"
-      (pins U4-1 J2-44)
+      (pins U4-1 J2-59)
     )
     (net "/Panel Headers/RESET"
       (pins P10-3 P12-3 P7-3 P9-3 P11-3 Q2-3 P5-3 P4-3 P1-3 P6-3 P8-3 P2-3 P3-3)
     )
     (net "/Level Shifters/PAN3V.MISO_05"
-      (pins U4-3 J2-43)
+      (pins U4-3 J2-60)
     )
     (net "/Level Shifters/PAN3V.MOSI_06"
-      (pins U4-4 J2-42)
+      (pins U4-4 J2-61)
     )
     (net "/Level Shifters/PAN3V.MISO_06"
-      (pins U4-5 J2-41)
+      (pins U4-5 J2-62)
     )
     (net "/Level Shifters/PAN3V.MOSI_07"
       (pins U4-6 J2-29)
     )
     (net "/Level Shifters/PAN3V.MISO_07"
-      (pins U4-7 J2-40)
+      (pins U4-7 J2-63)
     )
     (net "/Level Shifters/PAN3V.MOSI_08"
       (pins U4-8 J2-30)
     )
     (net "/Level Shifters/PAN3V.MISO_08"
-      (pins U4-9 J2-39)
+      (pins U4-9 J2-64)
     )
     (net "/Level Shifters/PAN5V.MISO_08"
       (pins P9-6 U4-12)
@@ -1184,19 +1184,19 @@
       (pins J2-31 U5-1)
     )
     (net "/Level Shifters/PAN3V.MISO_09"
-      (pins J2-38 U5-3)
+      (pins J2-65 U5-3)
     )
     (net "/Level Shifters/PAN3V.MOSI_10"
       (pins J2-32 U5-4)
     )
     (net "/Level Shifters/PAN3V.MISO_10"
-      (pins J2-37 U5-5)
+      (pins J2-66 U5-5)
     )
     (net "/Level Shifters/PAN3V.MOSI_11"
       (pins J2-33 U5-6)
     )
     (net "/Level Shifters/PAN3V.MISO_11"
-      (pins J2-36 U5-7)
+      (pins J2-67 U5-7)
     )
     (net "/Level Shifters/PAN5V.MISO_11"
       (pins P12-6 U5-14)
@@ -1477,8 +1477,6 @@
     )
   )
   (wiring
-    (wire (path F.Cu 600  203276 -277317  204775 -277317)(net GND)(type route))
-    (wire (path F.Cu 300  191948 -287477  193167 -287477)(net "/Level Shifters/POW.5V_HDR_10")(type route))
     (wire (path F.Cu 300  126624 -282524  126616 -282516)(net +3.3V)(type route))
     (wire (path F.Cu 300  232683 -282499  232670 -282485)(net +3.3V)(type route))
     (wire (path F.Cu 300  172897 -282576  171422 -282576)(net +3.3V)(type route))
@@ -1523,6 +1521,7 @@
     (wire (path F.Cu 300  191948 -287046  191948 -287477)(net "/Level Shifters/POW.5V_HDR_10")(type route))
     (wire (path F.Cu 300  119355 -287731  120876 -287731)(net "/Level Shifters/POW.5V_HDR_10")(type route))
     (wire (path F.Cu 300  199365 -269951  197333 -269926)(net "/Level Shifters/POW.5V_HDR_10")(type route))
+    (wire (path F.Cu 300  191948 -287477  193167 -287477)(net "/Level Shifters/POW.5V_HDR_10")(type route))
     (wire (path F.Cu 300  226940 -287690  226945 -287685)(net "/Level Shifters/POW.5V_HDR_10")(type route))
     (wire (path F.Cu 300  95045.5 -287633  96215.2 -287633)(net "/Level Shifters/POW.5V_HDR_10")(type route))
     (wire (path F.Cu 300  120876 -287731  120891 -287716)(net "/Level Shifters/POW.5V_HDR_10")(type route))
@@ -1633,6 +1632,7 @@
     (wire (path F.Cu 600  149339 -271975  150216 -270434)(net GND)(type route))
     (wire (path F.Cu 600  82011.6 -200239  83820 -200228)(net GND)(type route))
     (wire (path F.Cu 300  119464 -282516  119431 -282550)(net GND)(type route))
+    (wire (path F.Cu 600  203276 -277317  204775 -277317)(net GND)(type route))
     (wire (path F.Cu 300  186883 -284717  186883 -285918)(net GND)(type route))
     (wire (path F.Cu 300  269037 -154635  269037 -155270)(net GND)(type route))
     (wire (path F.Cu 300  152292 -269480  152730 -268783)(net GND)(type route))
@@ -2035,9 +2035,6 @@
     (wire (path F.Cu 300  267801 -202355  266054 -201317)(net "Net-(U17-VFB)")(type route))
     (wire (path F.Cu 300  268376 -201371  267801 -202355)(net "Net-(U17-VFB)")(type route))
     (wire (path F.Cu 300  275488 -204013  275209 -202997  270662 -200635  268376 -201371)(net "Net-(U17-VFB)")(type route))
-    (via "Via[0-5]_1000:600_um"  204775 -277317 (net GND)(type route))
-    (via "Via[0-5]_600:300_um"  193167 -287477 (net "/Level Shifters/POW.5V_HDR_10")
-      (type route))
     (via "Via[0-5]_600:300_um"  257124 -282448 (net +3.3V)(type route))
     (via "Via[0-5]_600:300_um"  234137 -282499 (net +3.3V)(type route))
     (via "Via[0-5]_600:300_um"  185649 -283159 (net +3.3V)(type route))
@@ -2050,6 +2047,8 @@
     (via "Via[0-5]_600:300_um"  257150 -287648 (net +3.3V)(type route))
     (via "Via[0-5]_600:300_um"  104800 -287648 (net +3.3V)(type route))
     (via "Via[0-5]_600:300_um"  164186 -287801 (net "/Level Shifters/POW.5V_HDR_10")
+      (type route))
+    (via "Via[0-5]_600:300_um"  193167 -287477 (net "/Level Shifters/POW.5V_HDR_10")
       (type route))
     (via "Via[0-5]_600:300_um"  119355 -287731 (net "/Level Shifters/POW.5V_HDR_10")
       (type route))
@@ -2076,6 +2075,7 @@
     (via "Via[0-5]_1000:600_um"  83820 -200228 (net GND)(type route))
     (via "Via[0-5]_600:300_um"  92354.4 -287630 (net GND)(type route))
     (via "Via[0-5]_600:300_um"  104927 -250622 (net GND)(type route))
+    (via "Via[0-5]_1000:600_um"  204775 -277317 (net GND)(type route))
     (via "Via[0-5]_600:300_um"  104902 -104953 (net GND)(type route))
     (via "Via[0-5]_1000:600_um"  200254 -271729 (net GND)(type route))
     (via "Via[0-5]_600:300_um"  176708 -287731 (net GND)(type route))
