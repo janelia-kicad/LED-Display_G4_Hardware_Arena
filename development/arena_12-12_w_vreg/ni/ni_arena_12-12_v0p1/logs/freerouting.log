@@ -6694,3 +6694,37 @@ Caused by: java.lang.ClassNotFoundException: java.net.http.HttpClient
 2024-10-01 13:22:13.490 [Thread-69] INFO  Starting auto-routing...
 2024-10-01 13:22:13.781 [Thread-69] INFO  Auto-routing was completed in 0.29 seconds.
 2024-10-01 13:22:13.881 [Thread-69] INFO  Starting route optimization on 1 thread...
+2024-10-01 13:51:43.463 [Thread-69] WARN  CalcFromSide: start corner was not found
+2024-10-01 13:51:43.471 [Thread-69] WARN  CalcFromSide: start corner was not found
+2024-10-01 13:51:43.472 [Thread-69] WARN  CalcFromSide: start corner was not found
+2024-10-01 13:52:47.234 [Thread-69] WARN  CalcFromSide: start corner was not found
+2024-10-01 14:49:05.149 [Thread-69] WARN  CalcFromSide: start corner was not found
+2024-10-01 16:54:05.294 [Thread-69] WARN  IntPoint: p_y is out of range
+2024-10-01 16:54:05.295 [Thread-69] WARN  IntPoint: p_y is out of range
+2024-10-01 16:54:05.295 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.295 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.295 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.295 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.295 [Thread-69] WARN  ShapeSearchTree.overlaps_with_clearance: p_shape is not bounded
+2024-10-01 16:54:05.300 [Thread-69] WARN  IntPoint: p_y is out of range
+2024-10-01 16:54:05.300 [Thread-69] WARN  IntPoint: p_y is out of range
+2024-10-01 16:54:05.300 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.300 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.300 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.300 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.304 [Thread-69] WARN  IntPoint: p_y is out of range
+2024-10-01 16:54:05.305 [Thread-69] WARN  IntPoint: p_y is out of range
+2024-10-01 16:54:05.305 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.305 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.305 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.305 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 16:54:05.305 [Thread-69] WARN  IntPoint: p_y is out of range
+2024-10-01 16:54:05.305 [Thread-69] WARN  IntPoint: p_x is out of range
+2024-10-01 17:50:50.600 [Thread-69] WARN  CalcFromSide: start corner was not found
+2024-10-01 17:50:50.621 [Thread-69] WARN  CalcFromSide: start corner was not found
+2024-10-01 18:04:37.350 [Thread-69] WARN  CalcFromSide: start corner was not found
+2024-10-01 20:27:52.322 [Thread-69] WARN  CalcFromSide: start corner was not found
+2024-10-01 20:27:52.322 [Thread-69] WARN  CalcFromSide: start corner was not found
+2024-10-02 01:18:13.818 [Thread-69] INFO  Route optimization was completed in 11 hour(s) 55 minute(s) 59.94 seconds and it improved the design by ~52.23%.
+2024-10-02 08:43:23.017 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
+2024-10-02 08:43:40.817 [AWT-EventQueue-0] INFO  Saving 'ni_arena_12-12.ses'...
