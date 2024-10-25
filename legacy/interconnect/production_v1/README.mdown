@@ -1,0 +1,24 @@
+# Files
+
+```
+├── Assembly.art
+├── BOTTOM.art
+├── SolderMask_Bottom.art
+├── SolderMask_Top.art
+├── TOP.art 
+├── Interconnect_V1_1-2.drl
+├── BOM.xlsx
+├── interconnect_v1p0.zip   - version 1.0 (received 2020-07)
+├── interconnect_v1p1.zip   - version 1.1 (generated 2020-08-25)
+├── interconnect_v1p2.zip   - version 1.2 (generated 2020-08-26)
+├── interconnect_v1p3.zip   - version 1.3 (generated 2022-11-17)
+└── README.mdown
+```
+
+
+## Changelog
+
+* 2022-11-17: Replaced obsolete connector J25. v1.3
+- 2020-08-26: BOM content didn't make sense, new BOM. v1.2
+- 2020-08-25: fix problem in TOP layer and drl file, generated v1.1 from `../Interconnect_V1.brd`
+- 2020-07: received gerber files for version v1.0
